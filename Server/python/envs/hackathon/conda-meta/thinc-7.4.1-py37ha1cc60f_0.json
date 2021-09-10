@@ -1,0 +1,3168 @@
+{
+  "build": "py37ha1cc60f_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/osx-64",
+  "constrains": [],
+  "depends": [
+    "catalogue >=0.0.7,<1.1.0",
+    "cymem >=2.0.2,<2.1.0",
+    "cython-blis >=0.4.0,<0.5.0",
+    "libcxx >=9.0.1",
+    "murmurhash >=0.28.0,<1.1.0",
+    "numpy >=1.16.5,<2.0a0",
+    "plac >=0.9.6,<1.2.0",
+    "preshed >=3.0.2,<3.1.0",
+    "python >=3.7,<3.8.0a0",
+    "python_abi 3.7.* *_cp37m",
+    "srsly >=0.0.6,<1.1.0",
+    "tqdm >=4.10.0,<5.0.0",
+    "wasabi >=0.0.9,<1.1.0"
+  ],
+  "extracted_package_dir": "/Users/uiyunkim/opt/anaconda3/pkgs/thinc-7.4.1-py37ha1cc60f_0",
+  "features": "",
+  "files": [
+    "lib/python3.7/site-packages/thinc-7.4.1.dist-info/INSTALLER",
+    "lib/python3.7/site-packages/thinc-7.4.1.dist-info/LICENSE",
+    "lib/python3.7/site-packages/thinc-7.4.1.dist-info/METADATA",
+    "lib/python3.7/site-packages/thinc-7.4.1.dist-info/RECORD",
+    "lib/python3.7/site-packages/thinc-7.4.1.dist-info/WHEEL",
+    "lib/python3.7/site-packages/thinc-7.4.1.dist-info/direct_url.json",
+    "lib/python3.7/site-packages/thinc-7.4.1.dist-info/top_level.txt",
+    "lib/python3.7/site-packages/thinc/__init__.pxd",
+    "lib/python3.7/site-packages/thinc/__init__.py",
+    "lib/python3.7/site-packages/thinc/__pycache__/__init__.cpython-37.pyc",
+    "lib/python3.7/site-packages/thinc/__pycache__/__init__.cpython-38.pyc",
+    "lib/python3.7/site-packages/thinc/__pycache__/_registry.cpython-37.pyc",
+    "lib/python3.7/site-packages/thinc/__pycache__/_registry.cpython-38.pyc",
+    "lib/python3.7/site-packages/thinc/__pycache__/about.cpython-37.pyc",
+    "lib/python3.7/site-packages/thinc/__pycache__/about.cpython-38.pyc",
+    "lib/python3.7/site-packages/thinc/__pycache__/api.cpython-37.pyc",
+    "lib/python3.7/site-packages/thinc/__pycache__/api.cpython-38.pyc",
+    "lib/python3.7/site-packages/thinc/__pycache__/check.cpython-37.pyc",
+    "lib/python3.7/site-packages/thinc/__pycache__/check.cpython-38.pyc",
+    "lib/python3.7/site-packages/thinc/__pycache__/compat.cpython-37.pyc",
+    "lib/python3.7/site-packages/thinc/__pycache__/compat.cpython-38.pyc",
+    "lib/python3.7/site-packages/thinc/__pycache__/config.cpython-37.pyc",
+    "lib/python3.7/site-packages/thinc/__pycache__/config.cpython-38.pyc",
+    "lib/python3.7/site-packages/thinc/__pycache__/describe.cpython-37.pyc",
+    "lib/python3.7/site-packages/thinc/__pycache__/describe.cpython-38.pyc",
+    "lib/python3.7/site-packages/thinc/__pycache__/exceptions.cpython-37.pyc",
+    "lib/python3.7/site-packages/thinc/__pycache__/exceptions.cpython-38.pyc",
+    "lib/python3.7/site-packages/thinc/__pycache__/i2v.cpython-37.pyc",
+    "lib/python3.7/site-packages/thinc/__pycache__/i2v.cpython-38.pyc",
+    "lib/python3.7/site-packages/thinc/__pycache__/loss.cpython-37.pyc",
+    "lib/python3.7/site-packages/thinc/__pycache__/loss.cpython-38.pyc",
+    "lib/python3.7/site-packages/thinc/__pycache__/misc.cpython-37.pyc",
+    "lib/python3.7/site-packages/thinc/__pycache__/misc.cpython-38.pyc",
+    "lib/python3.7/site-packages/thinc/__pycache__/rates.cpython-37.pyc",
+    "lib/python3.7/site-packages/thinc/__pycache__/rates.cpython-38.pyc",
+    "lib/python3.7/site-packages/thinc/__pycache__/t2t.cpython-37.pyc",
+    "lib/python3.7/site-packages/thinc/__pycache__/t2t.cpython-38.pyc",
+    "lib/python3.7/site-packages/thinc/__pycache__/t2v.cpython-37.pyc",
+    "lib/python3.7/site-packages/thinc/__pycache__/t2v.cpython-38.pyc",
+    "lib/python3.7/site-packages/thinc/__pycache__/v2v.cpython-37.pyc",
+    "lib/python3.7/site-packages/thinc/__pycache__/v2v.cpython-38.pyc",
+    "lib/python3.7/site-packages/thinc/_registry.py",
+    "lib/python3.7/site-packages/thinc/about.py",
+    "lib/python3.7/site-packages/thinc/api.py",
+    "lib/python3.7/site-packages/thinc/check.py",
+    "lib/python3.7/site-packages/thinc/compat.py",
+    "lib/python3.7/site-packages/thinc/compile_time_constants.pxi",
+    "lib/python3.7/site-packages/thinc/config.py",
+    "lib/python3.7/site-packages/thinc/cpu.pxd",
+    "lib/python3.7/site-packages/thinc/describe.py",
+    "lib/python3.7/site-packages/thinc/exceptions.py",
+    "lib/python3.7/site-packages/thinc/extra/__init__.pxd",
+    "lib/python3.7/site-packages/thinc/extra/__init__.py",
+    "lib/python3.7/site-packages/thinc/extra/__pycache__/__init__.cpython-37.pyc",
+    "lib/python3.7/site-packages/thinc/extra/__pycache__/__init__.cpython-38.pyc",
+    "lib/python3.7/site-packages/thinc/extra/__pycache__/datasets.cpython-37.pyc",
+    "lib/python3.7/site-packages/thinc/extra/__pycache__/datasets.cpython-38.pyc",
+    "lib/python3.7/site-packages/thinc/extra/__pycache__/hpbff.cpython-37.pyc",
+    "lib/python3.7/site-packages/thinc/extra/__pycache__/hpbff.cpython-38.pyc",
+    "lib/python3.7/site-packages/thinc/extra/__pycache__/load_nlp.cpython-37.pyc",
+    "lib/python3.7/site-packages/thinc/extra/__pycache__/load_nlp.cpython-38.pyc",
+    "lib/python3.7/site-packages/thinc/extra/__pycache__/visualizer.cpython-37.pyc",
+    "lib/python3.7/site-packages/thinc/extra/__pycache__/visualizer.cpython-38.pyc",
+    "lib/python3.7/site-packages/thinc/extra/__pycache__/wrappers.cpython-37.pyc",
+    "lib/python3.7/site-packages/thinc/extra/__pycache__/wrappers.cpython-38.pyc",
+    "lib/python3.7/site-packages/thinc/extra/_vendorized/__init__.py",
+    "lib/python3.7/site-packages/thinc/extra/_vendorized/__pycache__/__init__.cpython-37.pyc",
+    "lib/python3.7/site-packages/thinc/extra/_vendorized/__pycache__/__init__.cpython-38.pyc",
+    "lib/python3.7/site-packages/thinc/extra/_vendorized/__pycache__/keras_data_utils.cpython-37.pyc",
+    "lib/python3.7/site-packages/thinc/extra/_vendorized/__pycache__/keras_data_utils.cpython-38.pyc",
+    "lib/python3.7/site-packages/thinc/extra/_vendorized/__pycache__/keras_datasets.cpython-37.pyc",
+    "lib/python3.7/site-packages/thinc/extra/_vendorized/__pycache__/keras_datasets.cpython-38.pyc",
+    "lib/python3.7/site-packages/thinc/extra/_vendorized/__pycache__/keras_generic_utils.cpython-37.pyc",
+    "lib/python3.7/site-packages/thinc/extra/_vendorized/__pycache__/keras_generic_utils.cpython-38.pyc",
+    "lib/python3.7/site-packages/thinc/extra/_vendorized/keras_data_utils.py",
+    "lib/python3.7/site-packages/thinc/extra/_vendorized/keras_datasets.py",
+    "lib/python3.7/site-packages/thinc/extra/_vendorized/keras_generic_utils.py",
+    "lib/python3.7/site-packages/thinc/extra/cache.cpp",
+    "lib/python3.7/site-packages/thinc/extra/cache.cpython-37m-darwin.so",
+    "lib/python3.7/site-packages/thinc/extra/cache.pxd",
+    "lib/python3.7/site-packages/thinc/extra/cache.pyx",
+    "lib/python3.7/site-packages/thinc/extra/datasets.py",
+    "lib/python3.7/site-packages/thinc/extra/eg.cpp",
+    "lib/python3.7/site-packages/thinc/extra/eg.cpython-37m-darwin.so",
+    "lib/python3.7/site-packages/thinc/extra/eg.pxd",
+    "lib/python3.7/site-packages/thinc/extra/eg.pyx",
+    "lib/python3.7/site-packages/thinc/extra/hpbff.py",
+    "lib/python3.7/site-packages/thinc/extra/load_nlp.py",
+    "lib/python3.7/site-packages/thinc/extra/mb.cpp",
+    "lib/python3.7/site-packages/thinc/extra/mb.cpython-37m-darwin.so",
+    "lib/python3.7/site-packages/thinc/extra/mb.pxd",
+    "lib/python3.7/site-packages/thinc/extra/mb.pyx",
+    "lib/python3.7/site-packages/thinc/extra/search.cpp",
+    "lib/python3.7/site-packages/thinc/extra/search.cpython-37m-darwin.so",
+    "lib/python3.7/site-packages/thinc/extra/search.pxd",
+    "lib/python3.7/site-packages/thinc/extra/search.pyx",
+    "lib/python3.7/site-packages/thinc/extra/visualizer.py",
+    "lib/python3.7/site-packages/thinc/extra/wrappers.py",
+    "lib/python3.7/site-packages/thinc/extra/wrapt/__init__.py",
+    "lib/python3.7/site-packages/thinc/extra/wrapt/__pycache__/__init__.cpython-37.pyc",
+    "lib/python3.7/site-packages/thinc/extra/wrapt/__pycache__/__init__.cpython-38.pyc",
+    "lib/python3.7/site-packages/thinc/extra/wrapt/__pycache__/decorators.cpython-37.pyc",
+    "lib/python3.7/site-packages/thinc/extra/wrapt/__pycache__/decorators.cpython-38.pyc",
+    "lib/python3.7/site-packages/thinc/extra/wrapt/__pycache__/importer.cpython-37.pyc",
+    "lib/python3.7/site-packages/thinc/extra/wrapt/__pycache__/importer.cpython-38.pyc",
+    "lib/python3.7/site-packages/thinc/extra/wrapt/__pycache__/wrappers.cpython-37.pyc",
+    "lib/python3.7/site-packages/thinc/extra/wrapt/__pycache__/wrappers.cpython-38.pyc",
+    "lib/python3.7/site-packages/thinc/extra/wrapt/_wrappers.cpython-37m-darwin.so",
+    "lib/python3.7/site-packages/thinc/extra/wrapt/decorators.py",
+    "lib/python3.7/site-packages/thinc/extra/wrapt/importer.py",
+    "lib/python3.7/site-packages/thinc/extra/wrapt/wrappers.py",
+    "lib/python3.7/site-packages/thinc/i2v.py",
+    "lib/python3.7/site-packages/thinc/linalg.cpp",
+    "lib/python3.7/site-packages/thinc/linalg.cpython-37m-darwin.so",
+    "lib/python3.7/site-packages/thinc/linalg.pxd",
+    "lib/python3.7/site-packages/thinc/linalg.pyx",
+    "lib/python3.7/site-packages/thinc/linear/__init__.pxd",
+    "lib/python3.7/site-packages/thinc/linear/__init__.py",
+    "lib/python3.7/site-packages/thinc/linear/__pycache__/__init__.cpython-37.pyc",
+    "lib/python3.7/site-packages/thinc/linear/__pycache__/__init__.cpython-38.pyc",
+    "lib/python3.7/site-packages/thinc/linear/avgtron.cpp",
+    "lib/python3.7/site-packages/thinc/linear/avgtron.cpython-37m-darwin.so",
+    "lib/python3.7/site-packages/thinc/linear/avgtron.pxd",
+    "lib/python3.7/site-packages/thinc/linear/avgtron.pyx",
+    "lib/python3.7/site-packages/thinc/linear/features.cpp",
+    "lib/python3.7/site-packages/thinc/linear/features.cpython-37m-darwin.so",
+    "lib/python3.7/site-packages/thinc/linear/features.pxd",
+    "lib/python3.7/site-packages/thinc/linear/features.pyx",
+    "lib/python3.7/site-packages/thinc/linear/linear.cpp",
+    "lib/python3.7/site-packages/thinc/linear/linear.cpython-37m-darwin.so",
+    "lib/python3.7/site-packages/thinc/linear/linear.pyx",
+    "lib/python3.7/site-packages/thinc/linear/serialize.cpp",
+    "lib/python3.7/site-packages/thinc/linear/serialize.cpython-37m-darwin.so",
+    "lib/python3.7/site-packages/thinc/linear/serialize.pxd",
+    "lib/python3.7/site-packages/thinc/linear/serialize.pyx",
+    "lib/python3.7/site-packages/thinc/linear/sparse.cpp",
+    "lib/python3.7/site-packages/thinc/linear/sparse.cpython-37m-darwin.so",
+    "lib/python3.7/site-packages/thinc/linear/sparse.pxd",
+    "lib/python3.7/site-packages/thinc/linear/sparse.pyx",
+    "lib/python3.7/site-packages/thinc/loss.py",
+    "lib/python3.7/site-packages/thinc/misc.py",
+    "lib/python3.7/site-packages/thinc/neural/__init__.pxd",
+    "lib/python3.7/site-packages/thinc/neural/__init__.py",
+    "lib/python3.7/site-packages/thinc/neural/__pycache__/__init__.cpython-37.pyc",
+    "lib/python3.7/site-packages/thinc/neural/__pycache__/__init__.cpython-38.pyc",
+    "lib/python3.7/site-packages/thinc/neural/__pycache__/_custom_kernels.cpython-37.pyc",
+    "lib/python3.7/site-packages/thinc/neural/__pycache__/_custom_kernels.cpython-38.pyc",
+    "lib/python3.7/site-packages/thinc/neural/__pycache__/_lsuv.cpython-37.pyc",
+    "lib/python3.7/site-packages/thinc/neural/__pycache__/_lsuv.cpython-38.pyc",
+    "lib/python3.7/site-packages/thinc/neural/__pycache__/mem.cpython-37.pyc",
+    "lib/python3.7/site-packages/thinc/neural/__pycache__/mem.cpython-38.pyc",
+    "lib/python3.7/site-packages/thinc/neural/__pycache__/pooling.cpython-37.pyc",
+    "lib/python3.7/site-packages/thinc/neural/__pycache__/pooling.cpython-38.pyc",
+    "lib/python3.7/site-packages/thinc/neural/__pycache__/train.cpython-37.pyc",
+    "lib/python3.7/site-packages/thinc/neural/__pycache__/train.cpython-38.pyc",
+    "lib/python3.7/site-packages/thinc/neural/__pycache__/util.cpython-37.pyc",
+    "lib/python3.7/site-packages/thinc/neural/__pycache__/util.cpython-38.pyc",
+    "lib/python3.7/site-packages/thinc/neural/__pycache__/vec2vec.cpython-37.pyc",
+    "lib/python3.7/site-packages/thinc/neural/__pycache__/vec2vec.cpython-38.pyc",
+    "lib/python3.7/site-packages/thinc/neural/__pycache__/vecs2vec.cpython-37.pyc",
+    "lib/python3.7/site-packages/thinc/neural/__pycache__/vecs2vec.cpython-38.pyc",
+    "lib/python3.7/site-packages/thinc/neural/__pycache__/vecs2vecs.cpython-37.pyc",
+    "lib/python3.7/site-packages/thinc/neural/__pycache__/vecs2vecs.cpython-38.pyc",
+    "lib/python3.7/site-packages/thinc/neural/_aligned_alloc.cpp",
+    "lib/python3.7/site-packages/thinc/neural/_aligned_alloc.cpython-37m-darwin.so",
+    "lib/python3.7/site-packages/thinc/neural/_aligned_alloc.pyx",
+    "lib/python3.7/site-packages/thinc/neural/_classes/__init__.py",
+    "lib/python3.7/site-packages/thinc/neural/_classes/__pycache__/__init__.cpython-37.pyc",
+    "lib/python3.7/site-packages/thinc/neural/_classes/__pycache__/__init__.cpython-38.pyc",
+    "lib/python3.7/site-packages/thinc/neural/_classes/__pycache__/affine.cpython-37.pyc",
+    "lib/python3.7/site-packages/thinc/neural/_classes/__pycache__/affine.cpython-38.pyc",
+    "lib/python3.7/site-packages/thinc/neural/_classes/__pycache__/attention.cpython-37.pyc",
+    "lib/python3.7/site-packages/thinc/neural/_classes/__pycache__/attention.cpython-38.pyc",
+    "lib/python3.7/site-packages/thinc/neural/_classes/__pycache__/batchnorm.cpython-37.pyc",
+    "lib/python3.7/site-packages/thinc/neural/_classes/__pycache__/batchnorm.cpython-38.pyc",
+    "lib/python3.7/site-packages/thinc/neural/_classes/__pycache__/convolution.cpython-37.pyc",
+    "lib/python3.7/site-packages/thinc/neural/_classes/__pycache__/convolution.cpython-38.pyc",
+    "lib/python3.7/site-packages/thinc/neural/_classes/__pycache__/difference.cpython-37.pyc",
+    "lib/python3.7/site-packages/thinc/neural/_classes/__pycache__/difference.cpython-38.pyc",
+    "lib/python3.7/site-packages/thinc/neural/_classes/__pycache__/elu.cpython-37.pyc",
+    "lib/python3.7/site-packages/thinc/neural/_classes/__pycache__/elu.cpython-38.pyc",
+    "lib/python3.7/site-packages/thinc/neural/_classes/__pycache__/embed.cpython-37.pyc",
+    "lib/python3.7/site-packages/thinc/neural/_classes/__pycache__/embed.cpython-38.pyc",
+    "lib/python3.7/site-packages/thinc/neural/_classes/__pycache__/encoder_decoder.cpython-37.pyc",
+    "lib/python3.7/site-packages/thinc/neural/_classes/__pycache__/encoder_decoder.cpython-38.pyc",
+    "lib/python3.7/site-packages/thinc/neural/_classes/__pycache__/feature_extracter.cpython-37.pyc",
+    "lib/python3.7/site-packages/thinc/neural/_classes/__pycache__/feature_extracter.cpython-38.pyc",
+    "lib/python3.7/site-packages/thinc/neural/_classes/__pycache__/feed_forward.cpython-37.pyc",
+    "lib/python3.7/site-packages/thinc/neural/_classes/__pycache__/feed_forward.cpython-38.pyc",
+    "lib/python3.7/site-packages/thinc/neural/_classes/__pycache__/function_layer.cpython-37.pyc",
+    "lib/python3.7/site-packages/thinc/neural/_classes/__pycache__/function_layer.cpython-38.pyc",
+    "lib/python3.7/site-packages/thinc/neural/_classes/__pycache__/hash_embed.cpython-37.pyc",
+    "lib/python3.7/site-packages/thinc/neural/_classes/__pycache__/hash_embed.cpython-38.pyc",
+    "lib/python3.7/site-packages/thinc/neural/_classes/__pycache__/layernorm.cpython-37.pyc",
+    "lib/python3.7/site-packages/thinc/neural/_classes/__pycache__/layernorm.cpython-38.pyc",
+    "lib/python3.7/site-packages/thinc/neural/_classes/__pycache__/maxout.cpython-37.pyc",
+    "lib/python3.7/site-packages/thinc/neural/_classes/__pycache__/maxout.cpython-38.pyc",
+    "lib/python3.7/site-packages/thinc/neural/_classes/__pycache__/mish.cpython-37.pyc",
+    "lib/python3.7/site-packages/thinc/neural/_classes/__pycache__/mish.cpython-38.pyc",
+    "lib/python3.7/site-packages/thinc/neural/_classes/__pycache__/model.cpython-37.pyc",
+    "lib/python3.7/site-packages/thinc/neural/_classes/__pycache__/model.cpython-38.pyc",
+    "lib/python3.7/site-packages/thinc/neural/_classes/__pycache__/multiheaded_attention.cpython-37.pyc",
+    "lib/python3.7/site-packages/thinc/neural/_classes/__pycache__/multiheaded_attention.cpython-38.pyc",
+    "lib/python3.7/site-packages/thinc/neural/_classes/__pycache__/relu.cpython-37.pyc",
+    "lib/python3.7/site-packages/thinc/neural/_classes/__pycache__/relu.cpython-38.pyc",
+    "lib/python3.7/site-packages/thinc/neural/_classes/__pycache__/resnet.cpython-37.pyc",
+    "lib/python3.7/site-packages/thinc/neural/_classes/__pycache__/resnet.cpython-38.pyc",
+    "lib/python3.7/site-packages/thinc/neural/_classes/__pycache__/rnn.cpython-37.pyc",
+    "lib/python3.7/site-packages/thinc/neural/_classes/__pycache__/rnn.cpython-38.pyc",
+    "lib/python3.7/site-packages/thinc/neural/_classes/__pycache__/selu.cpython-37.pyc",
+    "lib/python3.7/site-packages/thinc/neural/_classes/__pycache__/selu.cpython-38.pyc",
+    "lib/python3.7/site-packages/thinc/neural/_classes/__pycache__/softmax.cpython-37.pyc",
+    "lib/python3.7/site-packages/thinc/neural/_classes/__pycache__/softmax.cpython-38.pyc",
+    "lib/python3.7/site-packages/thinc/neural/_classes/__pycache__/static_vectors.cpython-37.pyc",
+    "lib/python3.7/site-packages/thinc/neural/_classes/__pycache__/static_vectors.cpython-38.pyc",
+    "lib/python3.7/site-packages/thinc/neural/_classes/affine.py",
+    "lib/python3.7/site-packages/thinc/neural/_classes/attention.py",
+    "lib/python3.7/site-packages/thinc/neural/_classes/batchnorm.py",
+    "lib/python3.7/site-packages/thinc/neural/_classes/convolution.py",
+    "lib/python3.7/site-packages/thinc/neural/_classes/difference.py",
+    "lib/python3.7/site-packages/thinc/neural/_classes/elu.py",
+    "lib/python3.7/site-packages/thinc/neural/_classes/embed.py",
+    "lib/python3.7/site-packages/thinc/neural/_classes/encoder_decoder.py",
+    "lib/python3.7/site-packages/thinc/neural/_classes/feature_extracter.py",
+    "lib/python3.7/site-packages/thinc/neural/_classes/feed_forward.py",
+    "lib/python3.7/site-packages/thinc/neural/_classes/function_layer.py",
+    "lib/python3.7/site-packages/thinc/neural/_classes/hash_embed.py",
+    "lib/python3.7/site-packages/thinc/neural/_classes/layernorm.py",
+    "lib/python3.7/site-packages/thinc/neural/_classes/maxout.py",
+    "lib/python3.7/site-packages/thinc/neural/_classes/mish.py",
+    "lib/python3.7/site-packages/thinc/neural/_classes/model.py",
+    "lib/python3.7/site-packages/thinc/neural/_classes/multiheaded_attention.py",
+    "lib/python3.7/site-packages/thinc/neural/_classes/relu.py",
+    "lib/python3.7/site-packages/thinc/neural/_classes/resnet.py",
+    "lib/python3.7/site-packages/thinc/neural/_classes/rnn.py",
+    "lib/python3.7/site-packages/thinc/neural/_classes/selu.py",
+    "lib/python3.7/site-packages/thinc/neural/_classes/softmax.py",
+    "lib/python3.7/site-packages/thinc/neural/_classes/static_vectors.py",
+    "lib/python3.7/site-packages/thinc/neural/_custom_kernels.cu",
+    "lib/python3.7/site-packages/thinc/neural/_custom_kernels.py",
+    "lib/python3.7/site-packages/thinc/neural/_lsuv.py",
+    "lib/python3.7/site-packages/thinc/neural/_murmur3.cu",
+    "lib/python3.7/site-packages/thinc/neural/cpu.pxd",
+    "lib/python3.7/site-packages/thinc/neural/mem.py",
+    "lib/python3.7/site-packages/thinc/neural/ops.cpp",
+    "lib/python3.7/site-packages/thinc/neural/ops.cpython-37m-darwin.so",
+    "lib/python3.7/site-packages/thinc/neural/ops.pxd",
+    "lib/python3.7/site-packages/thinc/neural/ops.pyx",
+    "lib/python3.7/site-packages/thinc/neural/optimizers.cpp",
+    "lib/python3.7/site-packages/thinc/neural/optimizers.cpython-37m-darwin.so",
+    "lib/python3.7/site-packages/thinc/neural/optimizers.pyx",
+    "lib/python3.7/site-packages/thinc/neural/pooling.py",
+    "lib/python3.7/site-packages/thinc/neural/train.py",
+    "lib/python3.7/site-packages/thinc/neural/util.py",
+    "lib/python3.7/site-packages/thinc/neural/vec2vec.py",
+    "lib/python3.7/site-packages/thinc/neural/vecs2vec.py",
+    "lib/python3.7/site-packages/thinc/neural/vecs2vecs.py",
+    "lib/python3.7/site-packages/thinc/rates.py",
+    "lib/python3.7/site-packages/thinc/structs.cpp",
+    "lib/python3.7/site-packages/thinc/structs.cpython-37m-darwin.so",
+    "lib/python3.7/site-packages/thinc/structs.pxd",
+    "lib/python3.7/site-packages/thinc/structs.pyx",
+    "lib/python3.7/site-packages/thinc/t2t.py",
+    "lib/python3.7/site-packages/thinc/t2v.py",
+    "lib/python3.7/site-packages/thinc/tests/__init__.py",
+    "lib/python3.7/site-packages/thinc/tests/__pycache__/__init__.cpython-37.pyc",
+    "lib/python3.7/site-packages/thinc/tests/__pycache__/__init__.cpython-38.pyc",
+    "lib/python3.7/site-packages/thinc/tests/__pycache__/conftest.cpython-37.pyc",
+    "lib/python3.7/site-packages/thinc/tests/__pycache__/conftest.cpython-38.pyc",
+    "lib/python3.7/site-packages/thinc/tests/__pycache__/strategies.cpython-37.pyc",
+    "lib/python3.7/site-packages/thinc/tests/__pycache__/strategies.cpython-38.pyc",
+    "lib/python3.7/site-packages/thinc/tests/__pycache__/test_api_funcs.cpython-37.pyc",
+    "lib/python3.7/site-packages/thinc/tests/__pycache__/test_api_funcs.cpython-38.pyc",
+    "lib/python3.7/site-packages/thinc/tests/__pycache__/test_config.cpython-37.pyc",
+    "lib/python3.7/site-packages/thinc/tests/__pycache__/test_config.cpython-38.pyc",
+    "lib/python3.7/site-packages/thinc/tests/__pycache__/test_util.cpython-37.pyc",
+    "lib/python3.7/site-packages/thinc/tests/__pycache__/test_util.cpython-38.pyc",
+    "lib/python3.7/site-packages/thinc/tests/__pycache__/util.cpython-37.pyc",
+    "lib/python3.7/site-packages/thinc/tests/__pycache__/util.cpython-38.pyc",
+    "lib/python3.7/site-packages/thinc/tests/conftest.py",
+    "lib/python3.7/site-packages/thinc/tests/integration/__init__.py",
+    "lib/python3.7/site-packages/thinc/tests/integration/__pycache__/__init__.cpython-37.pyc",
+    "lib/python3.7/site-packages/thinc/tests/integration/__pycache__/__init__.cpython-38.pyc",
+    "lib/python3.7/site-packages/thinc/tests/integration/__pycache__/test_affine_learns.cpython-37.pyc",
+    "lib/python3.7/site-packages/thinc/tests/integration/__pycache__/test_affine_learns.cpython-38.pyc",
+    "lib/python3.7/site-packages/thinc/tests/integration/__pycache__/test_basic_tagger.cpython-37.pyc",
+    "lib/python3.7/site-packages/thinc/tests/integration/__pycache__/test_basic_tagger.cpython-38.pyc",
+    "lib/python3.7/site-packages/thinc/tests/integration/__pycache__/test_batch_norm.cpython-37.pyc",
+    "lib/python3.7/site-packages/thinc/tests/integration/__pycache__/test_batch_norm.cpython-38.pyc",
+    "lib/python3.7/site-packages/thinc/tests/integration/__pycache__/test_feed_forward.cpython-37.pyc",
+    "lib/python3.7/site-packages/thinc/tests/integration/__pycache__/test_feed_forward.cpython-38.pyc",
+    "lib/python3.7/site-packages/thinc/tests/integration/__pycache__/test_mnist.cpython-37.pyc",
+    "lib/python3.7/site-packages/thinc/tests/integration/__pycache__/test_mnist.cpython-38.pyc",
+    "lib/python3.7/site-packages/thinc/tests/integration/__pycache__/test_pickle.cpython-37.pyc",
+    "lib/python3.7/site-packages/thinc/tests/integration/__pycache__/test_pickle.cpython-38.pyc",
+    "lib/python3.7/site-packages/thinc/tests/integration/__pycache__/test_roundtrip_bytes.cpython-37.pyc",
+    "lib/python3.7/site-packages/thinc/tests/integration/__pycache__/test_roundtrip_bytes.cpython-38.pyc",
+    "lib/python3.7/site-packages/thinc/tests/integration/__pycache__/test_shape_check.cpython-37.pyc",
+    "lib/python3.7/site-packages/thinc/tests/integration/__pycache__/test_shape_check.cpython-38.pyc",
+    "lib/python3.7/site-packages/thinc/tests/integration/test_affine_learns.py",
+    "lib/python3.7/site-packages/thinc/tests/integration/test_basic_tagger.py",
+    "lib/python3.7/site-packages/thinc/tests/integration/test_batch_norm.py",
+    "lib/python3.7/site-packages/thinc/tests/integration/test_feed_forward.py",
+    "lib/python3.7/site-packages/thinc/tests/integration/test_mnist.py",
+    "lib/python3.7/site-packages/thinc/tests/integration/test_pickle.py",
+    "lib/python3.7/site-packages/thinc/tests/integration/test_roundtrip_bytes.py",
+    "lib/python3.7/site-packages/thinc/tests/integration/test_shape_check.py",
+    "lib/python3.7/site-packages/thinc/tests/linear/__init__.py",
+    "lib/python3.7/site-packages/thinc/tests/linear/__pycache__/__init__.cpython-37.pyc",
+    "lib/python3.7/site-packages/thinc/tests/linear/__pycache__/__init__.cpython-38.pyc",
+    "lib/python3.7/site-packages/thinc/tests/linear/__pycache__/test_avgtron.cpython-37.pyc",
+    "lib/python3.7/site-packages/thinc/tests/linear/__pycache__/test_avgtron.cpython-38.pyc",
+    "lib/python3.7/site-packages/thinc/tests/linear/__pycache__/test_linear.cpython-37.pyc",
+    "lib/python3.7/site-packages/thinc/tests/linear/__pycache__/test_linear.cpython-38.pyc",
+    "lib/python3.7/site-packages/thinc/tests/linear/__pycache__/test_sparse_array.cpython-37.pyc",
+    "lib/python3.7/site-packages/thinc/tests/linear/__pycache__/test_sparse_array.cpython-38.pyc",
+    "lib/python3.7/site-packages/thinc/tests/linear/test_avgtron.py",
+    "lib/python3.7/site-packages/thinc/tests/linear/test_linear.py",
+    "lib/python3.7/site-packages/thinc/tests/linear/test_sparse_array.py",
+    "lib/python3.7/site-packages/thinc/tests/strategies.py",
+    "lib/python3.7/site-packages/thinc/tests/test_api_funcs.py",
+    "lib/python3.7/site-packages/thinc/tests/test_config.py",
+    "lib/python3.7/site-packages/thinc/tests/test_util.py",
+    "lib/python3.7/site-packages/thinc/tests/unit/__init__.py",
+    "lib/python3.7/site-packages/thinc/tests/unit/__pycache__/__init__.cpython-37.pyc",
+    "lib/python3.7/site-packages/thinc/tests/unit/__pycache__/__init__.cpython-38.pyc",
+    "lib/python3.7/site-packages/thinc/tests/unit/__pycache__/test_about.cpython-37.pyc",
+    "lib/python3.7/site-packages/thinc/tests/unit/__pycache__/test_about.cpython-38.pyc",
+    "lib/python3.7/site-packages/thinc/tests/unit/__pycache__/test_affine.cpython-37.pyc",
+    "lib/python3.7/site-packages/thinc/tests/unit/__pycache__/test_affine.cpython-38.pyc",
+    "lib/python3.7/site-packages/thinc/tests/unit/__pycache__/test_beam_search.cpython-37.pyc",
+    "lib/python3.7/site-packages/thinc/tests/unit/__pycache__/test_beam_search.cpython-38.pyc",
+    "lib/python3.7/site-packages/thinc/tests/unit/__pycache__/test_check_exceptions.cpython-37.pyc",
+    "lib/python3.7/site-packages/thinc/tests/unit/__pycache__/test_check_exceptions.cpython-38.pyc",
+    "lib/python3.7/site-packages/thinc/tests/unit/__pycache__/test_difference.cpython-37.pyc",
+    "lib/python3.7/site-packages/thinc/tests/unit/__pycache__/test_difference.cpython-38.pyc",
+    "lib/python3.7/site-packages/thinc/tests/unit/__pycache__/test_feature_extracter.cpython-37.pyc",
+    "lib/python3.7/site-packages/thinc/tests/unit/__pycache__/test_feature_extracter.cpython-38.pyc",
+    "lib/python3.7/site-packages/thinc/tests/unit/__pycache__/test_hash_embed.cpython-37.pyc",
+    "lib/python3.7/site-packages/thinc/tests/unit/__pycache__/test_hash_embed.cpython-38.pyc",
+    "lib/python3.7/site-packages/thinc/tests/unit/__pycache__/test_imports.cpython-37.pyc",
+    "lib/python3.7/site-packages/thinc/tests/unit/__pycache__/test_imports.cpython-38.pyc",
+    "lib/python3.7/site-packages/thinc/tests/unit/__pycache__/test_linear.cpython-37.pyc",
+    "lib/python3.7/site-packages/thinc/tests/unit/__pycache__/test_linear.cpython-38.pyc",
+    "lib/python3.7/site-packages/thinc/tests/unit/__pycache__/test_loss.cpython-37.pyc",
+    "lib/python3.7/site-packages/thinc/tests/unit/__pycache__/test_loss.cpython-38.pyc",
+    "lib/python3.7/site-packages/thinc/tests/unit/__pycache__/test_mem.cpython-37.pyc",
+    "lib/python3.7/site-packages/thinc/tests/unit/__pycache__/test_mem.cpython-38.pyc",
+    "lib/python3.7/site-packages/thinc/tests/unit/__pycache__/test_model.cpython-37.pyc",
+    "lib/python3.7/site-packages/thinc/tests/unit/__pycache__/test_model.cpython-38.pyc",
+    "lib/python3.7/site-packages/thinc/tests/unit/__pycache__/test_ops.cpython-37.pyc",
+    "lib/python3.7/site-packages/thinc/tests/unit/__pycache__/test_ops.cpython-38.pyc",
+    "lib/python3.7/site-packages/thinc/tests/unit/__pycache__/test_pickle.cpython-37.pyc",
+    "lib/python3.7/site-packages/thinc/tests/unit/__pycache__/test_pickle.cpython-38.pyc",
+    "lib/python3.7/site-packages/thinc/tests/unit/__pycache__/test_pooling.cpython-37.pyc",
+    "lib/python3.7/site-packages/thinc/tests/unit/__pycache__/test_pooling.cpython-38.pyc",
+    "lib/python3.7/site-packages/thinc/tests/unit/__pycache__/test_pytorch_wrapper.cpython-37.pyc",
+    "lib/python3.7/site-packages/thinc/tests/unit/__pycache__/test_pytorch_wrapper.cpython-38.pyc",
+    "lib/python3.7/site-packages/thinc/tests/unit/__pycache__/test_rates.cpython-37.pyc",
+    "lib/python3.7/site-packages/thinc/tests/unit/__pycache__/test_rates.cpython-38.pyc",
+    "lib/python3.7/site-packages/thinc/tests/unit/__pycache__/test_rnn.cpython-37.pyc",
+    "lib/python3.7/site-packages/thinc/tests/unit/__pycache__/test_rnn.cpython-38.pyc",
+    "lib/python3.7/site-packages/thinc/tests/unit/test_about.py",
+    "lib/python3.7/site-packages/thinc/tests/unit/test_affine.py",
+    "lib/python3.7/site-packages/thinc/tests/unit/test_beam_search.py",
+    "lib/python3.7/site-packages/thinc/tests/unit/test_check_exceptions.py",
+    "lib/python3.7/site-packages/thinc/tests/unit/test_difference.py",
+    "lib/python3.7/site-packages/thinc/tests/unit/test_feature_extracter.py",
+    "lib/python3.7/site-packages/thinc/tests/unit/test_hash_embed.py",
+    "lib/python3.7/site-packages/thinc/tests/unit/test_imports.py",
+    "lib/python3.7/site-packages/thinc/tests/unit/test_linear.py",
+    "lib/python3.7/site-packages/thinc/tests/unit/test_loss.py",
+    "lib/python3.7/site-packages/thinc/tests/unit/test_mem.py",
+    "lib/python3.7/site-packages/thinc/tests/unit/test_model.py",
+    "lib/python3.7/site-packages/thinc/tests/unit/test_ops.py",
+    "lib/python3.7/site-packages/thinc/tests/unit/test_pickle.py",
+    "lib/python3.7/site-packages/thinc/tests/unit/test_pooling.py",
+    "lib/python3.7/site-packages/thinc/tests/unit/test_pytorch_wrapper.py",
+    "lib/python3.7/site-packages/thinc/tests/unit/test_rates.py",
+    "lib/python3.7/site-packages/thinc/tests/unit/test_rnn.py",
+    "lib/python3.7/site-packages/thinc/tests/util.py",
+    "lib/python3.7/site-packages/thinc/typedefs.cpp",
+    "lib/python3.7/site-packages/thinc/typedefs.cpython-37m-darwin.so",
+    "lib/python3.7/site-packages/thinc/typedefs.pxd",
+    "lib/python3.7/site-packages/thinc/typedefs.pyx",
+    "lib/python3.7/site-packages/thinc/v2v.py"
+  ],
+  "fn": "thinc-7.4.1-py37ha1cc60f_0.tar.bz2",
+  "license": "MIT",
+  "license_family": "MIT",
+  "link": {
+    "source": "/Users/uiyunkim/opt/anaconda3/pkgs/thinc-7.4.1-py37ha1cc60f_0",
+    "type": 1
+  },
+  "md5": "3e2aa779c7fb773be651b3ecfe846977",
+  "name": "thinc",
+  "package_tarball_full_path": "/Users/uiyunkim/opt/anaconda3/pkgs/thinc-7.4.1-py37ha1cc60f_0.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/python3.7/site-packages/thinc-7.4.1.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "lib/python3.7/site-packages/thinc-7.4.1.dist-info/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "1a33ea3bdc26bcdfea0b1a81572ecd13784e907dc00e95a22680ec481909c6ec",
+        "sha256_in_prefix": "1a33ea3bdc26bcdfea0b1a81572ecd13784e907dc00e95a22680ec481909c6ec",
+        "size_in_bytes": 1143
+      },
+      {
+        "_path": "lib/python3.7/site-packages/thinc-7.4.1.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "936ba2c26870bd1144020606e415ffeac858a0009fae39c069bd63a52a07f1a4",
+        "sha256_in_prefix": "936ba2c26870bd1144020606e415ffeac858a0009fae39c069bd63a52a07f1a4",
+        "size_in_bytes": 22825
+      },
+      {
+        "_path": "lib/python3.7/site-packages/thinc-7.4.1.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "535c7c2bd9d784c08120b43183de3129e3239c00b67d931a2ebbf8f63277510c",
+        "sha256_in_prefix": "535c7c2bd9d784c08120b43183de3129e3239c00b67d931a2ebbf8f63277510c",
+        "size_in_bytes": 21159
+      },
+      {
+        "_path": "lib/python3.7/site-packages/thinc-7.4.1.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "78f4a62836291cb45461ce90b8789830ef88a0df17990309998d801f1cd5e017",
+        "sha256_in_prefix": "78f4a62836291cb45461ce90b8789830ef88a0df17990309998d801f1cd5e017",
+        "size_in_bytes": 110
+      },
+      {
+        "_path": "lib/python3.7/site-packages/thinc-7.4.1.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "6a2f7f96e1d19978b1e7e3b2a2720807c421ff3ced2ad4b528360867f12a3121",
+        "sha256_in_prefix": "6a2f7f96e1d19978b1e7e3b2a2720807c421ff3ced2ad4b528360867f12a3121",
+        "size_in_bytes": 93
+      },
+      {
+        "_path": "lib/python3.7/site-packages/thinc-7.4.1.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "bb7f8d7ad8cc6d88a7addca92922d38d66008519a83b34ea6dbff15d66b15bc4",
+        "sha256_in_prefix": "bb7f8d7ad8cc6d88a7addca92922d38d66008519a83b34ea6dbff15d66b15bc4",
+        "size_in_bytes": 6
+      },
+      {
+        "_path": "lib/python3.7/site-packages/thinc/__init__.pxd",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "lib/python3.7/site-packages/thinc/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "fa3276c09ae11970645652382b2fb857c6d46373e45eebe76b8ee552cc66a71d",
+        "sha256_in_prefix": "fa3276c09ae11970645652382b2fb857c6d46373e45eebe76b8ee552cc66a71d",
+        "size_in_bytes": 239
+      },
+      {
+        "_path": "lib/python3.7/site-packages/thinc/__pycache__/__init__.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "b0e99111abe62af1c0c7200881bdf00bae923237ccf788e22931c60409248c3f",
+        "sha256_in_prefix": "b0e99111abe62af1c0c7200881bdf00bae923237ccf788e22931c60409248c3f",
+        "size_in_bytes": 320
+      },
+      {
+        "_path": "lib/python3.7/site-packages/thinc/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "9cf99d26afe3f28a4cc33efde5c4e93969876ea61052fcdd85a2e6b17eca9d7e",
+        "sha256_in_prefix": "9cf99d26afe3f28a4cc33efde5c4e93969876ea61052fcdd85a2e6b17eca9d7e",
+        "size_in_bytes": 311
+      },
+      {
+        "_path": "lib/python3.7/site-packages/thinc/__pycache__/_registry.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "211350b2ee8b0f4448cb310f6cded2eb6d920c156ace92168650e0ef9e33282e",
+        "sha256_in_prefix": "211350b2ee8b0f4448cb310f6cded2eb6d920c156ace92168650e0ef9e33282e",
+        "size_in_bytes": 2929
+      },
+      {
+        "_path": "lib/python3.7/site-packages/thinc/__pycache__/_registry.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "ca6706869b01612562cb120211142d138a09ca9a7844860b44dbd7158ede69d6",
+        "sha256_in_prefix": "ca6706869b01612562cb120211142d138a09ca9a7844860b44dbd7158ede69d6",
+        "size_in_bytes": 2904
+      },
+      {
+        "_path": "lib/python3.7/site-packages/thinc/__pycache__/about.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "c5fac1d7f9cb64f6ccdb026ab3da61a0eb39614f165ee9a5285dd18319e2537f",
+        "sha256_in_prefix": "c5fac1d7f9cb64f6ccdb026ab3da61a0eb39614f165ee9a5285dd18319e2537f",
+        "size_in_bytes": 425
+      },
+      {
+        "_path": "lib/python3.7/site-packages/thinc/__pycache__/about.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "50391951080909ba27b1b228c742f4b753569920a9d4dde750aaff97d245fd60",
+        "sha256_in_prefix": "50391951080909ba27b1b228c742f4b753569920a9d4dde750aaff97d245fd60",
+        "size_in_bytes": 416
+      },
+      {
+        "_path": "lib/python3.7/site-packages/thinc/__pycache__/api.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "bf6b799b5390fe5d2324ede45ee39075d7628e9c9a01a96207f7e0e6989d276f",
+        "sha256_in_prefix": "bf6b799b5390fe5d2324ede45ee39075d7628e9c9a01a96207f7e0e6989d276f",
+        "size_in_bytes": 19735
+      },
+      {
+        "_path": "lib/python3.7/site-packages/thinc/__pycache__/api.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "bf94cef822616b95a58dc57ef046490f51678b9521734176a33976598df5f186",
+        "sha256_in_prefix": "bf94cef822616b95a58dc57ef046490f51678b9521734176a33976598df5f186",
+        "size_in_bytes": 19556
+      },
+      {
+        "_path": "lib/python3.7/site-packages/thinc/__pycache__/check.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "cbc24ec684d05aeac11dac54dd5e1cfc0e871c415a53388d4d5d8a2ed210b4ce",
+        "sha256_in_prefix": "cbc24ec684d05aeac11dac54dd5e1cfc0e871c415a53388d4d5d8a2ed210b4ce",
+        "size_in_bytes": 5601
+      },
+      {
+        "_path": "lib/python3.7/site-packages/thinc/__pycache__/check.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "fef60f432405de6ed25dbf70eb88183ae3696dc060eee49c6de724379182a875",
+        "sha256_in_prefix": "fef60f432405de6ed25dbf70eb88183ae3696dc060eee49c6de724379182a875",
+        "size_in_bytes": 5544
+      },
+      {
+        "_path": "lib/python3.7/site-packages/thinc/__pycache__/compat.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "dca80a6e36839c5ebe670839db4f93a21babdfe918454b406b08726e5757267d",
+        "sha256_in_prefix": "dca80a6e36839c5ebe670839db4f93a21babdfe918454b406b08726e5757267d",
+        "size_in_bytes": 812
+      },
+      {
+        "_path": "lib/python3.7/site-packages/thinc/__pycache__/compat.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "24e3a11d4bb0143b29eb21bca656bdc2c9dd3382fc19966b30abe0c503fff338",
+        "sha256_in_prefix": "24e3a11d4bb0143b29eb21bca656bdc2c9dd3382fc19966b30abe0c503fff338",
+        "size_in_bytes": 803
+      },
+      {
+        "_path": "lib/python3.7/site-packages/thinc/__pycache__/config.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "47a64e4c3889cd0b0cc44cb363a5c367b1a51216f27ce9ed8725274bb6f9634a",
+        "sha256_in_prefix": "47a64e4c3889cd0b0cc44cb363a5c367b1a51216f27ce9ed8725274bb6f9634a",
+        "size_in_bytes": 1627
+      },
+      {
+        "_path": "lib/python3.7/site-packages/thinc/__pycache__/config.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "0193f0a4f97c60e74145546eb735258d3b394c43937eb685a41c5d87e5806a06",
+        "sha256_in_prefix": "0193f0a4f97c60e74145546eb735258d3b394c43937eb685a41c5d87e5806a06",
+        "size_in_bytes": 1628
+      },
+      {
+        "_path": "lib/python3.7/site-packages/thinc/__pycache__/describe.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "e595a55c455bc10128270155854030886e5f9dd6803700742609f62da1709d8e",
+        "sha256_in_prefix": "e595a55c455bc10128270155854030886e5f9dd6803700742609f62da1709d8e",
+        "size_in_bytes": 4788
+      },
+      {
+        "_path": "lib/python3.7/site-packages/thinc/__pycache__/describe.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "88392f788e7d3103205b67b87ef0084e1d3d9b6f771445e1796125dece9710ef",
+        "sha256_in_prefix": "88392f788e7d3103205b67b87ef0084e1d3d9b6f771445e1796125dece9710ef",
+        "size_in_bytes": 4788
+      },
+      {
+        "_path": "lib/python3.7/site-packages/thinc/__pycache__/exceptions.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "2b1bd04f4efb7d2eb8fc064bd34afe97d4adf7fd80a908318422b83bfa5119fc",
+        "sha256_in_prefix": "2b1bd04f4efb7d2eb8fc064bd34afe97d4adf7fd80a908318422b83bfa5119fc",
+        "size_in_bytes": 3276
+      },
+      {
+        "_path": "lib/python3.7/site-packages/thinc/__pycache__/exceptions.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "c1b7de729831b42455cc932f30bffc804531b61f513896345dcbb309e7c0e458",
+        "sha256_in_prefix": "c1b7de729831b42455cc932f30bffc804531b61f513896345dcbb309e7c0e458",
+        "size_in_bytes": 3197
+      },
+      {
+        "_path": "lib/python3.7/site-packages/thinc/__pycache__/i2v.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "799968c393d6d286d6396a64790f3865958929cfdd34db8c06a81496279dbd1b",
+        "sha256_in_prefix": "799968c393d6d286d6396a64790f3865958929cfdd34db8c06a81496279dbd1b",
+        "size_in_bytes": 1189
+      },
+      {
+        "_path": "lib/python3.7/site-packages/thinc/__pycache__/i2v.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "6eed282f53ff4bb7f04603300fb65e9dc5485d502f8a9b22f9e6f588968c1fc9",
+        "sha256_in_prefix": "6eed282f53ff4bb7f04603300fb65e9dc5485d502f8a9b22f9e6f588968c1fc9",
+        "size_in_bytes": 1186
+      },
+      {
+        "_path": "lib/python3.7/site-packages/thinc/__pycache__/loss.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "7e924755a9145e13ae7ecb9bb47df4f861ed1bbfb367728c646db792b48f0c95",
+        "sha256_in_prefix": "7e924755a9145e13ae7ecb9bb47df4f861ed1bbfb367728c646db792b48f0c95",
+        "size_in_bytes": 989
+      },
+      {
+        "_path": "lib/python3.7/site-packages/thinc/__pycache__/loss.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "ae0f3751597802db392d431389db51583865609ce473681532ef10a0bd7d48b9",
+        "sha256_in_prefix": "ae0f3751597802db392d431389db51583865609ce473681532ef10a0bd7d48b9",
+        "size_in_bytes": 988
+      },
+      {
+        "_path": "lib/python3.7/site-packages/thinc/__pycache__/misc.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "4454a85f0eae9f9ba0211474262a380913e7e7dda9aec353dc1a8124e6e277a4",
+        "sha256_in_prefix": "4454a85f0eae9f9ba0211474262a380913e7e7dda9aec353dc1a8124e6e277a4",
+        "size_in_bytes": 964
+      },
+      {
+        "_path": "lib/python3.7/site-packages/thinc/__pycache__/misc.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "ef76c2eb1060cb3c5cdf99e75e26ad257ba11f844c29ea340ee0f8049f21386b",
+        "sha256_in_prefix": "ef76c2eb1060cb3c5cdf99e75e26ad257ba11f844c29ea340ee0f8049f21386b",
+        "size_in_bytes": 961
+      },
+      {
+        "_path": "lib/python3.7/site-packages/thinc/__pycache__/rates.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "c472260d00879d8a77a3298e564e59372f2c59c35cb743f4cc385d722dc0bc88",
+        "sha256_in_prefix": "c472260d00879d8a77a3298e564e59372f2c59c35cb743f4cc385d722dc0bc88",
+        "size_in_bytes": 3740
+      },
+      {
+        "_path": "lib/python3.7/site-packages/thinc/__pycache__/rates.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "2c9ad88bd296ff4f0a2bacc47188b042645ffd5901baf43e253d78590f423df9",
+        "sha256_in_prefix": "2c9ad88bd296ff4f0a2bacc47188b042645ffd5901baf43e253d78590f423df9",
+        "size_in_bytes": 3717
+      },
+      {
+        "_path": "lib/python3.7/site-packages/thinc/__pycache__/t2t.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "556c3cdce7d4a4c7b0998009736078bda6a3814735c8bb78ec643db215deb04e",
+        "sha256_in_prefix": "556c3cdce7d4a4c7b0998009736078bda6a3814735c8bb78ec643db215deb04e",
+        "size_in_bytes": 916
+      },
+      {
+        "_path": "lib/python3.7/site-packages/thinc/__pycache__/t2t.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "59e1eb4dfcf691041338e003bc1b1f640cfd2f0af4b67693736fc91bbeaf5fd6",
+        "sha256_in_prefix": "59e1eb4dfcf691041338e003bc1b1f640cfd2f0af4b67693736fc91bbeaf5fd6",
+        "size_in_bytes": 915
+      },
+      {
+        "_path": "lib/python3.7/site-packages/thinc/__pycache__/t2v.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "7dab41aafa024011f2b7cf2c1692702fd0bb82ba075b7da5f268a94530c0e02a",
+        "sha256_in_prefix": "7dab41aafa024011f2b7cf2c1692702fd0bb82ba075b7da5f268a94530c0e02a",
+        "size_in_bytes": 965
+      },
+      {
+        "_path": "lib/python3.7/site-packages/thinc/__pycache__/t2v.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "4829033ddd2a781eec964494ac1a6721477c01de6c780ba3f8fbdd25c4625942",
+        "sha256_in_prefix": "4829033ddd2a781eec964494ac1a6721477c01de6c780ba3f8fbdd25c4625942",
+        "size_in_bytes": 986
+      },
+      {
+        "_path": "lib/python3.7/site-packages/thinc/__pycache__/v2v.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "f6e41013bbe0bdb250fce69de6db5f869d31115a7ea02ce4ce9684f3bed7fd9b",
+        "sha256_in_prefix": "f6e41013bbe0bdb250fce69de6db5f869d31115a7ea02ce4ce9684f3bed7fd9b",
+        "size_in_bytes": 1273
+      },
+      {
+        "_path": "lib/python3.7/site-packages/thinc/__pycache__/v2v.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "c0d65884381dc2fd1bfb8fd164b85e866c4873823722bb172cc3831f7dde4a5a",
+        "sha256_in_prefix": "c0d65884381dc2fd1bfb8fd164b85e866c4873823722bb172cc3831f7dde4a5a",
+        "size_in_bytes": 1238
+      },
+      {
+        "_path": "lib/python3.7/site-packages/thinc/_registry.py",
+        "path_type": "hardlink",
+        "sha256": "c4b292f968fd6a6a1a651303dc479bc2ba079ee9f50ac3452f4ba5cd12e812de",
+        "sha256_in_prefix": "c4b292f968fd6a6a1a651303dc479bc2ba079ee9f50ac3452f4ba5cd12e812de",
+        "size_in_bytes": 2776
+      },
+      {
+        "_path": "lib/python3.7/site-packages/thinc/about.py",
+        "path_type": "hardlink",
+        "sha256": "0834e46f669daf5bba566e5d2369d78597b1d9072238e29fce88682eddf95766",
+        "sha256_in_prefix": "0834e46f669daf5bba566e5d2369d78597b1d9072238e29fce88682eddf95766",
+        "size_in_bytes": 439
+      },
+      {
+        "_path": "lib/python3.7/site-packages/thinc/api.py",
+        "path_type": "hardlink",
+        "sha256": "3015216d38f8f29443c2d332d04b758bb3c5e0961592bca3dd42d1ca8981ca52",
+        "sha256_in_prefix": "3015216d38f8f29443c2d332d04b758bb3c5e0961592bca3dd42d1ca8981ca52",
+        "size_in_bytes": 16050
+      },
+      {
+        "_path": "lib/python3.7/site-packages/thinc/check.py",
+        "path_type": "hardlink",
+        "sha256": "add7a7a0e37d205c5bdedcbf641e60de3d9808b34b5eeee0a929b9828723baa0",
+        "sha256_in_prefix": "add7a7a0e37d205c5bdedcbf641e60de3d9808b34b5eeee0a929b9828723baa0",
+        "size_in_bytes": 6118
+      },
+      {
+        "_path": "lib/python3.7/site-packages/thinc/compat.py",
+        "path_type": "hardlink",
+        "sha256": "c7f53e9b02a0d49232fc402e37c0d300c856c9191ce45d9822af5a69c4696bcb",
+        "sha256_in_prefix": "c7f53e9b02a0d49232fc402e37c0d300c856c9191ce45d9822af5a69c4696bcb",
+        "size_in_bytes": 817
+      },
+      {
+        "_path": "lib/python3.7/site-packages/thinc/compile_time_constants.pxi",
+        "path_type": "hardlink",
+        "sha256": "4fed2edf943e093bf41c7016e72a936c9de6cf5a3bc2eddf6cf092301bde5e61",
+        "sha256_in_prefix": "4fed2edf943e093bf41c7016e72a936c9de6cf5a3bc2eddf6cf092301bde5e61",
+        "size_in_bytes": 108
+      },
+      {
+        "_path": "lib/python3.7/site-packages/thinc/config.py",
+        "path_type": "hardlink",
+        "sha256": "121e04327711549fde08d1d47ee768238e54852a13d43dada7cccb9204bc0ea4",
+        "sha256_in_prefix": "121e04327711549fde08d1d47ee768238e54852a13d43dada7cccb9204bc0ea4",
+        "size_in_bytes": 1149
+      },
+      {
+        "_path": "lib/python3.7/site-packages/thinc/cpu.pxd",
+        "path_type": "hardlink",
+        "sha256": "48e3e9a207b3e5e0426011f748e6ed39e03bd92735ee61a8e36df391a698af49",
+        "sha256_in_prefix": "48e3e9a207b3e5e0426011f748e6ed39e03bd92735ee61a8e36df391a698af49",
+        "size_in_bytes": 57
+      },
+      {
+        "_path": "lib/python3.7/site-packages/thinc/describe.py",
+        "path_type": "hardlink",
+        "sha256": "e83a671c1b65ac6c9dedac45abeaaa98ca7c07dc7e1f0746a8bbd5631da0a1b1",
+        "sha256_in_prefix": "e83a671c1b65ac6c9dedac45abeaaa98ca7c07dc7e1f0746a8bbd5631da0a1b1",
+        "size_in_bytes": 2984
+      },
+      {
+        "_path": "lib/python3.7/site-packages/thinc/exceptions.py",
+        "path_type": "hardlink",
+        "sha256": "ad25c0b726368c2514cd5ad458eeb46e9152e68fb4e92cdb167c8833edf41603",
+        "sha256_in_prefix": "ad25c0b726368c2514cd5ad458eeb46e9152e68fb4e92cdb167c8833edf41603",
+        "size_in_bytes": 2853
+      },
+      {
+        "_path": "lib/python3.7/site-packages/thinc/extra/__init__.pxd",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "lib/python3.7/site-packages/thinc/extra/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "lib/python3.7/site-packages/thinc/extra/__pycache__/__init__.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "6052cf3feb157829d11c09a2ceba7aa7da02edbaf98f0b9c41637ea4c48e062c",
+        "sha256_in_prefix": "6052cf3feb157829d11c09a2ceba7aa7da02edbaf98f0b9c41637ea4c48e062c",
+        "size_in_bytes": 151
+      },
+      {
+        "_path": "lib/python3.7/site-packages/thinc/extra/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "f42128f7a765ea004b9cb6355826ea122e92cfd376327caecad7b131adedfad1",
+        "sha256_in_prefix": "f42128f7a765ea004b9cb6355826ea122e92cfd376327caecad7b131adedfad1",
+        "size_in_bytes": 142
+      },
+      {
+        "_path": "lib/python3.7/site-packages/thinc/extra/__pycache__/datasets.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "03c067efc4a5b776e0a9b314e8d122e50abf2a778ad5a5f45987acbc23448dd4",
+        "sha256_in_prefix": "03c067efc4a5b776e0a9b314e8d122e50abf2a778ad5a5f45987acbc23448dd4",
+        "size_in_bytes": 8108
+      },
+      {
+        "_path": "lib/python3.7/site-packages/thinc/extra/__pycache__/datasets.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "10603fa4b53e4f15c6257b549dbfa087727bc41ef870a6a0be88774f0ccd20d5",
+        "sha256_in_prefix": "10603fa4b53e4f15c6257b549dbfa087727bc41ef870a6a0be88774f0ccd20d5",
+        "size_in_bytes": 8148
+      },
+      {
+        "_path": "lib/python3.7/site-packages/thinc/extra/__pycache__/hpbff.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "e8e987aebb9883d55381bacf0ef54d3a77b8bbbd67a1dbfa2c581e1c4889b6e7",
+        "sha256_in_prefix": "e8e987aebb9883d55381bacf0ef54d3a77b8bbbd67a1dbfa2c581e1c4889b6e7",
+        "size_in_bytes": 5418
+      },
+      {
+        "_path": "lib/python3.7/site-packages/thinc/extra/__pycache__/hpbff.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "5e2c5fde0d9cd3bc8c556c6597d418a429dcf57344456a31b4afd06d56367061",
+        "sha256_in_prefix": "5e2c5fde0d9cd3bc8c556c6597d418a429dcf57344456a31b4afd06d56367061",
+        "size_in_bytes": 5432
+      },
+      {
+        "_path": "lib/python3.7/site-packages/thinc/extra/__pycache__/load_nlp.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "60155a0235fb5952baeef85245bae93e0590f817b3d2f028f6635ebcf0d56659",
+        "sha256_in_prefix": "60155a0235fb5952baeef85245bae93e0590f817b3d2f028f6635ebcf0d56659",
+        "size_in_bytes": 776
+      },
+      {
+        "_path": "lib/python3.7/site-packages/thinc/extra/__pycache__/load_nlp.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "e40e9f5fcd7e2110fbd1fa1e6d26a3e8a2b39150023a17dae9908b4ea3397cea",
+        "sha256_in_prefix": "e40e9f5fcd7e2110fbd1fa1e6d26a3e8a2b39150023a17dae9908b4ea3397cea",
+        "size_in_bytes": 781
+      },
+      {
+        "_path": "lib/python3.7/site-packages/thinc/extra/__pycache__/visualizer.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "6edd5b9c213a8480e357375f9f838b12afe1b9f08709e5374283c9b35f548924",
+        "sha256_in_prefix": "6edd5b9c213a8480e357375f9f838b12afe1b9f08709e5374283c9b35f548924",
+        "size_in_bytes": 1299
+      },
+      {
+        "_path": "lib/python3.7/site-packages/thinc/extra/__pycache__/visualizer.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "c32b16088f66e1ed6bcac763ac0b4c34a4dda99d5928a94d3f376560e5367b38",
+        "sha256_in_prefix": "c32b16088f66e1ed6bcac763ac0b4c34a4dda99d5928a94d3f376560e5367b38",
+        "size_in_bytes": 1296
+      },
+      {
+        "_path": "lib/python3.7/site-packages/thinc/extra/__pycache__/wrappers.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "0f4b520e3830d311e96e4bffd6e44c30028b6af3ea7d46f13d63737bfabf2cd5",
+        "sha256_in_prefix": "0f4b520e3830d311e96e4bffd6e44c30028b6af3ea7d46f13d63737bfabf2cd5",
+        "size_in_bytes": 8335
+      },
+      {
+        "_path": "lib/python3.7/site-packages/thinc/extra/__pycache__/wrappers.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "d656f3fe204e833385cd351875a71f6c076286dbcb1018d0b955196f8748a461",
+        "sha256_in_prefix": "d656f3fe204e833385cd351875a71f6c076286dbcb1018d0b955196f8748a461",
+        "size_in_bytes": 8429
+      },
+      {
+        "_path": "lib/python3.7/site-packages/thinc/extra/_vendorized/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "lib/python3.7/site-packages/thinc/extra/_vendorized/__pycache__/__init__.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "deefebb06416ee4ee93f72217f7eb92bea01c6a789219155d857bedfe90ae765",
+        "sha256_in_prefix": "deefebb06416ee4ee93f72217f7eb92bea01c6a789219155d857bedfe90ae765",
+        "size_in_bytes": 163
+      },
+      {
+        "_path": "lib/python3.7/site-packages/thinc/extra/_vendorized/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "035e7b88de018fdcd96258ceacf889b6ebce9566bc6a8362435706f31f932312",
+        "sha256_in_prefix": "035e7b88de018fdcd96258ceacf889b6ebce9566bc6a8362435706f31f932312",
+        "size_in_bytes": 154
+      },
+      {
+        "_path": "lib/python3.7/site-packages/thinc/extra/_vendorized/__pycache__/keras_data_utils.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "fd14a55ef2a510b6de83f3388131fd344ad3b6d32398c5e06748caa572a3e1e4",
+        "sha256_in_prefix": "fd14a55ef2a510b6de83f3388131fd344ad3b6d32398c5e06748caa572a3e1e4",
+        "size_in_bytes": 3909
+      },
+      {
+        "_path": "lib/python3.7/site-packages/thinc/extra/_vendorized/__pycache__/keras_data_utils.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "91849f2897681fb96bc976a39a761bdca29bda303767ad68aa3999ae95ef03d0",
+        "sha256_in_prefix": "91849f2897681fb96bc976a39a761bdca29bda303767ad68aa3999ae95ef03d0",
+        "size_in_bytes": 3920
+      },
+      {
+        "_path": "lib/python3.7/site-packages/thinc/extra/_vendorized/__pycache__/keras_datasets.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "abdbc692f833726845618837ff5751581879886d34df1efcc08769d07414a9d9",
+        "sha256_in_prefix": "abdbc692f833726845618837ff5751581879886d34df1efcc08769d07414a9d9",
+        "size_in_bytes": 4376
+      },
+      {
+        "_path": "lib/python3.7/site-packages/thinc/extra/_vendorized/__pycache__/keras_datasets.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "3cc23cefddd9afee3f5a7d9e29306c2c54df69aaf79deb171f93ba4980bad4d5",
+        "sha256_in_prefix": "3cc23cefddd9afee3f5a7d9e29306c2c54df69aaf79deb171f93ba4980bad4d5",
+        "size_in_bytes": 4264
+      },
+      {
+        "_path": "lib/python3.7/site-packages/thinc/extra/_vendorized/__pycache__/keras_generic_utils.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "db2d860249d4cd9c725488808b1df87684487103813072fd057cc06f38a737ee",
+        "sha256_in_prefix": "db2d860249d4cd9c725488808b1df87684487103813072fd057cc06f38a737ee",
+        "size_in_bytes": 4841
+      },
+      {
+        "_path": "lib/python3.7/site-packages/thinc/extra/_vendorized/__pycache__/keras_generic_utils.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "d69d748515d035a00b5acbbd83fcafac76361585cd54495a86320389b45d742d",
+        "sha256_in_prefix": "d69d748515d035a00b5acbbd83fcafac76361585cd54495a86320389b45d742d",
+        "size_in_bytes": 4878
+      },
+      {
+        "_path": "lib/python3.7/site-packages/thinc/extra/_vendorized/keras_data_utils.py",
+        "path_type": "hardlink",
+        "sha256": "95845b0b4626e90eef8a98bab813a68993ed4c2d88687fe8c6fb851994f37759",
+        "sha256_in_prefix": "95845b0b4626e90eef8a98bab813a68993ed4c2d88687fe8c6fb851994f37759",
+        "size_in_bytes": 5452
+      },
+      {
+        "_path": "lib/python3.7/site-packages/thinc/extra/_vendorized/keras_datasets.py",
+        "path_type": "hardlink",
+        "sha256": "508e72d142cfb9c4290dd2545fa9e37a3ec0fcb88d7705667b991e036a3420be",
+        "sha256_in_prefix": "508e72d142cfb9c4290dd2545fa9e37a3ec0fcb88d7705667b991e036a3420be",
+        "size_in_bytes": 3962
+      },
+      {
+        "_path": "lib/python3.7/site-packages/thinc/extra/_vendorized/keras_generic_utils.py",
+        "path_type": "hardlink",
+        "sha256": "84c6e3845a73032068a7530bd97a2d37a1d4edde8463bf0aba4776ebec3e9ec8",
+        "sha256_in_prefix": "84c6e3845a73032068a7530bd97a2d37a1d4edde8463bf0aba4776ebec3e9ec8",
+        "size_in_bytes": 6387
+      },
+      {
+        "_path": "lib/python3.7/site-packages/thinc/extra/cache.cpp",
+        "path_type": "hardlink",
+        "sha256": "7a242f5078bdabb4bb97bc38047c968c04ce588c67e50da8d6fb759283c885ed",
+        "sha256_in_prefix": "7a242f5078bdabb4bb97bc38047c968c04ce588c67e50da8d6fb759283c885ed",
+        "size_in_bytes": 201191
+      },
+      {
+        "_path": "lib/python3.7/site-packages/thinc/extra/cache.cpython-37m-darwin.so",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/Users/runner/miniforge3/conda-bld/thinc_1590400417741/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pla",
+        "sha256": "147bd14fb82304c2f56f27d4a8cd5a3a7061640852778a49d41fe4c460e8b95e",
+        "sha256_in_prefix": "33426f806d14d94e3d0d121bc9623386bb111ef1cf54094ce1e78e2cc1472867",
+        "size_in_bytes": 36464
+      },
+      {
+        "_path": "lib/python3.7/site-packages/thinc/extra/cache.pxd",
+        "path_type": "hardlink",
+        "sha256": "37f70cbd37a72cd0fe1c4e293a31b1a83b11d91e74958368530a4d9577931c24",
+        "sha256_in_prefix": "37f70cbd37a72cd0fe1c4e293a31b1a83b11d91e74958368530a4d9577931c24",
+        "size_in_bytes": 417
+      },
+      {
+        "_path": "lib/python3.7/site-packages/thinc/extra/cache.pyx",
+        "path_type": "hardlink",
+        "sha256": "a5e001e6895cbafb64a41453508a91aa06f2fbb74121f1ae8e4db9dc6bba0d22",
+        "sha256_in_prefix": "a5e001e6895cbafb64a41453508a91aa06f2fbb74121f1ae8e4db9dc6bba0d22",
+        "size_in_bytes": 1578
+      },
+      {
+        "_path": "lib/python3.7/site-packages/thinc/extra/datasets.py",
+        "path_type": "hardlink",
+        "sha256": "12f7fe634fe10606f79d4d66499c3488f45e48900c0bab4e288a60162b11dd78",
+        "sha256_in_prefix": "12f7fe634fe10606f79d4d66499c3488f45e48900c0bab4e288a60162b11dd78",
+        "size_in_bytes": 8352
+      },
+      {
+        "_path": "lib/python3.7/site-packages/thinc/extra/eg.cpp",
+        "path_type": "hardlink",
+        "sha256": "715e50e9f810e331f39969faca61885b24a636cfff68cbb2867f3f980cd8d329",
+        "sha256_in_prefix": "715e50e9f810e331f39969faca61885b24a636cfff68cbb2867f3f980cd8d329",
+        "size_in_bytes": 548875
+      },
+      {
+        "_path": "lib/python3.7/site-packages/thinc/extra/eg.cpython-37m-darwin.so",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/Users/runner/miniforge3/conda-bld/thinc_1590400417741/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pla",
+        "sha256": "8052956eaf5070ca682872d2acc0090a08c65d6d2bc12538f26bf70510f83024",
+        "sha256_in_prefix": "53d53cce8050a8517f0295602b11f58f5d24ef3a3a1df9e7f57fe4c7abd091d9",
+        "size_in_bytes": 94252
+      },
+      {
+        "_path": "lib/python3.7/site-packages/thinc/extra/eg.pxd",
+        "path_type": "hardlink",
+        "sha256": "989d3bd0e6c270b7ed60f62f895cabb664aef018ef2b3a90b5654fba0c3c96e8",
+        "sha256_in_prefix": "989d3bd0e6c270b7ed60f62f895cabb664aef018ef2b3a90b5654fba0c3c96e8",
+        "size_in_bytes": 606
+      },
+      {
+        "_path": "lib/python3.7/site-packages/thinc/extra/eg.pyx",
+        "path_type": "hardlink",
+        "sha256": "59374f12b6189718107db6c5b57cef1f82a089064a93223bed1b60d77505148b",
+        "sha256_in_prefix": "59374f12b6189718107db6c5b57cef1f82a089064a93223bed1b60d77505148b",
+        "size_in_bytes": 5176
+      },
+      {
+        "_path": "lib/python3.7/site-packages/thinc/extra/hpbff.py",
+        "path_type": "hardlink",
+        "sha256": "a94386c8bc69112a62e310900b37ecc9fa742432423ad7ba45b7e6e66ce239f4",
+        "sha256_in_prefix": "a94386c8bc69112a62e310900b37ecc9fa742432423ad7ba45b7e6e66ce239f4",
+        "size_in_bytes": 6890
+      },
+      {
+        "_path": "lib/python3.7/site-packages/thinc/extra/load_nlp.py",
+        "path_type": "hardlink",
+        "sha256": "12932a3842a072018f676542afa171d6331e4d4834349f846adf0c60d43871e1",
+        "sha256_in_prefix": "12932a3842a072018f676542afa171d6331e4d4834349f846adf0c60d43871e1",
+        "size_in_bytes": 580
+      },
+      {
+        "_path": "lib/python3.7/site-packages/thinc/extra/mb.cpp",
+        "path_type": "hardlink",
+        "sha256": "0a8cc9eb482ae8674b648234f60fcad6f4317f818b3a9afa8197090aec19f7e2",
+        "sha256_in_prefix": "0a8cc9eb482ae8674b648234f60fcad6f4317f818b3a9afa8197090aec19f7e2",
+        "size_in_bytes": 423068
+      },
+      {
+        "_path": "lib/python3.7/site-packages/thinc/extra/mb.cpython-37m-darwin.so",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/Users/runner/miniforge3/conda-bld/thinc_1590400417741/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pla",
+        "sha256": "0199135443cb2d377c2a9373be01b328ac47960bff14e807a1acd5196dfa6e20",
+        "sha256_in_prefix": "a27da712b831b49b0b8a93b7912c54773a54b7a4544e86754ea2d524261e472e",
+        "size_in_bytes": 70104
+      },
+      {
+        "_path": "lib/python3.7/site-packages/thinc/extra/mb.pxd",
+        "path_type": "hardlink",
+        "sha256": "1b92b479f53ccfb055432f10877b65d8ed6852082641e795af315dd2854e91ba",
+        "sha256_in_prefix": "1b92b479f53ccfb055432f10877b65d8ed6852082641e795af315dd2854e91ba",
+        "size_in_bytes": 281
+      },
+      {
+        "_path": "lib/python3.7/site-packages/thinc/extra/mb.pyx",
+        "path_type": "hardlink",
+        "sha256": "eb9c4d150de5dd77843afe9f42dd496529a88600a80e5b803831c7304288ec4c",
+        "sha256_in_prefix": "eb9c4d150de5dd77843afe9f42dd496529a88600a80e5b803831c7304288ec4c",
+        "size_in_bytes": 1847
+      },
+      {
+        "_path": "lib/python3.7/site-packages/thinc/extra/search.cpp",
+        "path_type": "hardlink",
+        "sha256": "1982f380a008a9ae09dd1afe058078852c5f96c4c0100b0d45b27597a79a4941",
+        "sha256_in_prefix": "1982f380a008a9ae09dd1afe058078852c5f96c4c0100b0d45b27597a79a4941",
+        "size_in_bytes": 564814
+      },
+      {
+        "_path": "lib/python3.7/site-packages/thinc/extra/search.cpython-37m-darwin.so",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/Users/runner/miniforge3/conda-bld/thinc_1590400417741/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pla",
+        "sha256": "c4ac31b79c143180bfa99187ebf43c81c66e3e9ec2a6a288caf9ff526e201b8a",
+        "sha256_in_prefix": "ff459cc8d7dd21b73b1b78a32a73640a6c300e3c86720455e0cbf86a4d964beb",
+        "size_in_bytes": 140128
+      },
+      {
+        "_path": "lib/python3.7/site-packages/thinc/extra/search.pxd",
+        "path_type": "hardlink",
+        "sha256": "9a5d389a7e369a25362ec6881a172bc7940709947903afab312c558be6dfe7ee",
+        "sha256_in_prefix": "9a5d389a7e369a25362ec6881a172bc7940709947903afab312c558be6dfe7ee",
+        "size_in_bytes": 2652
+      },
+      {
+        "_path": "lib/python3.7/site-packages/thinc/extra/search.pyx",
+        "path_type": "hardlink",
+        "sha256": "45aaf40a678a78fcba95f59b060ef85a15d4f57021a75078794b841409f5e36c",
+        "sha256_in_prefix": "45aaf40a678a78fcba95f59b060ef85a15d4f57021a75078794b841409f5e36c",
+        "size_in_bytes": 12304
+      },
+      {
+        "_path": "lib/python3.7/site-packages/thinc/extra/visualizer.py",
+        "path_type": "hardlink",
+        "sha256": "ec0cca1166777b64fa2270e00966b32909ac56781c627037d31b1ba30ba5ac81",
+        "sha256_in_prefix": "ec0cca1166777b64fa2270e00966b32909ac56781c627037d31b1ba30ba5ac81",
+        "size_in_bytes": 1047
+      },
+      {
+        "_path": "lib/python3.7/site-packages/thinc/extra/wrappers.py",
+        "path_type": "hardlink",
+        "sha256": "c9465167616c2ee4bd258c787c5db7dc52b7c1ada638fe3863c9fa58fd395b4e",
+        "sha256_in_prefix": "c9465167616c2ee4bd258c787c5db7dc52b7c1ada638fe3863c9fa58fd395b4e",
+        "size_in_bytes": 7452
+      },
+      {
+        "_path": "lib/python3.7/site-packages/thinc/extra/wrapt/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "ee997ef63500e02097b1d8160524584611e79fb443f6a12ed373ecb7c839be2c",
+        "sha256_in_prefix": "ee997ef63500e02097b1d8160524584611e79fb443f6a12ed373ecb7c839be2c",
+        "size_in_bytes": 686
+      },
+      {
+        "_path": "lib/python3.7/site-packages/thinc/extra/wrapt/__pycache__/__init__.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "c0df46e1fc8ba2489b8af20bc997bf7a246a9e016d5de5bcf7fd53e2fb2bb90e",
+        "sha256_in_prefix": "c0df46e1fc8ba2489b8af20bc997bf7a246a9e016d5de5bcf7fd53e2fb2bb90e",
+        "size_in_bytes": 969
+      },
+      {
+        "_path": "lib/python3.7/site-packages/thinc/extra/wrapt/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "521ea274d8d918b89725179079a27e0d28ff75b08569c2135f5e40be7314dab2",
+        "sha256_in_prefix": "521ea274d8d918b89725179079a27e0d28ff75b08569c2135f5e40be7314dab2",
+        "size_in_bytes": 960
+      },
+      {
+        "_path": "lib/python3.7/site-packages/thinc/extra/wrapt/__pycache__/decorators.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "de3b803d345a46d147a586433abf561cc9dcf8e0625094d1428a8a82322fd06e",
+        "sha256_in_prefix": "de3b803d345a46d147a586433abf561cc9dcf8e0625094d1428a8a82322fd06e",
+        "size_in_bytes": 8884
+      },
+      {
+        "_path": "lib/python3.7/site-packages/thinc/extra/wrapt/__pycache__/decorators.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "9fb0d2a37aba3cfb6d2c7d1316480845c2dc1b0dc1a17c5a25955f4b9aab93bd",
+        "sha256_in_prefix": "9fb0d2a37aba3cfb6d2c7d1316480845c2dc1b0dc1a17c5a25955f4b9aab93bd",
+        "size_in_bytes": 9033
+      },
+      {
+        "_path": "lib/python3.7/site-packages/thinc/extra/wrapt/__pycache__/importer.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "e95db45284eeff3ee960b1b8269d434f208dbc8196da008e7f308858e060fcbd",
+        "sha256_in_prefix": "e95db45284eeff3ee960b1b8269d434f208dbc8196da008e7f308858e060fcbd",
+        "size_in_bytes": 4225
+      },
+      {
+        "_path": "lib/python3.7/site-packages/thinc/extra/wrapt/__pycache__/importer.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "8f4514244ba05f7b21ff645db065cbbce22541d8898b275a37406d23468e2119",
+        "sha256_in_prefix": "8f4514244ba05f7b21ff645db065cbbce22541d8898b275a37406d23468e2119",
+        "size_in_bytes": 4268
+      },
+      {
+        "_path": "lib/python3.7/site-packages/thinc/extra/wrapt/__pycache__/wrappers.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "02103bc20bb4a60e88ae850b314b514d0aae83b142835ff90d73b14822b3bc75",
+        "sha256_in_prefix": "02103bc20bb4a60e88ae850b314b514d0aae83b142835ff90d73b14822b3bc75",
+        "size_in_bytes": 24007
+      },
+      {
+        "_path": "lib/python3.7/site-packages/thinc/extra/wrapt/__pycache__/wrappers.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "6e88c8eb2329ef03135d67e72097760acd8937a8d3d29703b9e831655f6d69dd",
+        "sha256_in_prefix": "6e88c8eb2329ef03135d67e72097760acd8937a8d3d29703b9e831655f6d69dd",
+        "size_in_bytes": 24016
+      },
+      {
+        "_path": "lib/python3.7/site-packages/thinc/extra/wrapt/_wrappers.cpython-37m-darwin.so",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/Users/runner/miniforge3/conda-bld/thinc_1590400417741/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pla",
+        "sha256": "58d9b5ccdf9b808b000656332a286cf17a009ec86621696a4322a2079d830ad9",
+        "sha256_in_prefix": "eed7e6c129efb8ec796e7c4a0d74e0cdacb099a08352fd8cddb291cb05c6d368",
+        "size_in_bytes": 42152
+      },
+      {
+        "_path": "lib/python3.7/site-packages/thinc/extra/wrapt/decorators.py",
+        "path_type": "hardlink",
+        "sha256": "82ac8ed7a7dd960d11b8ecc4ab471250d7fac73f9926da863eed78617b3d6d51",
+        "sha256_in_prefix": "82ac8ed7a7dd960d11b8ecc4ab471250d7fac73f9926da863eed78617b3d6d51",
+        "size_in_bytes": 20078
+      },
+      {
+        "_path": "lib/python3.7/site-packages/thinc/extra/wrapt/importer.py",
+        "path_type": "hardlink",
+        "sha256": "4d598548e305a52aceb97060085d79fa035f8695b01b919c1f82475442270098",
+        "sha256_in_prefix": "4d598548e305a52aceb97060085d79fa035f8695b01b919c1f82475442270098",
+        "size_in_bytes": 7945
+      },
+      {
+        "_path": "lib/python3.7/site-packages/thinc/extra/wrapt/wrappers.py",
+        "path_type": "hardlink",
+        "sha256": "d2d437d9ea58ddd1fe75ad31ff0512186a527f0ebee6bef7002f78688c663914",
+        "sha256_in_prefix": "d2d437d9ea58ddd1fe75ad31ff0512186a527f0ebee6bef7002f78688c663914",
+        "size_in_bytes": 33794
+      },
+      {
+        "_path": "lib/python3.7/site-packages/thinc/i2v.py",
+        "path_type": "hardlink",
+        "sha256": "bd9bdc9f36543c2a2b027b34c0c488280619fa686b5868238718e1a4bcdc2124",
+        "sha256_in_prefix": "bd9bdc9f36543c2a2b027b34c0c488280619fa686b5868238718e1a4bcdc2124",
+        "size_in_bytes": 915
+      },
+      {
+        "_path": "lib/python3.7/site-packages/thinc/linalg.cpp",
+        "path_type": "hardlink",
+        "sha256": "e15f3c7d41103bedcd7d384571e1909f28c15b98726569de9544e85f4b48760b",
+        "sha256_in_prefix": "e15f3c7d41103bedcd7d384571e1909f28c15b98726569de9544e85f4b48760b",
+        "size_in_bytes": 231852
+      },
+      {
+        "_path": "lib/python3.7/site-packages/thinc/linalg.cpython-37m-darwin.so",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/Users/runner/miniforge3/conda-bld/thinc_1590400417741/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pla",
+        "sha256": "725e80b1479690dbad963bf23f53afb9fb05f7fef94b88674e5a2a42bd8b426d",
+        "sha256_in_prefix": "28a612939c5d9256a21bdab1f080ff55eabc4a0c934e3a7c2a969538c365a043",
+        "size_in_bytes": 39304
+      },
+      {
+        "_path": "lib/python3.7/site-packages/thinc/linalg.pxd",
+        "path_type": "hardlink",
+        "sha256": "5f6d76b7490812a0108f6d79d49f61508a7d81e9e9e967a5fe44b80524818ee8",
+        "sha256_in_prefix": "5f6d76b7490812a0108f6d79d49f61508a7d81e9e9e967a5fe44b80524818ee8",
+        "size_in_bytes": 8375
+      },
+      {
+        "_path": "lib/python3.7/site-packages/thinc/linalg.pyx",
+        "path_type": "hardlink",
+        "sha256": "97aac65de2869cd4cd912229361bd5624fe5d144eb20bc8886e855a65979f7d3",
+        "sha256_in_prefix": "97aac65de2869cd4cd912229361bd5624fe5d144eb20bc8886e855a65979f7d3",
+        "size_in_bytes": 53
+      },
+      {
+        "_path": "lib/python3.7/site-packages/thinc/linear/__init__.pxd",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "lib/python3.7/site-packages/thinc/linear/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "lib/python3.7/site-packages/thinc/linear/__pycache__/__init__.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "6b98fc12f42b57c14a7ff48b719262652a90ad78bce1c1f297806da1ee22f8b4",
+        "sha256_in_prefix": "6b98fc12f42b57c14a7ff48b719262652a90ad78bce1c1f297806da1ee22f8b4",
+        "size_in_bytes": 152
+      },
+      {
+        "_path": "lib/python3.7/site-packages/thinc/linear/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "9d1a0928d41585345437e56d104ee811937d9c21bac0d7b209c4e0f62adc0bee",
+        "sha256_in_prefix": "9d1a0928d41585345437e56d104ee811937d9c21bac0d7b209c4e0f62adc0bee",
+        "size_in_bytes": 143
+      },
+      {
+        "_path": "lib/python3.7/site-packages/thinc/linear/avgtron.cpp",
+        "path_type": "hardlink",
+        "sha256": "09a98a76be3fc127b15a349c3754133988231f40c9ebb4b2b91746dfec599e8d",
+        "sha256_in_prefix": "09a98a76be3fc127b15a349c3754133988231f40c9ebb4b2b91746dfec599e8d",
+        "size_in_bytes": 792394
+      },
+      {
+        "_path": "lib/python3.7/site-packages/thinc/linear/avgtron.cpython-37m-darwin.so",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/Users/runner/miniforge3/conda-bld/thinc_1590400417741/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pla",
+        "sha256": "3daf7486c5ddcac96cc44758a5bccd3401a186f6093df7be7ff0b53aecb26eee",
+        "sha256_in_prefix": "b3f0e363a8717b3e376fcf2aad1542802d4dd322133d9b17021a93449603d1e0",
+        "size_in_bytes": 131236
+      },
+      {
+        "_path": "lib/python3.7/site-packages/thinc/linear/avgtron.pxd",
+        "path_type": "hardlink",
+        "sha256": "ca0b929910423d6bb6abe3bbab6b3481bbb34ae750fd7c6cc7e1a293cacb3e7f",
+        "sha256_in_prefix": "ca0b929910423d6bb6abe3bbab6b3481bbb34ae750fd7c6cc7e1a293cacb3e7f",
+        "size_in_bytes": 897
+      },
+      {
+        "_path": "lib/python3.7/site-packages/thinc/linear/avgtron.pyx",
+        "path_type": "hardlink",
+        "sha256": "a4939ac909d87f43640f9b713dcaa94950e5df1b45f5bc4d678ce600aad8647d",
+        "sha256_in_prefix": "a4939ac909d87f43640f9b713dcaa94950e5df1b45f5bc4d678ce600aad8647d",
+        "size_in_bytes": 16334
+      },
+      {
+        "_path": "lib/python3.7/site-packages/thinc/linear/features.cpp",
+        "path_type": "hardlink",
+        "sha256": "93083824f10a40fc54a778f8fbef757c502d917a4aa7a6c099b803af134f0a18",
+        "sha256_in_prefix": "93083824f10a40fc54a778f8fbef757c502d917a4aa7a6c099b803af134f0a18",
+        "size_in_bytes": 343615
+      },
+      {
+        "_path": "lib/python3.7/site-packages/thinc/linear/features.cpython-37m-darwin.so",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/Users/runner/miniforge3/conda-bld/thinc_1590400417741/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pla",
+        "sha256": "58e6ade79414eb139b8b0384637a00a970b575eeaf5bb0a85e0cc0b8dd1d09e0",
+        "sha256_in_prefix": "26f2dbf030e85cf29a8074209343fe29e9ae3b8eab132d19d80ea96034bf2d01",
+        "size_in_bytes": 48280
+      },
+      {
+        "_path": "lib/python3.7/site-packages/thinc/linear/features.pxd",
+        "path_type": "hardlink",
+        "sha256": "60f90a3dd3a0e3d662a28b6bf2f2cbab0b3237b673a77c790ddfd1e28a85f802",
+        "sha256_in_prefix": "60f90a3dd3a0e3d662a28b6bf2f2cbab0b3237b673a77c790ddfd1e28a85f802",
+        "size_in_bytes": 424
+      },
+      {
+        "_path": "lib/python3.7/site-packages/thinc/linear/features.pyx",
+        "path_type": "hardlink",
+        "sha256": "d68d4611ebc187f61d25c8f5d9b0a53af7ec0440b2e3752b1e045a8e7f7a8ff8",
+        "sha256_in_prefix": "d68d4611ebc187f61d25c8f5d9b0a53af7ec0440b2e3752b1e045a8e7f7a8ff8",
+        "size_in_bytes": 2809
+      },
+      {
+        "_path": "lib/python3.7/site-packages/thinc/linear/linear.cpp",
+        "path_type": "hardlink",
+        "sha256": "81741278817ab1940dba932cfd3cdcdfaa1c8d2e9f6b6cd81078169cafb15776",
+        "sha256_in_prefix": "81741278817ab1940dba932cfd3cdcdfaa1c8d2e9f6b6cd81078169cafb15776",
+        "size_in_bytes": 1121553
+      },
+      {
+        "_path": "lib/python3.7/site-packages/thinc/linear/linear.cpython-37m-darwin.so",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/Users/runner/miniforge3/conda-bld/thinc_1590400417741/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pla",
+        "sha256": "28ba38b745308375e37c686f9c4e46a573e1d59fd39417352a8817d6911e1d74",
+        "sha256_in_prefix": "e3c0928da06ef28a03fb1c3416ee5d78336298940a5ac4bb3eefef287d5be8a0",
+        "size_in_bytes": 216152
+      },
+      {
+        "_path": "lib/python3.7/site-packages/thinc/linear/linear.pyx",
+        "path_type": "hardlink",
+        "sha256": "b0ea55031280cf63d0871e4947f786a89165d3d6f779f02417f84d8d32448c27",
+        "sha256_in_prefix": "b0ea55031280cf63d0871e4947f786a89165d3d6f779f02417f84d8d32448c27",
+        "size_in_bytes": 5178
+      },
+      {
+        "_path": "lib/python3.7/site-packages/thinc/linear/serialize.cpp",
+        "path_type": "hardlink",
+        "sha256": "950b30b191459c3d5837598f84508120b2bcee53cdca2c8bcf548d352af18abf",
+        "sha256_in_prefix": "950b30b191459c3d5837598f84508120b2bcee53cdca2c8bcf548d352af18abf",
+        "size_in_bytes": 395846
+      },
+      {
+        "_path": "lib/python3.7/site-packages/thinc/linear/serialize.cpython-37m-darwin.so",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/Users/runner/miniforge3/conda-bld/thinc_1590400417741/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pla",
+        "sha256": "64b6306c58c58a34c781adc9b77f07a990e93d6e493507ea5947712c24c8ffce",
+        "sha256_in_prefix": "67ecba9bbe3f3017785b68c79a1850365a3a1f0231945fe3ba397bc5ed6071e7",
+        "size_in_bytes": 56728
+      },
+      {
+        "_path": "lib/python3.7/site-packages/thinc/linear/serialize.pxd",
+        "path_type": "hardlink",
+        "sha256": "71888cd4293bb8a096582aadc0a85d1b75cf98fccf469f55a7df5f5bdbda6c18",
+        "sha256_in_prefix": "71888cd4293bb8a096582aadc0a85d1b75cf98fccf469f55a7df5f5bdbda6c18",
+        "size_in_bytes": 521
+      },
+      {
+        "_path": "lib/python3.7/site-packages/thinc/linear/serialize.pyx",
+        "path_type": "hardlink",
+        "sha256": "c878a67fe5812a213086c17867da49e1c163c6d2737d5b979bf219643845e74f",
+        "sha256_in_prefix": "c878a67fe5812a213086c17867da49e1c163c6d2737d5b979bf219643845e74f",
+        "size_in_bytes": 4272
+      },
+      {
+        "_path": "lib/python3.7/site-packages/thinc/linear/sparse.cpp",
+        "path_type": "hardlink",
+        "sha256": "ecbd3a4771bc2710604725df4d7947e843647b2b440b8528cc1b2c341619b728",
+        "sha256_in_prefix": "ecbd3a4771bc2710604725df4d7947e843647b2b440b8528cc1b2c341619b728",
+        "size_in_bytes": 398452
+      },
+      {
+        "_path": "lib/python3.7/site-packages/thinc/linear/sparse.cpython-37m-darwin.so",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/Users/runner/miniforge3/conda-bld/thinc_1590400417741/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pla",
+        "sha256": "1cbfea37907be1ee57a5b5a7430d9894d52f39bf711ed5a6cd12ca220807b09e",
+        "sha256_in_prefix": "fbc1b1e888549997e097275f0d75bf3dbd318e19bbca7edd752dee24aa8d61e3",
+        "size_in_bytes": 64924
+      },
+      {
+        "_path": "lib/python3.7/site-packages/thinc/linear/sparse.pxd",
+        "path_type": "hardlink",
+        "sha256": "1787d1ca66eb717f8c52a22e0993517955146c8994a5a7798eaa99e91c88fdd2",
+        "sha256_in_prefix": "1787d1ca66eb717f8c52a22e0993517955146c8994a5a7798eaa99e91c88fdd2",
+        "size_in_bytes": 2389
+      },
+      {
+        "_path": "lib/python3.7/site-packages/thinc/linear/sparse.pyx",
+        "path_type": "hardlink",
+        "sha256": "0f86bbaa18e0f93ada48169e2c89e3a0aedc041259f9757170931dbe7a4d283d",
+        "sha256_in_prefix": "0f86bbaa18e0f93ada48169e2c89e3a0aedc041259f9757170931dbe7a4d283d",
+        "size_in_bytes": 1041
+      },
+      {
+        "_path": "lib/python3.7/site-packages/thinc/loss.py",
+        "path_type": "hardlink",
+        "sha256": "534e6b6ad66f1487f7f93b59077e9f829b90437f33f0b25b992289a38abead24",
+        "sha256_in_prefix": "534e6b6ad66f1487f7f93b59077e9f829b90437f33f0b25b992289a38abead24",
+        "size_in_bytes": 724
+      },
+      {
+        "_path": "lib/python3.7/site-packages/thinc/misc.py",
+        "path_type": "hardlink",
+        "sha256": "18829e2ac0cb148e442d5b34d59785d17cec31577c4befe7b05760eba8d151ab",
+        "sha256_in_prefix": "18829e2ac0cb148e442d5b34d59785d17cec31577c4befe7b05760eba8d151ab",
+        "size_in_bytes": 747
+      },
+      {
+        "_path": "lib/python3.7/site-packages/thinc/neural/__init__.pxd",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "lib/python3.7/site-packages/thinc/neural/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "818467a07cf7d381e3a950b6b46e5d523340f000afd9c9fd79412d8f1a4d83f2",
+        "sha256_in_prefix": "818467a07cf7d381e3a950b6b46e5d523340f000afd9c9fd79412d8f1a4d83f2",
+        "size_in_bytes": 104
+      },
+      {
+        "_path": "lib/python3.7/site-packages/thinc/neural/__pycache__/__init__.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "03da3c50c30a6e6058db4c40007c34cee481cac772dbfba8aa1f02b72aab97c3",
+        "sha256_in_prefix": "03da3c50c30a6e6058db4c40007c34cee481cac772dbfba8aa1f02b72aab97c3",
+        "size_in_bytes": 252
+      },
+      {
+        "_path": "lib/python3.7/site-packages/thinc/neural/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "62922d4b6396560a33e246f799e89198f13d3c924ee5c3a4b2c5680447d70f98",
+        "sha256_in_prefix": "62922d4b6396560a33e246f799e89198f13d3c924ee5c3a4b2c5680447d70f98",
+        "size_in_bytes": 243
+      },
+      {
+        "_path": "lib/python3.7/site-packages/thinc/neural/__pycache__/_custom_kernels.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "662f067997bd82e73059f6d42b05d46e1301b5a72eb30636f2006c8c490ac5f9",
+        "sha256_in_prefix": "662f067997bd82e73059f6d42b05d46e1301b5a72eb30636f2006c8c490ac5f9",
+        "size_in_bytes": 5927
+      },
+      {
+        "_path": "lib/python3.7/site-packages/thinc/neural/__pycache__/_custom_kernels.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "a735f10182df3d88def86e0854b3274362592b298118aebd92cdd8c0a2076226",
+        "sha256_in_prefix": "a735f10182df3d88def86e0854b3274362592b298118aebd92cdd8c0a2076226",
+        "size_in_bytes": 5904
+      },
+      {
+        "_path": "lib/python3.7/site-packages/thinc/neural/__pycache__/_lsuv.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "68cbc0a9e3926cd9046024a02790b18188212e732236893d506c5efd059f4428",
+        "sha256_in_prefix": "68cbc0a9e3926cd9046024a02790b18188212e732236893d506c5efd059f4428",
+        "size_in_bytes": 1467
+      },
+      {
+        "_path": "lib/python3.7/site-packages/thinc/neural/__pycache__/_lsuv.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "c55e774dd8b540f7feaecc165e7a8f33313eaf959a0dafd5871bb2d8e788f29b",
+        "sha256_in_prefix": "c55e774dd8b540f7feaecc165e7a8f33313eaf959a0dafd5871bb2d8e788f29b",
+        "size_in_bytes": 1464
+      },
+      {
+        "_path": "lib/python3.7/site-packages/thinc/neural/__pycache__/mem.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "77a988ebdf8c39687c5d668feaa0229f57697038d762f0a0befa12cc8b813abf",
+        "sha256_in_prefix": "77a988ebdf8c39687c5d668feaa0229f57697038d762f0a0befa12cc8b813abf",
+        "size_in_bytes": 2838
+      },
+      {
+        "_path": "lib/python3.7/site-packages/thinc/neural/__pycache__/mem.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "7443e69a73412900993ab3f9181e2cf814297c6bc85ace07780ddb615a090546",
+        "sha256_in_prefix": "7443e69a73412900993ab3f9181e2cf814297c6bc85ace07780ddb615a090546",
+        "size_in_bytes": 2859
+      },
+      {
+        "_path": "lib/python3.7/site-packages/thinc/neural/__pycache__/pooling.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "0ed6da663ef0b5f822b6fc0cc09dd8d0225938614b71744a1b8751258ba635c0",
+        "sha256_in_prefix": "0ed6da663ef0b5f822b6fc0cc09dd8d0225938614b71744a1b8751258ba635c0",
+        "size_in_bytes": 2857
+      },
+      {
+        "_path": "lib/python3.7/site-packages/thinc/neural/__pycache__/pooling.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "0f56fcbe4b8728802115c4fc782e2b166a9f5de51d80baa602349496f994a64a",
+        "sha256_in_prefix": "0f56fcbe4b8728802115c4fc782e2b166a9f5de51d80baa602349496f994a64a",
+        "size_in_bytes": 2798
+      },
+      {
+        "_path": "lib/python3.7/site-packages/thinc/neural/__pycache__/train.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "f14323ee81b1a766ff412c5b3862bdb239bbb2ead97606554216bd2cac4c18b6",
+        "sha256_in_prefix": "f14323ee81b1a766ff412c5b3862bdb239bbb2ead97606554216bd2cac4c18b6",
+        "size_in_bytes": 2168
+      },
+      {
+        "_path": "lib/python3.7/site-packages/thinc/neural/__pycache__/train.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "b9f1e88c1298c5eec3ac132a78ee5e73f041601cde698d9a156918c6fb4da158",
+        "sha256_in_prefix": "b9f1e88c1298c5eec3ac132a78ee5e73f041601cde698d9a156918c6fb4da158",
+        "size_in_bytes": 2177
+      },
+      {
+        "_path": "lib/python3.7/site-packages/thinc/neural/__pycache__/util.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "cb3a119b87b80311e79d474091b54c15164de031fc6d4b3dc4b036dbb9ff0895",
+        "sha256_in_prefix": "cb3a119b87b80311e79d474091b54c15164de031fc6d4b3dc4b036dbb9ff0895",
+        "size_in_bytes": 4775
+      },
+      {
+        "_path": "lib/python3.7/site-packages/thinc/neural/__pycache__/util.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "b21bb27a024a90d63c3a736fe66e4b130cdcf1d7f82f0417451c9d28e1463192",
+        "sha256_in_prefix": "b21bb27a024a90d63c3a736fe66e4b130cdcf1d7f82f0417451c9d28e1463192",
+        "size_in_bytes": 4806
+      },
+      {
+        "_path": "lib/python3.7/site-packages/thinc/neural/__pycache__/vec2vec.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "f703656eee473f339c8bd6775607efe158bf9a349e837d9bf6350114bd605630",
+        "sha256_in_prefix": "f703656eee473f339c8bd6775607efe158bf9a349e837d9bf6350114bd605630",
+        "size_in_bytes": 521
+      },
+      {
+        "_path": "lib/python3.7/site-packages/thinc/neural/__pycache__/vec2vec.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "ab6035e3aa3edd946b97255f4fe4e741b78f8dd1f71d121136632c443a5a145b",
+        "sha256_in_prefix": "ab6035e3aa3edd946b97255f4fe4e741b78f8dd1f71d121136632c443a5a145b",
+        "size_in_bytes": 512
+      },
+      {
+        "_path": "lib/python3.7/site-packages/thinc/neural/__pycache__/vecs2vec.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "42d4a21c25ca45fefd1e3637ed96ae3ec27ebcab945453081268664c3ba30d41",
+        "sha256_in_prefix": "42d4a21c25ca45fefd1e3637ed96ae3ec27ebcab945453081268664c3ba30d41",
+        "size_in_bytes": 2858
+      },
+      {
+        "_path": "lib/python3.7/site-packages/thinc/neural/__pycache__/vecs2vec.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "5c6f49ab3d245750d348e3b0c169ebe19f690d23592363a6099ce7ccef98e3e3",
+        "sha256_in_prefix": "5c6f49ab3d245750d348e3b0c169ebe19f690d23592363a6099ce7ccef98e3e3",
+        "size_in_bytes": 2762
+      },
+      {
+        "_path": "lib/python3.7/site-packages/thinc/neural/__pycache__/vecs2vecs.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "02280f411382a4d5fd2878e53b7dea02630f03324d5db362538ef846afc9caed",
+        "sha256_in_prefix": "02280f411382a4d5fd2878e53b7dea02630f03324d5db362538ef846afc9caed",
+        "size_in_bytes": 267
+      },
+      {
+        "_path": "lib/python3.7/site-packages/thinc/neural/__pycache__/vecs2vecs.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "e760cce73af05614019afe425da5b0726291349ba7154956511a6042022cbf8a",
+        "sha256_in_prefix": "e760cce73af05614019afe425da5b0726291349ba7154956511a6042022cbf8a",
+        "size_in_bytes": 258
+      },
+      {
+        "_path": "lib/python3.7/site-packages/thinc/neural/_aligned_alloc.cpp",
+        "path_type": "hardlink",
+        "sha256": "b79899880e6879ed3f342f8adaa13a6557a78eead31c68d625f19293fac48a29",
+        "sha256_in_prefix": "b79899880e6879ed3f342f8adaa13a6557a78eead31c68d625f19293fac48a29",
+        "size_in_bytes": 387617
+      },
+      {
+        "_path": "lib/python3.7/site-packages/thinc/neural/_aligned_alloc.cpython-37m-darwin.so",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/Users/runner/miniforge3/conda-bld/thinc_1590400417741/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pla",
+        "sha256": "22b08fda69d4db2961951fb04fb8f414b8dfbf2b4ece5d6bae10a977168397a7",
+        "sha256_in_prefix": "2ebee792632f0eab0d43745c12a2a4a43729f76146a525fabaf9f348387422d9",
+        "size_in_bytes": 52864
+      },
+      {
+        "_path": "lib/python3.7/site-packages/thinc/neural/_aligned_alloc.pyx",
+        "path_type": "hardlink",
+        "sha256": "dfbee7c39158a3a6811c5d1d0d71344b3163bfeca43f976dbfc28fc3f98ab612",
+        "sha256_in_prefix": "dfbee7c39158a3a6811c5d1d0d71344b3163bfeca43f976dbfc28fc3f98ab612",
+        "size_in_bytes": 7135
+      },
+      {
+        "_path": "lib/python3.7/site-packages/thinc/neural/_classes/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "lib/python3.7/site-packages/thinc/neural/_classes/__pycache__/__init__.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "cdb8e334bce3d94f52ccff5499d56bdd34deba89d4fe77f6b8eff0511b12fe24",
+        "sha256_in_prefix": "cdb8e334bce3d94f52ccff5499d56bdd34deba89d4fe77f6b8eff0511b12fe24",
+        "size_in_bytes": 161
+      },
+      {
+        "_path": "lib/python3.7/site-packages/thinc/neural/_classes/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "66325e87fd4b4e0204bb98564c3eeca6cfd2a9d319edb53741fd8b5643863c2b",
+        "sha256_in_prefix": "66325e87fd4b4e0204bb98564c3eeca6cfd2a9d319edb53741fd8b5643863c2b",
+        "size_in_bytes": 152
+      },
+      {
+        "_path": "lib/python3.7/site-packages/thinc/neural/_classes/__pycache__/affine.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "b05f30b63713b6f577f569d3a0f44c59b5d5fbb30ca246b3eef2c5a6cdb493fa",
+        "sha256_in_prefix": "b05f30b63713b6f577f569d3a0f44c59b5d5fbb30ca246b3eef2c5a6cdb493fa",
+        "size_in_bytes": 2946
+      },
+      {
+        "_path": "lib/python3.7/site-packages/thinc/neural/_classes/__pycache__/affine.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "60cc9aa79599a65358f168a05c436eb40cd040b4bedb02433d925c0e9c42dea4",
+        "sha256_in_prefix": "60cc9aa79599a65358f168a05c436eb40cd040b4bedb02433d925c0e9c42dea4",
+        "size_in_bytes": 2981
+      },
+      {
+        "_path": "lib/python3.7/site-packages/thinc/neural/_classes/__pycache__/attention.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "db8bbd3417ac1129706119736fd6552b21e9c7c9e7fc3e8e3c2ad15d0b75c0b4",
+        "sha256_in_prefix": "db8bbd3417ac1129706119736fd6552b21e9c7c9e7fc3e8e3c2ad15d0b75c0b4",
+        "size_in_bytes": 3037
+      },
+      {
+        "_path": "lib/python3.7/site-packages/thinc/neural/_classes/__pycache__/attention.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "b96f9652a3126a15cc388b73f427fbb76ecc9f921f7905736b19ccd6c051cbc1",
+        "sha256_in_prefix": "b96f9652a3126a15cc388b73f427fbb76ecc9f921f7905736b19ccd6c051cbc1",
+        "size_in_bytes": 3029
+      },
+      {
+        "_path": "lib/python3.7/site-packages/thinc/neural/_classes/__pycache__/batchnorm.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "61a8896295313f7da6842728d5b51ef255a76cfdc0261ee0ca32d1cca35df10a",
+        "sha256_in_prefix": "61a8896295313f7da6842728d5b51ef255a76cfdc0261ee0ca32d1cca35df10a",
+        "size_in_bytes": 4259
+      },
+      {
+        "_path": "lib/python3.7/site-packages/thinc/neural/_classes/__pycache__/batchnorm.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "65b75551f2bef9f5c59130eb2954b07dd8298c1cb8f099837ea7b19ce445564c",
+        "sha256_in_prefix": "65b75551f2bef9f5c59130eb2954b07dd8298c1cb8f099837ea7b19ce445564c",
+        "size_in_bytes": 4232
+      },
+      {
+        "_path": "lib/python3.7/site-packages/thinc/neural/_classes/__pycache__/convolution.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "718268df788709193bd07cc264382b8adb2b6ebb5ae3683f4ac47a98c659a91c",
+        "sha256_in_prefix": "718268df788709193bd07cc264382b8adb2b6ebb5ae3683f4ac47a98c659a91c",
+        "size_in_bytes": 1897
+      },
+      {
+        "_path": "lib/python3.7/site-packages/thinc/neural/_classes/__pycache__/convolution.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "ed73f63ef8acb31b3c968fdc3c2a3a6ee5bb08bd7e6b29a14b46623daa117116",
+        "sha256_in_prefix": "ed73f63ef8acb31b3c968fdc3c2a3a6ee5bb08bd7e6b29a14b46623daa117116",
+        "size_in_bytes": 1916
+      },
+      {
+        "_path": "lib/python3.7/site-packages/thinc/neural/_classes/__pycache__/difference.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "13031e7af1a04acdc6dde64e7982feeab04b91304bd96ea1bdd8ae83cf9d5103",
+        "sha256_in_prefix": "13031e7af1a04acdc6dde64e7982feeab04b91304bd96ea1bdd8ae83cf9d5103",
+        "size_in_bytes": 3721
+      },
+      {
+        "_path": "lib/python3.7/site-packages/thinc/neural/_classes/__pycache__/difference.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "1bb9a455e7806b5fdf547b22dfb38366af503bc5870a0674acebc570faba7eb4",
+        "sha256_in_prefix": "1bb9a455e7806b5fdf547b22dfb38366af503bc5870a0674acebc570faba7eb4",
+        "size_in_bytes": 3698
+      },
+      {
+        "_path": "lib/python3.7/site-packages/thinc/neural/_classes/__pycache__/elu.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "5ffadc8e1fca2fa1ebfc20b845f8331fddcfa612688bd7ca328dcc9dc274156b",
+        "sha256_in_prefix": "5ffadc8e1fca2fa1ebfc20b845f8331fddcfa612688bd7ca328dcc9dc274156b",
+        "size_in_bytes": 1233
+      },
+      {
+        "_path": "lib/python3.7/site-packages/thinc/neural/_classes/__pycache__/elu.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "6964891723bc9edb14cb6684dcff2affe769c6072014a5b598a5527c52815c4e",
+        "sha256_in_prefix": "6964891723bc9edb14cb6684dcff2affe769c6072014a5b598a5527c52815c4e",
+        "size_in_bytes": 1222
+      },
+      {
+        "_path": "lib/python3.7/site-packages/thinc/neural/_classes/__pycache__/embed.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "008cb5f2dc81a2e5737776883e8f5049d2931ecc7afee4e263b90c55f65a492b",
+        "sha256_in_prefix": "008cb5f2dc81a2e5737776883e8f5049d2931ecc7afee4e263b90c55f65a492b",
+        "size_in_bytes": 5898
+      },
+      {
+        "_path": "lib/python3.7/site-packages/thinc/neural/_classes/__pycache__/embed.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "406175c38ca2531ebf5c4bf9db8dd1fcde21f81c2dd173aba68cf445221c3417",
+        "sha256_in_prefix": "406175c38ca2531ebf5c4bf9db8dd1fcde21f81c2dd173aba68cf445221c3417",
+        "size_in_bytes": 5937
+      },
+      {
+        "_path": "lib/python3.7/site-packages/thinc/neural/_classes/__pycache__/encoder_decoder.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "59e1937c0c1089415f916b57d8d88159ae0af544387b66364c606cf390b9df30",
+        "sha256_in_prefix": "59e1937c0c1089415f916b57d8d88159ae0af544387b66364c606cf390b9df30",
+        "size_in_bytes": 7059
+      },
+      {
+        "_path": "lib/python3.7/site-packages/thinc/neural/_classes/__pycache__/encoder_decoder.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "e8878610886fb1aa95c8ab02362082c53ad75ff7f3b171beb46154f1b972c815",
+        "sha256_in_prefix": "e8878610886fb1aa95c8ab02362082c53ad75ff7f3b171beb46154f1b972c815",
+        "size_in_bytes": 6910
+      },
+      {
+        "_path": "lib/python3.7/site-packages/thinc/neural/_classes/__pycache__/feature_extracter.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "38a5ea9eecc165f5136a21f6f437a805c8a585cc4ed4d724b0c50e8da26b1bd0",
+        "sha256_in_prefix": "38a5ea9eecc165f5136a21f6f437a805c8a585cc4ed4d724b0c50e8da26b1bd0",
+        "size_in_bytes": 1353
+      },
+      {
+        "_path": "lib/python3.7/site-packages/thinc/neural/_classes/__pycache__/feature_extracter.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "c805db3d2d90976f2a99861bfcfd0b7a1811b97d5becc62033aded8176755f57",
+        "sha256_in_prefix": "c805db3d2d90976f2a99861bfcfd0b7a1811b97d5becc62033aded8176755f57",
+        "size_in_bytes": 1370
+      },
+      {
+        "_path": "lib/python3.7/site-packages/thinc/neural/_classes/__pycache__/feed_forward.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "1bd5fed02320dd4986c3ea655339eb6629ab8bdebe2002eba2503d30ecfe7e5d",
+        "sha256_in_prefix": "1bd5fed02320dd4986c3ea655339eb6629ab8bdebe2002eba2503d30ecfe7e5d",
+        "size_in_bytes": 2029
+      },
+      {
+        "_path": "lib/python3.7/site-packages/thinc/neural/_classes/__pycache__/feed_forward.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "4c72e8af1c97aaec03c50f30f7b498b31c3ad53d42a32bb378666577e52f9111",
+        "sha256_in_prefix": "4c72e8af1c97aaec03c50f30f7b498b31c3ad53d42a32bb378666577e52f9111",
+        "size_in_bytes": 2036
+      },
+      {
+        "_path": "lib/python3.7/site-packages/thinc/neural/_classes/__pycache__/function_layer.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "7e30003166d9dfe77d7c07ea162a5a28f9c67428e34afe34e1ff7c2d90a7121e",
+        "sha256_in_prefix": "7e30003166d9dfe77d7c07ea162a5a28f9c67428e34afe34e1ff7c2d90a7121e",
+        "size_in_bytes": 808
+      },
+      {
+        "_path": "lib/python3.7/site-packages/thinc/neural/_classes/__pycache__/function_layer.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "7c48bfb8fc9e9be0809af4a0b65b6a8297fd0d9fb7386e4b8f30af29707c8010",
+        "sha256_in_prefix": "7c48bfb8fc9e9be0809af4a0b65b6a8297fd0d9fb7386e4b8f30af29707c8010",
+        "size_in_bytes": 809
+      },
+      {
+        "_path": "lib/python3.7/site-packages/thinc/neural/_classes/__pycache__/hash_embed.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "e7130684a69b99b6f4e7c33af008b2aac511cdc387dd2a22d1384030502adcce",
+        "sha256_in_prefix": "e7130684a69b99b6f4e7c33af008b2aac511cdc387dd2a22d1384030502adcce",
+        "size_in_bytes": 2886
+      },
+      {
+        "_path": "lib/python3.7/site-packages/thinc/neural/_classes/__pycache__/hash_embed.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "5dc5593aaa4212c819c0e4bd5c718639f76935588bff94a2cd4273c21238ab5d",
+        "sha256_in_prefix": "5dc5593aaa4212c819c0e4bd5c718639f76935588bff94a2cd4273c21238ab5d",
+        "size_in_bytes": 2890
+      },
+      {
+        "_path": "lib/python3.7/site-packages/thinc/neural/_classes/__pycache__/layernorm.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "bc2d6f8b16ad30f5cc1d81b2042690fcce634d609fe7d97ec544804c65997030",
+        "sha256_in_prefix": "bc2d6f8b16ad30f5cc1d81b2042690fcce634d609fe7d97ec544804c65997030",
+        "size_in_bytes": 4326
+      },
+      {
+        "_path": "lib/python3.7/site-packages/thinc/neural/_classes/__pycache__/layernorm.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "e787071eff3fc74e9973be71dd596c32ff85460b0915b6c7a796111521360fae",
+        "sha256_in_prefix": "e787071eff3fc74e9973be71dd596c32ff85460b0915b6c7a796111521360fae",
+        "size_in_bytes": 4280
+      },
+      {
+        "_path": "lib/python3.7/site-packages/thinc/neural/_classes/__pycache__/maxout.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "d4ac7825b11dc37c43b5809c8b41d16c72019c3a3011627d0edf278460e95967",
+        "sha256_in_prefix": "d4ac7825b11dc37c43b5809c8b41d16c72019c3a3011627d0edf278460e95967",
+        "size_in_bytes": 3651
+      },
+      {
+        "_path": "lib/python3.7/site-packages/thinc/neural/_classes/__pycache__/maxout.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "07792d2acb3b7a22ad23db5d74e29849ffad07b59276855d1a37e17442f4a3cf",
+        "sha256_in_prefix": "07792d2acb3b7a22ad23db5d74e29849ffad07b59276855d1a37e17442f4a3cf",
+        "size_in_bytes": 3672
+      },
+      {
+        "_path": "lib/python3.7/site-packages/thinc/neural/_classes/__pycache__/mish.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "37b54fcf9a04a7f6ff8ca64d2e802c7a3d0c729170b0d2ffc1fb7317c818d177",
+        "sha256_in_prefix": "37b54fcf9a04a7f6ff8ca64d2e802c7a3d0c729170b0d2ffc1fb7317c818d177",
+        "size_in_bytes": 2856
+      },
+      {
+        "_path": "lib/python3.7/site-packages/thinc/neural/_classes/__pycache__/mish.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "9a049d086116d1cd087cdee035b7e0be870e5375b93e23dac680723d264f78da",
+        "sha256_in_prefix": "9a049d086116d1cd087cdee035b7e0be870e5375b93e23dac680723d264f78da",
+        "size_in_bytes": 2893
+      },
+      {
+        "_path": "lib/python3.7/site-packages/thinc/neural/_classes/__pycache__/model.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "038fa44fa849b0a94b6c083419931e4950302ce4a6d14e7823d158f4e872eeac",
+        "sha256_in_prefix": "038fa44fa849b0a94b6c083419931e4950302ce4a6d14e7823d158f4e872eeac",
+        "size_in_bytes": 12904
+      },
+      {
+        "_path": "lib/python3.7/site-packages/thinc/neural/_classes/__pycache__/model.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "78e733d40c0270606a811da734d2ed581e1f348891b2e4aa3e7ae78fb1de2620",
+        "sha256_in_prefix": "78e733d40c0270606a811da734d2ed581e1f348891b2e4aa3e7ae78fb1de2620",
+        "size_in_bytes": 12785
+      },
+      {
+        "_path": "lib/python3.7/site-packages/thinc/neural/_classes/__pycache__/multiheaded_attention.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "4c052d04351de5da3bceb7749621fc1bc95ddba1ee1bfd5a001a8341a0917ca6",
+        "sha256_in_prefix": "4c052d04351de5da3bceb7749621fc1bc95ddba1ee1bfd5a001a8341a0917ca6",
+        "size_in_bytes": 8395
+      },
+      {
+        "_path": "lib/python3.7/site-packages/thinc/neural/_classes/__pycache__/multiheaded_attention.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "c1082ee70104b1e9a51bec8ef9ee253fea0b76cb71c34d3222b928d1b7622c21",
+        "sha256_in_prefix": "c1082ee70104b1e9a51bec8ef9ee253fea0b76cb71c34d3222b928d1b7622c21",
+        "size_in_bytes": 8359
+      },
+      {
+        "_path": "lib/python3.7/site-packages/thinc/neural/_classes/__pycache__/relu.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "92e7538d1c35fb30d92c826ae3756872694374687bcbf63b2be9c3ec7c194274",
+        "sha256_in_prefix": "92e7538d1c35fb30d92c826ae3756872694374687bcbf63b2be9c3ec7c194274",
+        "size_in_bytes": 1298
+      },
+      {
+        "_path": "lib/python3.7/site-packages/thinc/neural/_classes/__pycache__/relu.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "fa48e89125e57635b05e483269680f513d6f91dd868bc6a3118bc5f1b457e83c",
+        "sha256_in_prefix": "fa48e89125e57635b05e483269680f513d6f91dd868bc6a3118bc5f1b457e83c",
+        "size_in_bytes": 1289
+      },
+      {
+        "_path": "lib/python3.7/site-packages/thinc/neural/_classes/__pycache__/resnet.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "0de858cf765f1a70b148d0a571a8986e0431bb7406038b348c684e6b7ab11326",
+        "sha256_in_prefix": "0de858cf765f1a70b148d0a571a8986e0431bb7406038b348c684e6b7ab11326",
+        "size_in_bytes": 2637
+      },
+      {
+        "_path": "lib/python3.7/site-packages/thinc/neural/_classes/__pycache__/resnet.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "642c6cfa89cf16704bac2249db70de09455bcc9ec2220d79fd1485350efe58a4",
+        "sha256_in_prefix": "642c6cfa89cf16704bac2249db70de09455bcc9ec2220d79fd1485350efe58a4",
+        "size_in_bytes": 2640
+      },
+      {
+        "_path": "lib/python3.7/site-packages/thinc/neural/_classes/__pycache__/rnn.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "9a8bb423372efd8d1b745d751ae4d03aed40939a7bdb8b56ff984ad89a118a62",
+        "sha256_in_prefix": "9a8bb423372efd8d1b745d751ae4d03aed40939a7bdb8b56ff984ad89a118a62",
+        "size_in_bytes": 10071
+      },
+      {
+        "_path": "lib/python3.7/site-packages/thinc/neural/_classes/__pycache__/rnn.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "c166656dd1cfb7cb59547b4d82fbc6cb0de94f2ecd308de66f69e4454304c358",
+        "sha256_in_prefix": "c166656dd1cfb7cb59547b4d82fbc6cb0de94f2ecd308de66f69e4454304c358",
+        "size_in_bytes": 10113
+      },
+      {
+        "_path": "lib/python3.7/site-packages/thinc/neural/_classes/__pycache__/selu.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "e107f997318d02ff1cfbc71b938bed32192c214a08f923619f6c0caefd6a1f5c",
+        "sha256_in_prefix": "e107f997318d02ff1cfbc71b938bed32192c214a08f923619f6c0caefd6a1f5c",
+        "size_in_bytes": 3441
+      },
+      {
+        "_path": "lib/python3.7/site-packages/thinc/neural/_classes/__pycache__/selu.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "9fa9a076a8608328c7607508e42009749913a4c4e3e06474afb1ce6090604576",
+        "sha256_in_prefix": "9fa9a076a8608328c7607508e42009749913a4c4e3e06474afb1ce6090604576",
+        "size_in_bytes": 3456
+      },
+      {
+        "_path": "lib/python3.7/site-packages/thinc/neural/_classes/__pycache__/softmax.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "b281164d864fc44e91a1f8394934a2a6012c7a097cf163c728dc0f0aeef99feb",
+        "sha256_in_prefix": "b281164d864fc44e91a1f8394934a2a6012c7a097cf163c728dc0f0aeef99feb",
+        "size_in_bytes": 1677
+      },
+      {
+        "_path": "lib/python3.7/site-packages/thinc/neural/_classes/__pycache__/softmax.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "1f378a845704792a3f47e968df356f2d390e9c2c52fcbada6d529512cf4076c8",
+        "sha256_in_prefix": "1f378a845704792a3f47e968df356f2d390e9c2c52fcbada6d529512cf4076c8",
+        "size_in_bytes": 1691
+      },
+      {
+        "_path": "lib/python3.7/site-packages/thinc/neural/_classes/__pycache__/static_vectors.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "6307d277ccafb747c873a436a94dff60f0c6dcc4b202982f149ddcd6284016fb",
+        "sha256_in_prefix": "6307d277ccafb747c873a436a94dff60f0c6dcc4b202982f149ddcd6284016fb",
+        "size_in_bytes": 2811
+      },
+      {
+        "_path": "lib/python3.7/site-packages/thinc/neural/_classes/__pycache__/static_vectors.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "6b1e9b9fac1ffe2ca62b69439c6b068bd7074a3cd4139f0c9ffe0b039a83acb9",
+        "sha256_in_prefix": "6b1e9b9fac1ffe2ca62b69439c6b068bd7074a3cd4139f0c9ffe0b039a83acb9",
+        "size_in_bytes": 2828
+      },
+      {
+        "_path": "lib/python3.7/site-packages/thinc/neural/_classes/affine.py",
+        "path_type": "hardlink",
+        "sha256": "3b17275e6cb516049eeebe2a1329bdca820cbee935b5ce83141ff435a5d6278c",
+        "sha256_in_prefix": "3b17275e6cb516049eeebe2a1329bdca820cbee935b5ce83141ff435a5d6278c",
+        "size_in_bytes": 2342
+      },
+      {
+        "_path": "lib/python3.7/site-packages/thinc/neural/_classes/attention.py",
+        "path_type": "hardlink",
+        "sha256": "e8e98e78f1aec2879c480d37f385e89f7b5c93e4f5c5a4bfcd25ea9c35f75bcb",
+        "sha256_in_prefix": "e8e98e78f1aec2879c480d37f385e89f7b5c93e4f5c5a4bfcd25ea9c35f75bcb",
+        "size_in_bytes": 2538
+      },
+      {
+        "_path": "lib/python3.7/site-packages/thinc/neural/_classes/batchnorm.py",
+        "path_type": "hardlink",
+        "sha256": "b1ebc1f94d4e08d29f8f89c4348e691f039099156bacb5c1625c60083d2f7dea",
+        "sha256_in_prefix": "b1ebc1f94d4e08d29f8f89c4348e691f039099156bacb5c1625c60083d2f7dea",
+        "size_in_bytes": 3802
+      },
+      {
+        "_path": "lib/python3.7/site-packages/thinc/neural/_classes/convolution.py",
+        "path_type": "hardlink",
+        "sha256": "f7ad480c9743cbdfb0bb4fb250f407b234e6a8e99dd9a21cd268abc4a12c2ae9",
+        "sha256_in_prefix": "f7ad480c9743cbdfb0bb4fb250f407b234e6a8e99dd9a21cd268abc4a12c2ae9",
+        "size_in_bytes": 1200
+      },
+      {
+        "_path": "lib/python3.7/site-packages/thinc/neural/_classes/difference.py",
+        "path_type": "hardlink",
+        "sha256": "b600cbe0a7b7113ad27c8cb2f560da0189651f4cd8a5d9f5acdf972348a00f13",
+        "sha256_in_prefix": "b600cbe0a7b7113ad27c8cb2f560da0189651f4cd8a5d9f5acdf972348a00f13",
+        "size_in_bytes": 3066
+      },
+      {
+        "_path": "lib/python3.7/site-packages/thinc/neural/_classes/elu.py",
+        "path_type": "hardlink",
+        "sha256": "51db8334c121b2164b6d8b04d807f2650644ac40350dd0f0ee431a716e91097d",
+        "sha256_in_prefix": "51db8334c121b2164b6d8b04d807f2650644ac40350dd0f0ee431a716e91097d",
+        "size_in_bytes": 935
+      },
+      {
+        "_path": "lib/python3.7/site-packages/thinc/neural/_classes/embed.py",
+        "path_type": "hardlink",
+        "sha256": "34b7e1b2353adf199b742a6ba60ecceb22e23478d1d507a60bb89a07cac1ce5b",
+        "sha256_in_prefix": "34b7e1b2353adf199b742a6ba60ecceb22e23478d1d507a60bb89a07cac1ce5b",
+        "size_in_bytes": 5667
+      },
+      {
+        "_path": "lib/python3.7/site-packages/thinc/neural/_classes/encoder_decoder.py",
+        "path_type": "hardlink",
+        "sha256": "d7139780448bb4530527884eee278efea2e59ae260900439be858c94708b8c9f",
+        "sha256_in_prefix": "d7139780448bb4530527884eee278efea2e59ae260900439be858c94708b8c9f",
+        "size_in_bytes": 6108
+      },
+      {
+        "_path": "lib/python3.7/site-packages/thinc/neural/_classes/feature_extracter.py",
+        "path_type": "hardlink",
+        "sha256": "7244dac839184539a405635b1bbed6f10b1082e34d028f0d463a7e6a6a23db71",
+        "sha256_in_prefix": "7244dac839184539a405635b1bbed6f10b1082e34d028f0d463a7e6a6a23db71",
+        "size_in_bytes": 696
+      },
+      {
+        "_path": "lib/python3.7/site-packages/thinc/neural/_classes/feed_forward.py",
+        "path_type": "hardlink",
+        "sha256": "6ecf1cf9f88e866a3fd13b6a4d101e30a3296739efd432b4a4dd9722a80e51f5",
+        "sha256_in_prefix": "6ecf1cf9f88e866a3fd13b6a4d101e30a3296739efd432b4a4dd9722a80e51f5",
+        "size_in_bytes": 1518
+      },
+      {
+        "_path": "lib/python3.7/site-packages/thinc/neural/_classes/function_layer.py",
+        "path_type": "hardlink",
+        "sha256": "1411b2a6cae9008c07e9b030c3f9440bbf92e5e152be921072b73a139abec768",
+        "sha256_in_prefix": "1411b2a6cae9008c07e9b030c3f9440bbf92e5e152be921072b73a139abec768",
+        "size_in_bytes": 638
+      },
+      {
+        "_path": "lib/python3.7/site-packages/thinc/neural/_classes/hash_embed.py",
+        "path_type": "hardlink",
+        "sha256": "9deb8bd3a2211377e533973f612fb160d4a5c1b4ca1a59bd073db51919c5f25c",
+        "sha256_in_prefix": "9deb8bd3a2211377e533973f612fb160d4a5c1b4ca1a59bd073db51919c5f25c",
+        "size_in_bytes": 2368
+      },
+      {
+        "_path": "lib/python3.7/site-packages/thinc/neural/_classes/layernorm.py",
+        "path_type": "hardlink",
+        "sha256": "e301a56fc0fdf5be91b81f11ea21b0288ec4859ac139ea8afc0d10b64ae19b8d",
+        "sha256_in_prefix": "e301a56fc0fdf5be91b81f11ea21b0288ec4859ac139ea8afc0d10b64ae19b8d",
+        "size_in_bytes": 3755
+      },
+      {
+        "_path": "lib/python3.7/site-packages/thinc/neural/_classes/maxout.py",
+        "path_type": "hardlink",
+        "sha256": "5ef3d987022f64183dfad7f25007546847211434956230f0a144c73ca13ec83e",
+        "sha256_in_prefix": "5ef3d987022f64183dfad7f25007546847211434956230f0a144c73ca13ec83e",
+        "size_in_bytes": 3298
+      },
+      {
+        "_path": "lib/python3.7/site-packages/thinc/neural/_classes/mish.py",
+        "path_type": "hardlink",
+        "sha256": "cb2b7f3196fb5ebc704afb52b6daf4b3cf2e924daa5fde0287ea91925fae7bec",
+        "sha256_in_prefix": "cb2b7f3196fb5ebc704afb52b6daf4b3cf2e924daa5fde0287ea91925fae7bec",
+        "size_in_bytes": 2131
+      },
+      {
+        "_path": "lib/python3.7/site-packages/thinc/neural/_classes/model.py",
+        "path_type": "hardlink",
+        "sha256": "3e4bbcd57968c954317f7ef34be98d5dbdd35f6d8621ce4d5f9df31c9ef3d3a5",
+        "sha256_in_prefix": "3e4bbcd57968c954317f7ef34be98d5dbdd35f6d8621ce4d5f9df31c9ef3d3a5",
+        "size_in_bytes": 14032
+      },
+      {
+        "_path": "lib/python3.7/site-packages/thinc/neural/_classes/multiheaded_attention.py",
+        "path_type": "hardlink",
+        "sha256": "48b69165da546b60dbc3a937e626fc6468d1107c955c65d30317d058e7262ce8",
+        "sha256_in_prefix": "48b69165da546b60dbc3a937e626fc6468d1107c955c65d30317d058e7262ce8",
+        "size_in_bytes": 7470
+      },
+      {
+        "_path": "lib/python3.7/site-packages/thinc/neural/_classes/relu.py",
+        "path_type": "hardlink",
+        "sha256": "4e87341d6e0068a044fff0d339373eb8ee35b9a058db1ed8229783ac4bbbd137",
+        "sha256_in_prefix": "4e87341d6e0068a044fff0d339373eb8ee35b9a058db1ed8229783ac4bbbd137",
+        "size_in_bytes": 941
+      },
+      {
+        "_path": "lib/python3.7/site-packages/thinc/neural/_classes/resnet.py",
+        "path_type": "hardlink",
+        "sha256": "b85ca39edfde8d1ab649386964bbb46a29ecda42b7a4c177b085ab90fa0384ce",
+        "sha256_in_prefix": "b85ca39edfde8d1ab649386964bbb46a29ecda42b7a4c177b085ab90fa0384ce",
+        "size_in_bytes": 1808
+      },
+      {
+        "_path": "lib/python3.7/site-packages/thinc/neural/_classes/rnn.py",
+        "path_type": "hardlink",
+        "sha256": "68293722f4c2fb474f91db2d312036ebf6d758c7ac08ae1c1da410e17ff8e2fb",
+        "sha256_in_prefix": "68293722f4c2fb474f91db2d312036ebf6d758c7ac08ae1c1da410e17ff8e2fb",
+        "size_in_bytes": 8999
+      },
+      {
+        "_path": "lib/python3.7/site-packages/thinc/neural/_classes/selu.py",
+        "path_type": "hardlink",
+        "sha256": "2ee7c9f7351ec89d917a8835a54cc0480c8e8cd05a7e9d63cd848311dcf6aa4c",
+        "sha256_in_prefix": "2ee7c9f7351ec89d917a8835a54cc0480c8e8cd05a7e9d63cd848311dcf6aa4c",
+        "size_in_bytes": 2794
+      },
+      {
+        "_path": "lib/python3.7/site-packages/thinc/neural/_classes/softmax.py",
+        "path_type": "hardlink",
+        "sha256": "b6096409b86314340619d3184fbb036fee3393170fa7e52e60042e2092e32a5a",
+        "sha256_in_prefix": "b6096409b86314340619d3184fbb036fee3393170fa7e52e60042e2092e32a5a",
+        "size_in_bytes": 1148
+      },
+      {
+        "_path": "lib/python3.7/site-packages/thinc/neural/_classes/static_vectors.py",
+        "path_type": "hardlink",
+        "sha256": "4ef7914d4701a311a769b0552124fcd03bd9cb6647c0f9add5a493551146b852",
+        "sha256_in_prefix": "4ef7914d4701a311a769b0552124fcd03bd9cb6647c0f9add5a493551146b852",
+        "size_in_bytes": 2789
+      },
+      {
+        "_path": "lib/python3.7/site-packages/thinc/neural/_custom_kernels.cu",
+        "path_type": "hardlink",
+        "sha256": "0e6ce0d6a3f3ce3fd32eeb38aa5451600509e4b7e2807de989942bb3b2db7632",
+        "sha256_in_prefix": "0e6ce0d6a3f3ce3fd32eeb38aa5451600509e4b7e2807de989942bb3b2db7632",
+        "size_in_bytes": 10541
+      },
+      {
+        "_path": "lib/python3.7/site-packages/thinc/neural/_custom_kernels.py",
+        "path_type": "hardlink",
+        "sha256": "aea89200e6547ef10eb4ce359670e00b9ddb2af31c6138eb0911ef39156cf82c",
+        "sha256_in_prefix": "aea89200e6547ef10eb4ce359670e00b9ddb2af31c6138eb0911ef39156cf82c",
+        "size_in_bytes": 6026
+      },
+      {
+        "_path": "lib/python3.7/site-packages/thinc/neural/_lsuv.py",
+        "path_type": "hardlink",
+        "sha256": "1dee1da91cfd06e119478433a5e045c6ad76ee2c09f3a70c3a1d7421d1d25ad3",
+        "sha256_in_prefix": "1dee1da91cfd06e119478433a5e045c6ad76ee2c09f3a70c3a1d7421d1d25ad3",
+        "size_in_bytes": 1608
+      },
+      {
+        "_path": "lib/python3.7/site-packages/thinc/neural/_murmur3.cu",
+        "path_type": "hardlink",
+        "sha256": "2fc43fccd85f8b0984302d92b1c25d000c74251609ad4be7d7d459512ce67950",
+        "sha256_in_prefix": "2fc43fccd85f8b0984302d92b1c25d000c74251609ad4be7d7d459512ce67950",
+        "size_in_bytes": 5210
+      },
+      {
+        "_path": "lib/python3.7/site-packages/thinc/neural/cpu.pxd",
+        "path_type": "hardlink",
+        "sha256": "48e3e9a207b3e5e0426011f748e6ed39e03bd92735ee61a8e36df391a698af49",
+        "sha256_in_prefix": "48e3e9a207b3e5e0426011f748e6ed39e03bd92735ee61a8e36df391a698af49",
+        "size_in_bytes": 57
+      },
+      {
+        "_path": "lib/python3.7/site-packages/thinc/neural/mem.py",
+        "path_type": "hardlink",
+        "sha256": "1288acc1e86f3f517dc3883096664f65da30edc4782f30b5ec3d5ebfd0afcd19",
+        "sha256_in_prefix": "1288acc1e86f3f517dc3883096664f65da30edc4782f30b5ec3d5ebfd0afcd19",
+        "size_in_bytes": 2884
+      },
+      {
+        "_path": "lib/python3.7/site-packages/thinc/neural/ops.cpp",
+        "path_type": "hardlink",
+        "sha256": "b485d459a56ebe3e248cc80079a09a9d8c0676069e1b4085a622c4e7bd493518",
+        "sha256_in_prefix": "b485d459a56ebe3e248cc80079a09a9d8c0676069e1b4085a622c4e7bd493518",
+        "size_in_bytes": 2928766
+      },
+      {
+        "_path": "lib/python3.7/site-packages/thinc/neural/ops.cpython-37m-darwin.so",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/Users/runner/miniforge3/conda-bld/thinc_1590400417741/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pla",
+        "sha256": "b6243c49968f36760379fe9526ecd523006804b040c9220ce1791a6988ffd462",
+        "sha256_in_prefix": "126163af64c14e43446b4c5dd630113deaa5fc7b6b461a111958e3d8247f535a",
+        "size_in_bytes": 747904
+      },
+      {
+        "_path": "lib/python3.7/site-packages/thinc/neural/ops.pxd",
+        "path_type": "hardlink",
+        "sha256": "f443bda6715c80e30343ef6d5d6f5518e2426e35f4ea4b3dfc46a4030260a2c9",
+        "sha256_in_prefix": "f443bda6715c80e30343ef6d5d6f5518e2426e35f4ea4b3dfc46a4030260a2c9",
+        "size_in_bytes": 1001
+      },
+      {
+        "_path": "lib/python3.7/site-packages/thinc/neural/ops.pyx",
+        "path_type": "hardlink",
+        "sha256": "aa4b1c469331de20dfcfa72d538b4b01143417d41685ed73e5a4fbd0938dfd6c",
+        "sha256_in_prefix": "aa4b1c469331de20dfcfa72d538b4b01143417d41685ed73e5a4fbd0938dfd6c",
+        "size_in_bytes": 47638
+      },
+      {
+        "_path": "lib/python3.7/site-packages/thinc/neural/optimizers.cpp",
+        "path_type": "hardlink",
+        "sha256": "414569d424e95aeea749ee39e626b0884d4d2c0a7fd9f81baa559c6681c339c7",
+        "sha256_in_prefix": "414569d424e95aeea749ee39e626b0884d4d2c0a7fd9f81baa559c6681c339c7",
+        "size_in_bytes": 660840
+      },
+      {
+        "_path": "lib/python3.7/site-packages/thinc/neural/optimizers.cpython-37m-darwin.so",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/Users/runner/miniforge3/conda-bld/thinc_1590400417741/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pla",
+        "sha256": "63f2f189ad8fc60a70fca9220e6ba3c92490d051aa6049d45eeac93fcc446408",
+        "sha256_in_prefix": "e71a0e3fb85ab7e0c8c882cb60f57d1ec453f38504cd45a90096b80a45270d66",
+        "size_in_bytes": 210012
+      },
+      {
+        "_path": "lib/python3.7/site-packages/thinc/neural/optimizers.pyx",
+        "path_type": "hardlink",
+        "sha256": "927afce5c5b00dee36f58908f7976b7d5972daf3aa1f12539df22a4d3e4dacb9",
+        "sha256_in_prefix": "927afce5c5b00dee36f58908f7976b7d5972daf3aa1f12539df22a4d3e4dacb9",
+        "size_in_bytes": 11768
+      },
+      {
+        "_path": "lib/python3.7/site-packages/thinc/neural/pooling.py",
+        "path_type": "hardlink",
+        "sha256": "d726d28eafd5af59318dc2bee91473bcf9f403b582c9610fdbecade1bdd4c933",
+        "sha256_in_prefix": "d726d28eafd5af59318dc2bee91473bcf9f403b582c9610fdbecade1bdd4c933",
+        "size_in_bytes": 2355
+      },
+      {
+        "_path": "lib/python3.7/site-packages/thinc/neural/train.py",
+        "path_type": "hardlink",
+        "sha256": "3c7f5b84158ed4dcaff872624d7505b1a4e1479ee32ffb301dfef75b078b81f1",
+        "sha256_in_prefix": "3c7f5b84158ed4dcaff872624d7505b1a4e1479ee32ffb301dfef75b078b81f1",
+        "size_in_bytes": 1862
+      },
+      {
+        "_path": "lib/python3.7/site-packages/thinc/neural/util.py",
+        "path_type": "hardlink",
+        "sha256": "9f218b1e7db2b0170f47e2a2f64c54abe38073178891b6f104b2724007f816b0",
+        "sha256_in_prefix": "9f218b1e7db2b0170f47e2a2f64c54abe38073178891b6f104b2724007f816b0",
+        "size_in_bytes": 4528
+      },
+      {
+        "_path": "lib/python3.7/site-packages/thinc/neural/vec2vec.py",
+        "path_type": "hardlink",
+        "sha256": "11194911f0437e6dec5ab2b6346bd031915a6abe3b4e4308b2dfac12d2f87ae7",
+        "sha256_in_prefix": "11194911f0437e6dec5ab2b6346bd031915a6abe3b4e4308b2dfac12d2f87ae7",
+        "size_in_bytes": 398
+      },
+      {
+        "_path": "lib/python3.7/site-packages/thinc/neural/vecs2vec.py",
+        "path_type": "hardlink",
+        "sha256": "0d10eb5fec6cb9d337ad068d2bfca66ceeb050af3f6dcc79683c656068eebe25",
+        "sha256_in_prefix": "0d10eb5fec6cb9d337ad068d2bfca66ceeb050af3f6dcc79683c656068eebe25",
+        "size_in_bytes": 2484
+      },
+      {
+        "_path": "lib/python3.7/site-packages/thinc/neural/vecs2vecs.py",
+        "path_type": "hardlink",
+        "sha256": "736a1d34594526c90a5bc3199b5cd4434238ee0f66499473433b2ee29fa2c1de",
+        "sha256_in_prefix": "736a1d34594526c90a5bc3199b5cd4434238ee0f66499473433b2ee29fa2c1de",
+        "size_in_bytes": 118
+      },
+      {
+        "_path": "lib/python3.7/site-packages/thinc/rates.py",
+        "path_type": "hardlink",
+        "sha256": "2a498168ff040d9e5d26e70032949907441e6e51f76f14d8c9b4ed8fb065c592",
+        "sha256_in_prefix": "2a498168ff040d9e5d26e70032949907441e6e51f76f14d8c9b4ed8fb065c592",
+        "size_in_bytes": 3613
+      },
+      {
+        "_path": "lib/python3.7/site-packages/thinc/structs.cpp",
+        "path_type": "hardlink",
+        "sha256": "8af8b7acf0fddf3d33ea7fed12d260b07a53700741969cf65fde912487500125",
+        "sha256_in_prefix": "8af8b7acf0fddf3d33ea7fed12d260b07a53700741969cf65fde912487500125",
+        "size_in_bytes": 251667
+      },
+      {
+        "_path": "lib/python3.7/site-packages/thinc/structs.cpython-37m-darwin.so",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/Users/runner/miniforge3/conda-bld/thinc_1590400417741/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pla",
+        "sha256": "34e1e384882faa030862da53220b6a09c6b6bdf5ca8e922877d62bbadb85b61c",
+        "sha256_in_prefix": "59fc2ecaa6019e78976e35c9db985d9fe42781a0b52424e70dfcca48289a7d42",
+        "size_in_bytes": 29488
+      },
+      {
+        "_path": "lib/python3.7/site-packages/thinc/structs.pxd",
+        "path_type": "hardlink",
+        "sha256": "a98b3a9c7d1f2e40ee9240ffa2c4ded1a134b6519683b352ed79b6a055ee33a6",
+        "sha256_in_prefix": "a98b3a9c7d1f2e40ee9240ffa2c4ded1a134b6519683b352ed79b6a055ee33a6",
+        "size_in_bytes": 7344
+      },
+      {
+        "_path": "lib/python3.7/site-packages/thinc/structs.pyx",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "lib/python3.7/site-packages/thinc/t2t.py",
+        "path_type": "hardlink",
+        "sha256": "08aff2b6e161cee9ae0abf8389014dd4700d72777e947ac117467d23409c999d",
+        "sha256_in_prefix": "08aff2b6e161cee9ae0abf8389014dd4700d72777e947ac117467d23409c999d",
+        "size_in_bytes": 698
+      },
+      {
+        "_path": "lib/python3.7/site-packages/thinc/t2v.py",
+        "path_type": "hardlink",
+        "sha256": "38f94531c7daf6688bc80940938a12dfcfa1e6a462489e628523280a53496872",
+        "sha256_in_prefix": "38f94531c7daf6688bc80940938a12dfcfa1e6a462489e628523280a53496872",
+        "size_in_bytes": 591
+      },
+      {
+        "_path": "lib/python3.7/site-packages/thinc/tests/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "lib/python3.7/site-packages/thinc/tests/__pycache__/__init__.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "0ee904e6cf340fa6cff57cfc3c19d6aaf9229a69acf56ed74a2e83f15df1ef08",
+        "sha256_in_prefix": "0ee904e6cf340fa6cff57cfc3c19d6aaf9229a69acf56ed74a2e83f15df1ef08",
+        "size_in_bytes": 151
+      },
+      {
+        "_path": "lib/python3.7/site-packages/thinc/tests/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "0c73389027ce9c4f534ebbad4d2a5ffb5111d165a349bdb29182938da0648ca5",
+        "sha256_in_prefix": "0c73389027ce9c4f534ebbad4d2a5ffb5111d165a349bdb29182938da0648ca5",
+        "size_in_bytes": 142
+      },
+      {
+        "_path": "lib/python3.7/site-packages/thinc/tests/__pycache__/conftest.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "5370198c58ea4486112fced6aeebaddb563d1989b5c2b56fad2f206951a28500",
+        "sha256_in_prefix": "5370198c58ea4486112fced6aeebaddb563d1989b5c2b56fad2f206951a28500",
+        "size_in_bytes": 1758
+      },
+      {
+        "_path": "lib/python3.7/site-packages/thinc/tests/__pycache__/conftest.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "e41381143bc88eb11c6dac3f4f5738d41d152ebcaa4ad89b288352c9b397486b",
+        "sha256_in_prefix": "e41381143bc88eb11c6dac3f4f5738d41d152ebcaa4ad89b288352c9b397486b",
+        "size_in_bytes": 1782
+      },
+      {
+        "_path": "lib/python3.7/site-packages/thinc/tests/__pycache__/strategies.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "c674eaf896a2d57050c05864ecc39d708ce1f6c57fecc44e26a7517bfd0aa785",
+        "sha256_in_prefix": "c674eaf896a2d57050c05864ecc39d708ce1f6c57fecc44e26a7517bfd0aa785",
+        "size_in_bytes": 4418
+      },
+      {
+        "_path": "lib/python3.7/site-packages/thinc/tests/__pycache__/strategies.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "9718cf4b6605625b72dc4eaf0319656e3482c673511da8b2745cd8bacf323f3f",
+        "sha256_in_prefix": "9718cf4b6605625b72dc4eaf0319656e3482c673511da8b2745cd8bacf323f3f",
+        "size_in_bytes": 4350
+      },
+      {
+        "_path": "lib/python3.7/site-packages/thinc/tests/__pycache__/test_api_funcs.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "5aafe3ea107d155ea8abafc45b93ba503d3b40775b9f74bf1c6969729e2660be",
+        "sha256_in_prefix": "5aafe3ea107d155ea8abafc45b93ba503d3b40775b9f74bf1c6969729e2660be",
+        "size_in_bytes": 4211
+      },
+      {
+        "_path": "lib/python3.7/site-packages/thinc/tests/__pycache__/test_api_funcs.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "ac100c5692179afdc47f3e576d50b577558ff34ce2994b1d198ae08f00a90704",
+        "sha256_in_prefix": "ac100c5692179afdc47f3e576d50b577558ff34ce2994b1d198ae08f00a90704",
+        "size_in_bytes": 4245
+      },
+      {
+        "_path": "lib/python3.7/site-packages/thinc/tests/__pycache__/test_config.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "58745c6ec11d7329bdf411e4000ef5f1838ddc934e57a430ab610c4e5eb38e41",
+        "sha256_in_prefix": "58745c6ec11d7329bdf411e4000ef5f1838ddc934e57a430ab610c4e5eb38e41",
+        "size_in_bytes": 2126
+      },
+      {
+        "_path": "lib/python3.7/site-packages/thinc/tests/__pycache__/test_config.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "0afce825aaf4e77ac0950f11ed41843007d218b1cbbb970c580b1c432b699c93",
+        "sha256_in_prefix": "0afce825aaf4e77ac0950f11ed41843007d218b1cbbb970c580b1c432b699c93",
+        "size_in_bytes": 2125
+      },
+      {
+        "_path": "lib/python3.7/site-packages/thinc/tests/__pycache__/test_util.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "478da411413aaf6df92419f38540fe8546f83cfbbe442467aaa28376fccdd400",
+        "sha256_in_prefix": "478da411413aaf6df92419f38540fe8546f83cfbbe442467aaa28376fccdd400",
+        "size_in_bytes": 641
+      },
+      {
+        "_path": "lib/python3.7/site-packages/thinc/tests/__pycache__/test_util.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "82984325b222792b19f22d618198c2cc60d32ba94c80f4e325cd89d2dd8dd082",
+        "sha256_in_prefix": "82984325b222792b19f22d618198c2cc60d32ba94c80f4e325cd89d2dd8dd082",
+        "size_in_bytes": 636
+      },
+      {
+        "_path": "lib/python3.7/site-packages/thinc/tests/__pycache__/util.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "5220a0552237771ba1c98f2051c680fd53d8f5401dde30c2fa3befbdb1128011",
+        "sha256_in_prefix": "5220a0552237771ba1c98f2051c680fd53d8f5401dde30c2fa3befbdb1128011",
+        "size_in_bytes": 656
+      },
+      {
+        "_path": "lib/python3.7/site-packages/thinc/tests/__pycache__/util.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "6df8cbd086877a3bd3bc28bb786b89312732974c8592554ca022e9d9e51b444f",
+        "sha256_in_prefix": "6df8cbd086877a3bd3bc28bb786b89312732974c8592554ca022e9d9e51b444f",
+        "size_in_bytes": 655
+      },
+      {
+        "_path": "lib/python3.7/site-packages/thinc/tests/conftest.py",
+        "path_type": "hardlink",
+        "sha256": "9daeda1d24ca8f7e7a3a6256fbebf9b51e34ccd5d0948973da56302f7298bcf5",
+        "sha256_in_prefix": "9daeda1d24ca8f7e7a3a6256fbebf9b51e34ccd5d0948973da56302f7298bcf5",
+        "size_in_bytes": 1660
+      },
+      {
+        "_path": "lib/python3.7/site-packages/thinc/tests/integration/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "lib/python3.7/site-packages/thinc/tests/integration/__pycache__/__init__.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "e5f70ea99f108eb312f7b48e3afb2c9071f89c71cc1bd4ff0972faf41416d22e",
+        "sha256_in_prefix": "e5f70ea99f108eb312f7b48e3afb2c9071f89c71cc1bd4ff0972faf41416d22e",
+        "size_in_bytes": 163
+      },
+      {
+        "_path": "lib/python3.7/site-packages/thinc/tests/integration/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "36fb99d36707b069d2258cc3d303513df5128384cf02abbe80aa9ec3c2cbfb9e",
+        "sha256_in_prefix": "36fb99d36707b069d2258cc3d303513df5128384cf02abbe80aa9ec3c2cbfb9e",
+        "size_in_bytes": 154
+      },
+      {
+        "_path": "lib/python3.7/site-packages/thinc/tests/integration/__pycache__/test_affine_learns.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "005dd2560471100ced68703099addd6e45121938c7e55aa15f417e71c7cce2f2",
+        "sha256_in_prefix": "005dd2560471100ced68703099addd6e45121938c7e55aa15f417e71c7cce2f2",
+        "size_in_bytes": 2767
+      },
+      {
+        "_path": "lib/python3.7/site-packages/thinc/tests/integration/__pycache__/test_affine_learns.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "f011136e5c29945427d23c993483b5363f0f16dffbb5d4b1ed9ea5ffaf8e5927",
+        "sha256_in_prefix": "f011136e5c29945427d23c993483b5363f0f16dffbb5d4b1ed9ea5ffaf8e5927",
+        "size_in_bytes": 2738
+      },
+      {
+        "_path": "lib/python3.7/site-packages/thinc/tests/integration/__pycache__/test_basic_tagger.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "414f18acdac011433ac2a2c89f33d644def0c781a21f1c1b0fe546e8cc1d0f13",
+        "sha256_in_prefix": "414f18acdac011433ac2a2c89f33d644def0c781a21f1c1b0fe546e8cc1d0f13",
+        "size_in_bytes": 2670
+      },
+      {
+        "_path": "lib/python3.7/site-packages/thinc/tests/integration/__pycache__/test_basic_tagger.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "dd3c975c602738dd18c172a7f7b5815910cb1ea129979729b6fececf0d0579f0",
+        "sha256_in_prefix": "dd3c975c602738dd18c172a7f7b5815910cb1ea129979729b6fececf0d0579f0",
+        "size_in_bytes": 2663
+      },
+      {
+        "_path": "lib/python3.7/site-packages/thinc/tests/integration/__pycache__/test_batch_norm.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "5aed60112c3bba333fca28630047080b626f924b401afd22c88a4c7c36d7f1ba",
+        "sha256_in_prefix": "5aed60112c3bba333fca28630047080b626f924b401afd22c88a4c7c36d7f1ba",
+        "size_in_bytes": 2707
+      },
+      {
+        "_path": "lib/python3.7/site-packages/thinc/tests/integration/__pycache__/test_batch_norm.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "77133e3ff36a02ab66afd60c299bf3857be4b2428ca91cdb572d807e6bfb0744",
+        "sha256_in_prefix": "77133e3ff36a02ab66afd60c299bf3857be4b2428ca91cdb572d807e6bfb0744",
+        "size_in_bytes": 2736
+      },
+      {
+        "_path": "lib/python3.7/site-packages/thinc/tests/integration/__pycache__/test_feed_forward.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "8c0fd7cb0219a6694c9df893bb768af021bfaae8aba6f2af89078dd696500b5b",
+        "sha256_in_prefix": "8c0fd7cb0219a6694c9df893bb768af021bfaae8aba6f2af89078dd696500b5b",
+        "size_in_bytes": 4073
+      },
+      {
+        "_path": "lib/python3.7/site-packages/thinc/tests/integration/__pycache__/test_feed_forward.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "e27e6d8441c2a3f9a3d99889a9beffb6fed096d6df9c93cfd156547bf39b05c0",
+        "sha256_in_prefix": "e27e6d8441c2a3f9a3d99889a9beffb6fed096d6df9c93cfd156547bf39b05c0",
+        "size_in_bytes": 4085
+      },
+      {
+        "_path": "lib/python3.7/site-packages/thinc/tests/integration/__pycache__/test_mnist.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "40c1099d6b3ddb1deb9c7a0fab51348bd6e7fe0cbe79b9eda63f010c49763548",
+        "sha256_in_prefix": "40c1099d6b3ddb1deb9c7a0fab51348bd6e7fe0cbe79b9eda63f010c49763548",
+        "size_in_bytes": 3365
+      },
+      {
+        "_path": "lib/python3.7/site-packages/thinc/tests/integration/__pycache__/test_mnist.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "26f10306083bf0c06a662eb4d31f3a307bd4ba018bb858800e41ec5d8a0cb1ac",
+        "sha256_in_prefix": "26f10306083bf0c06a662eb4d31f3a307bd4ba018bb858800e41ec5d8a0cb1ac",
+        "size_in_bytes": 3304
+      },
+      {
+        "_path": "lib/python3.7/site-packages/thinc/tests/integration/__pycache__/test_pickle.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "f3c53ebd4c08c2ab6398819b7c00ab3aba914268897972d6be0d1416795804c9",
+        "sha256_in_prefix": "f3c53ebd4c08c2ab6398819b7c00ab3aba914268897972d6be0d1416795804c9",
+        "size_in_bytes": 907
+      },
+      {
+        "_path": "lib/python3.7/site-packages/thinc/tests/integration/__pycache__/test_pickle.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "312bd7b0a8c110fddf8d1e728d35eaf40474a54758fc4af708522b7631c55aba",
+        "sha256_in_prefix": "312bd7b0a8c110fddf8d1e728d35eaf40474a54758fc4af708522b7631c55aba",
+        "size_in_bytes": 906
+      },
+      {
+        "_path": "lib/python3.7/site-packages/thinc/tests/integration/__pycache__/test_roundtrip_bytes.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "8ac0ce586f69ae214404b50bd620f9abc0393f0e8793cc3d6b0403481184f317",
+        "sha256_in_prefix": "8ac0ce586f69ae214404b50bd620f9abc0393f0e8793cc3d6b0403481184f317",
+        "size_in_bytes": 1410
+      },
+      {
+        "_path": "lib/python3.7/site-packages/thinc/tests/integration/__pycache__/test_roundtrip_bytes.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "391cd458ded119cb79ae19d0cb7bc30e277963f67c8706fd35660066f39aeef4",
+        "sha256_in_prefix": "391cd458ded119cb79ae19d0cb7bc30e277963f67c8706fd35660066f39aeef4",
+        "size_in_bytes": 1318
+      },
+      {
+        "_path": "lib/python3.7/site-packages/thinc/tests/integration/__pycache__/test_shape_check.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "d8683bcab16f89a2545fa95ac70fb6b5e0c43c9c55b61a8d9bfb215386565665",
+        "sha256_in_prefix": "d8683bcab16f89a2545fa95ac70fb6b5e0c43c9c55b61a8d9bfb215386565665",
+        "size_in_bytes": 633
+      },
+      {
+        "_path": "lib/python3.7/site-packages/thinc/tests/integration/__pycache__/test_shape_check.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "791463390ec22a4e50317eaf0d6a392910fa94c8f6f96b08633e3aa8b7c5c28e",
+        "sha256_in_prefix": "791463390ec22a4e50317eaf0d6a392910fa94c8f6f96b08633e3aa8b7c5c28e",
+        "size_in_bytes": 628
+      },
+      {
+        "_path": "lib/python3.7/site-packages/thinc/tests/integration/test_affine_learns.py",
+        "path_type": "hardlink",
+        "sha256": "0a4cce83d9858a5b26d5348f2efbbcb06e16f512c4ae93deab01b9d9545f03a3",
+        "sha256_in_prefix": "0a4cce83d9858a5b26d5348f2efbbcb06e16f512c4ae93deab01b9d9545f03a3",
+        "size_in_bytes": 3168
+      },
+      {
+        "_path": "lib/python3.7/site-packages/thinc/tests/integration/test_basic_tagger.py",
+        "path_type": "hardlink",
+        "sha256": "273bc2fac19915dbc94ac5f0929ce0c65b78e2c6e072aac53bff4a0d1afc18d6",
+        "sha256_in_prefix": "273bc2fac19915dbc94ac5f0929ce0c65b78e2c6e072aac53bff4a0d1afc18d6",
+        "size_in_bytes": 2437
+      },
+      {
+        "_path": "lib/python3.7/site-packages/thinc/tests/integration/test_batch_norm.py",
+        "path_type": "hardlink",
+        "sha256": "36700154a28431cd653e0caf529de3bf538f7827a7318c8f8e8b29dab3b606b5",
+        "sha256_in_prefix": "36700154a28431cd653e0caf529de3bf538f7827a7318c8f8e8b29dab3b606b5",
+        "size_in_bytes": 1961
+      },
+      {
+        "_path": "lib/python3.7/site-packages/thinc/tests/integration/test_feed_forward.py",
+        "path_type": "hardlink",
+        "sha256": "e3ae9295253908be4beeea940b6b1fe4d6ce970c31e714ba8852fd93f9b5d09b",
+        "sha256_in_prefix": "e3ae9295253908be4beeea940b6b1fe4d6ce970c31e714ba8852fd93f9b5d09b",
+        "size_in_bytes": 3164
+      },
+      {
+        "_path": "lib/python3.7/site-packages/thinc/tests/integration/test_mnist.py",
+        "path_type": "hardlink",
+        "sha256": "f7da307c27791083e79c2a72cb3d458999f76c5b178447305a3eed965d6b5e28",
+        "sha256_in_prefix": "f7da307c27791083e79c2a72cb3d458999f76c5b178447305a3eed965d6b5e28",
+        "size_in_bytes": 2844
+      },
+      {
+        "_path": "lib/python3.7/site-packages/thinc/tests/integration/test_pickle.py",
+        "path_type": "hardlink",
+        "sha256": "68b4af4503d75ad515c3cbfda8ad48bbae409bdcde57a0398c2cb8fbb6256766",
+        "sha256_in_prefix": "68b4af4503d75ad515c3cbfda8ad48bbae409bdcde57a0398c2cb8fbb6256766",
+        "size_in_bytes": 587
+      },
+      {
+        "_path": "lib/python3.7/site-packages/thinc/tests/integration/test_roundtrip_bytes.py",
+        "path_type": "hardlink",
+        "sha256": "624c1670aa125a17ac76287ad48da1d24aff075a21946c1aceae27991d1c5c89",
+        "sha256_in_prefix": "624c1670aa125a17ac76287ad48da1d24aff075a21946c1aceae27991d1c5c89",
+        "size_in_bytes": 1035
+      },
+      {
+        "_path": "lib/python3.7/site-packages/thinc/tests/integration/test_shape_check.py",
+        "path_type": "hardlink",
+        "sha256": "d887bdeb933affec05c384e93d47f0b00b32f95af1365c09073727451a7465c4",
+        "sha256_in_prefix": "d887bdeb933affec05c384e93d47f0b00b32f95af1365c09073727451a7465c4",
+        "size_in_bytes": 353
+      },
+      {
+        "_path": "lib/python3.7/site-packages/thinc/tests/linear/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "lib/python3.7/site-packages/thinc/tests/linear/__pycache__/__init__.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "2ebbd23b6c07e6c4430d296e2bb0d75cfaa7c697553a6c3e162b8c373d4ebdc9",
+        "sha256_in_prefix": "2ebbd23b6c07e6c4430d296e2bb0d75cfaa7c697553a6c3e162b8c373d4ebdc9",
+        "size_in_bytes": 158
+      },
+      {
+        "_path": "lib/python3.7/site-packages/thinc/tests/linear/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "b2079c88ce9d1c02160c8a7f956342210df1c47a4ce2ea0a3ac79a4081244d61",
+        "sha256_in_prefix": "b2079c88ce9d1c02160c8a7f956342210df1c47a4ce2ea0a3ac79a4081244d61",
+        "size_in_bytes": 149
+      },
+      {
+        "_path": "lib/python3.7/site-packages/thinc/tests/linear/__pycache__/test_avgtron.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "f6c3ef20f5f51473a094d1a963ec6a9d98aa3f2e08fa2408183f5470b150cc65",
+        "sha256_in_prefix": "f6c3ef20f5f51473a094d1a963ec6a9d98aa3f2e08fa2408183f5470b150cc65",
+        "size_in_bytes": 232
+      },
+      {
+        "_path": "lib/python3.7/site-packages/thinc/tests/linear/__pycache__/test_avgtron.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "a7015c5b445385d1862c1e9bd5ee42552e15f9eefe621a5af638309e492b99f9",
+        "sha256_in_prefix": "a7015c5b445385d1862c1e9bd5ee42552e15f9eefe621a5af638309e492b99f9",
+        "size_in_bytes": 223
+      },
+      {
+        "_path": "lib/python3.7/site-packages/thinc/tests/linear/__pycache__/test_linear.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "3af3bcc11ff516a9545975887089c22491a7a094078bf257d799dbdc5df9e24a",
+        "sha256_in_prefix": "3af3bcc11ff516a9545975887089c22491a7a094078bf257d799dbdc5df9e24a",
+        "size_in_bytes": 1296
+      },
+      {
+        "_path": "lib/python3.7/site-packages/thinc/tests/linear/__pycache__/test_linear.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "708657c9fc57ad7344c58c7dc643efbd4a828f667ebb8c4696da479e46e09b97",
+        "sha256_in_prefix": "708657c9fc57ad7344c58c7dc643efbd4a828f667ebb8c4696da479e46e09b97",
+        "size_in_bytes": 1305
+      },
+      {
+        "_path": "lib/python3.7/site-packages/thinc/tests/linear/__pycache__/test_sparse_array.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "9578caa57b15b3e9542874cdcc52f2587f1d40a6ed47ab7687152703f1562b0c",
+        "sha256_in_prefix": "9578caa57b15b3e9542874cdcc52f2587f1d40a6ed47ab7687152703f1562b0c",
+        "size_in_bytes": 1166
+      },
+      {
+        "_path": "lib/python3.7/site-packages/thinc/tests/linear/__pycache__/test_sparse_array.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "b1b561fd410a0d9c36a93916a2129496a8cf73d6a5f52bcbbe2161ce982649a4",
+        "sha256_in_prefix": "b1b561fd410a0d9c36a93916a2129496a8cf73d6a5f52bcbbe2161ce982649a4",
+        "size_in_bytes": 1141
+      },
+      {
+        "_path": "lib/python3.7/site-packages/thinc/tests/linear/test_avgtron.py",
+        "path_type": "hardlink",
+        "sha256": "ffafea37813516fe9e46f0324dabb6bfbfa5c3a1f8235f34396ea9b029b5c5e6",
+        "sha256_in_prefix": "ffafea37813516fe9e46f0324dabb6bfbfa5c3a1f8235f34396ea9b029b5c5e6",
+        "size_in_bytes": 5163
+      },
+      {
+        "_path": "lib/python3.7/site-packages/thinc/tests/linear/test_linear.py",
+        "path_type": "hardlink",
+        "sha256": "e6f80b60f27f0eeec2da640cca929c98301092842c2ad7b65d8bf00af5462f7d",
+        "sha256_in_prefix": "e6f80b60f27f0eeec2da640cca929c98301092842c2ad7b65d8bf00af5462f7d",
+        "size_in_bytes": 4304
+      },
+      {
+        "_path": "lib/python3.7/site-packages/thinc/tests/linear/test_sparse_array.py",
+        "path_type": "hardlink",
+        "sha256": "28525dbe3c4c618fa979d9c647d607d8926ad17f956ee24711ef7179ebc90940",
+        "sha256_in_prefix": "28525dbe3c4c618fa979d9c647d607d8926ad17f956ee24711ef7179ebc90940",
+        "size_in_bytes": 822
+      },
+      {
+        "_path": "lib/python3.7/site-packages/thinc/tests/strategies.py",
+        "path_type": "hardlink",
+        "sha256": "bf78039f5bd9ca225bd003f0c220414dd191372886973d52a8c92d7947e438ea",
+        "sha256_in_prefix": "bf78039f5bd9ca225bd003f0c220414dd191372886973d52a8c92d7947e438ea",
+        "size_in_bytes": 3477
+      },
+      {
+        "_path": "lib/python3.7/site-packages/thinc/tests/test_api_funcs.py",
+        "path_type": "hardlink",
+        "sha256": "cf616ee6efe42a3af7489ff016ea473c2415efc65347d4c73b1baf7321b71bf7",
+        "sha256_in_prefix": "cf616ee6efe42a3af7489ff016ea473c2415efc65347d4c73b1baf7321b71bf7",
+        "size_in_bytes": 2772
+      },
+      {
+        "_path": "lib/python3.7/site-packages/thinc/tests/test_config.py",
+        "path_type": "hardlink",
+        "sha256": "81e691fc8376c0de86228bc72388c56052b1ddf83811fa4a6924a6a2a4856653",
+        "sha256_in_prefix": "81e691fc8376c0de86228bc72388c56052b1ddf83811fa4a6924a6a2a4856653",
+        "size_in_bytes": 1818
+      },
+      {
+        "_path": "lib/python3.7/site-packages/thinc/tests/test_util.py",
+        "path_type": "hardlink",
+        "sha256": "32d9e403476c62098e68e1acbcf333de369d9c15bdf44303ea9cefb557613156",
+        "sha256_in_prefix": "32d9e403476c62098e68e1acbcf333de369d9c15bdf44303ea9cefb557613156",
+        "size_in_bytes": 438
+      },
+      {
+        "_path": "lib/python3.7/site-packages/thinc/tests/unit/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "lib/python3.7/site-packages/thinc/tests/unit/__pycache__/__init__.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "1a7b4afa1dbd8f904a1ce6109efdbe38179e34266f3b558762d555c1042eb9a3",
+        "sha256_in_prefix": "1a7b4afa1dbd8f904a1ce6109efdbe38179e34266f3b558762d555c1042eb9a3",
+        "size_in_bytes": 156
+      },
+      {
+        "_path": "lib/python3.7/site-packages/thinc/tests/unit/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "4102266055f8564c56714d44846f59c716d08cd047a4a836b05eb91bf4e96985",
+        "sha256_in_prefix": "4102266055f8564c56714d44846f59c716d08cd047a4a836b05eb91bf4e96985",
+        "size_in_bytes": 147
+      },
+      {
+        "_path": "lib/python3.7/site-packages/thinc/tests/unit/__pycache__/test_about.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "58fb5ac78b9681dafd5d94517af17e9d9fe937d38cf7e24d06c6c6b768b24749",
+        "sha256_in_prefix": "58fb5ac78b9681dafd5d94517af17e9d9fe937d38cf7e24d06c6c6b768b24749",
+        "size_in_bytes": 595
+      },
+      {
+        "_path": "lib/python3.7/site-packages/thinc/tests/unit/__pycache__/test_about.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "63330ec7ae437bb74f06534700eb01b740a9188c6d0b651a5f6f2c5e3c8eb0f7",
+        "sha256_in_prefix": "63330ec7ae437bb74f06534700eb01b740a9188c6d0b651a5f6f2c5e3c8eb0f7",
+        "size_in_bytes": 590
+      },
+      {
+        "_path": "lib/python3.7/site-packages/thinc/tests/unit/__pycache__/test_affine.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "5279ea01365847ceed376a97854ba870d89108033e35d33b6d30309c806e6fcb",
+        "sha256_in_prefix": "5279ea01365847ceed376a97854ba870d89108033e35d33b6d30309c806e6fcb",
+        "size_in_bytes": 5940
+      },
+      {
+        "_path": "lib/python3.7/site-packages/thinc/tests/unit/__pycache__/test_affine.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "d03ccabb48e364a1f809ad3827d61615595acdda20dcec450d6a7cd13dd6f636",
+        "sha256_in_prefix": "d03ccabb48e364a1f809ad3827d61615595acdda20dcec450d6a7cd13dd6f636",
+        "size_in_bytes": 5881
+      },
+      {
+        "_path": "lib/python3.7/site-packages/thinc/tests/unit/__pycache__/test_beam_search.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "ddf67ad43a57ea82e8dd3599bb411bead3101cc281202d6aa37fa17c221931a3",
+        "sha256_in_prefix": "ddf67ad43a57ea82e8dd3599bb411bead3101cc281202d6aa37fa17c221931a3",
+        "size_in_bytes": 383
+      },
+      {
+        "_path": "lib/python3.7/site-packages/thinc/tests/unit/__pycache__/test_beam_search.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "c9873ed81845a770354e62de530236fa74c45466ea781f2b16e7c507ef6c7838",
+        "sha256_in_prefix": "c9873ed81845a770354e62de530236fa74c45466ea781f2b16e7c507ef6c7838",
+        "size_in_bytes": 376
+      },
+      {
+        "_path": "lib/python3.7/site-packages/thinc/tests/unit/__pycache__/test_check_exceptions.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "b8b4d8a2805d521eeb065e3a2dba39dfc47d5a5a731fd13acc6d5b7230f180fe",
+        "sha256_in_prefix": "b8b4d8a2805d521eeb065e3a2dba39dfc47d5a5a731fd13acc6d5b7230f180fe",
+        "size_in_bytes": 10214
+      },
+      {
+        "_path": "lib/python3.7/site-packages/thinc/tests/unit/__pycache__/test_check_exceptions.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "7064af258b6a8b0d1a20691e2e90912e8ae0cced85a3ee852aa72e860966a901",
+        "sha256_in_prefix": "7064af258b6a8b0d1a20691e2e90912e8ae0cced85a3ee852aa72e860966a901",
+        "size_in_bytes": 10042
+      },
+      {
+        "_path": "lib/python3.7/site-packages/thinc/tests/unit/__pycache__/test_difference.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "be2eea60d29be5c75fbc57cff06c46070a7d0ff1f1193dd38a297a8ab48dd4c9",
+        "sha256_in_prefix": "be2eea60d29be5c75fbc57cff06c46070a7d0ff1f1193dd38a297a8ab48dd4c9",
+        "size_in_bytes": 1464
+      },
+      {
+        "_path": "lib/python3.7/site-packages/thinc/tests/unit/__pycache__/test_difference.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "0ff4db0da124be46b599e9d88a0cbb713f980cd0cd4cfd50f5a172169704ac9d",
+        "sha256_in_prefix": "0ff4db0da124be46b599e9d88a0cbb713f980cd0cd4cfd50f5a172169704ac9d",
+        "size_in_bytes": 1458
+      },
+      {
+        "_path": "lib/python3.7/site-packages/thinc/tests/unit/__pycache__/test_feature_extracter.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "cba5f3c819b47f80c26cb19dab029c5fce0c02206cd6257eecb31529aee79825",
+        "sha256_in_prefix": "cba5f3c819b47f80c26cb19dab029c5fce0c02206cd6257eecb31529aee79825",
+        "size_in_bytes": 583
+      },
+      {
+        "_path": "lib/python3.7/site-packages/thinc/tests/unit/__pycache__/test_feature_extracter.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "ca541b3e77a419ec25a8ef232dba3f1fd574462628963f65281f86c5f8b06b34",
+        "sha256_in_prefix": "ca541b3e77a419ec25a8ef232dba3f1fd574462628963f65281f86c5f8b06b34",
+        "size_in_bytes": 578
+      },
+      {
+        "_path": "lib/python3.7/site-packages/thinc/tests/unit/__pycache__/test_hash_embed.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "551eafe3e4ef98486f2a09d50028a23d6db9273b3995d22349851b6f1f7c51b5",
+        "sha256_in_prefix": "551eafe3e4ef98486f2a09d50028a23d6db9273b3995d22349851b6f1f7c51b5",
+        "size_in_bytes": 838
+      },
+      {
+        "_path": "lib/python3.7/site-packages/thinc/tests/unit/__pycache__/test_hash_embed.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "313faf1f77ae8b7b56a61ae32d61c91ae02675ed6ce015fcdbf0fc654b561489",
+        "sha256_in_prefix": "313faf1f77ae8b7b56a61ae32d61c91ae02675ed6ce015fcdbf0fc654b561489",
+        "size_in_bytes": 837
+      },
+      {
+        "_path": "lib/python3.7/site-packages/thinc/tests/unit/__pycache__/test_imports.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "939376061eba75e35b68684b348b882a17495830b2365f733a6dc612e191dc9c",
+        "sha256_in_prefix": "939376061eba75e35b68684b348b882a17495830b2365f733a6dc612e191dc9c",
+        "size_in_bytes": 312
+      },
+      {
+        "_path": "lib/python3.7/site-packages/thinc/tests/unit/__pycache__/test_imports.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "7661eaa3e2807f8094c125dd135eb0a0341f9e831f1f27033d8eaed29c6dfdbf",
+        "sha256_in_prefix": "7661eaa3e2807f8094c125dd135eb0a0341f9e831f1f27033d8eaed29c6dfdbf",
+        "size_in_bytes": 303
+      },
+      {
+        "_path": "lib/python3.7/site-packages/thinc/tests/unit/__pycache__/test_linear.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "3e068eb26f42f7e9d424b502906eaa8d42d3efd2e2d32747639df26eaae456c3",
+        "sha256_in_prefix": "3e068eb26f42f7e9d424b502906eaa8d42d3efd2e2d32747639df26eaae456c3",
+        "size_in_bytes": 704
+      },
+      {
+        "_path": "lib/python3.7/site-packages/thinc/tests/unit/__pycache__/test_linear.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "e4ec3f4ce84ee9e7cdf0330fb2ab9c65131f2a07e3496a00e2a89b86a968f393",
+        "sha256_in_prefix": "e4ec3f4ce84ee9e7cdf0330fb2ab9c65131f2a07e3496a00e2a89b86a968f393",
+        "size_in_bytes": 699
+      },
+      {
+        "_path": "lib/python3.7/site-packages/thinc/tests/unit/__pycache__/test_loss.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "083f76ef493f73f426db529cb6558076e6c3da3d3140151bb9fd1724fdbe69b2",
+        "sha256_in_prefix": "083f76ef493f73f426db529cb6558076e6c3da3d3140151bb9fd1724fdbe69b2",
+        "size_in_bytes": 652
+      },
+      {
+        "_path": "lib/python3.7/site-packages/thinc/tests/unit/__pycache__/test_loss.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "a30b55da64b765de5564191faf80be664c2d202dda16a96a2f8d4eab0c4e2d7e",
+        "sha256_in_prefix": "a30b55da64b765de5564191faf80be664c2d202dda16a96a2f8d4eab0c4e2d7e",
+        "size_in_bytes": 649
+      },
+      {
+        "_path": "lib/python3.7/site-packages/thinc/tests/unit/__pycache__/test_mem.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "b58247b8979ef7da5a9726bcb2c0847acd04061c835d8adb9ec7b13216b455b9",
+        "sha256_in_prefix": "b58247b8979ef7da5a9726bcb2c0847acd04061c835d8adb9ec7b13216b455b9",
+        "size_in_bytes": 2812
+      },
+      {
+        "_path": "lib/python3.7/site-packages/thinc/tests/unit/__pycache__/test_mem.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "47b3bb9154fe435fb83f9b9ff714dc85a399d24679b7a8d5c9929bb83a3f694d",
+        "sha256_in_prefix": "47b3bb9154fe435fb83f9b9ff714dc85a399d24679b7a8d5c9929bb83a3f694d",
+        "size_in_bytes": 2721
+      },
+      {
+        "_path": "lib/python3.7/site-packages/thinc/tests/unit/__pycache__/test_model.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "076cb4bcc51296f69917880f0d6c03dd94ceec7f4efa34e04a178c809bad196f",
+        "sha256_in_prefix": "076cb4bcc51296f69917880f0d6c03dd94ceec7f4efa34e04a178c809bad196f",
+        "size_in_bytes": 7641
+      },
+      {
+        "_path": "lib/python3.7/site-packages/thinc/tests/unit/__pycache__/test_model.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "0468a9f2742ad66eb2299e576e13f8887e2300d424faeb3f82a164845fb60718",
+        "sha256_in_prefix": "0468a9f2742ad66eb2299e576e13f8887e2300d424faeb3f82a164845fb60718",
+        "size_in_bytes": 7660
+      },
+      {
+        "_path": "lib/python3.7/site-packages/thinc/tests/unit/__pycache__/test_ops.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "5523e109b0cdd26b2ead9afdee1fc3829cb1aec8056c8db53ec0e02fe7c308ad",
+        "sha256_in_prefix": "5523e109b0cdd26b2ead9afdee1fc3829cb1aec8056c8db53ec0e02fe7c308ad",
+        "size_in_bytes": 11591
+      },
+      {
+        "_path": "lib/python3.7/site-packages/thinc/tests/unit/__pycache__/test_ops.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "fde442d0dbdecebe5f74e001cf8f2489de8479d694e441b44b69405d30a6cfca",
+        "sha256_in_prefix": "fde442d0dbdecebe5f74e001cf8f2489de8479d694e441b44b69405d30a6cfca",
+        "size_in_bytes": 11294
+      },
+      {
+        "_path": "lib/python3.7/site-packages/thinc/tests/unit/__pycache__/test_pickle.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "0b2393fe030f6a60dd90c252cd51024174cc709506154605f44fc60ce353097d",
+        "sha256_in_prefix": "0b2393fe030f6a60dd90c252cd51024174cc709506154605f44fc60ce353097d",
+        "size_in_bytes": 482
+      },
+      {
+        "_path": "lib/python3.7/site-packages/thinc/tests/unit/__pycache__/test_pickle.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "b48916b23ad40dabfaf0636a26bd2f3f83fceb3071e6d4c5c74a88e6fc15692b",
+        "sha256_in_prefix": "b48916b23ad40dabfaf0636a26bd2f3f83fceb3071e6d4c5c74a88e6fc15692b",
+        "size_in_bytes": 477
+      },
+      {
+        "_path": "lib/python3.7/site-packages/thinc/tests/unit/__pycache__/test_pooling.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "4028f9bf3d974cb06a25a0562f965836e207ac03533961f6ec277dc54037d254",
+        "sha256_in_prefix": "4028f9bf3d974cb06a25a0562f965836e207ac03533961f6ec277dc54037d254",
+        "size_in_bytes": 923
+      },
+      {
+        "_path": "lib/python3.7/site-packages/thinc/tests/unit/__pycache__/test_pooling.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "96f5357d6039eee422e797674665e5d8f9765004687eb1c51ec2edec3f667699",
+        "sha256_in_prefix": "96f5357d6039eee422e797674665e5d8f9765004687eb1c51ec2edec3f667699",
+        "size_in_bytes": 926
+      },
+      {
+        "_path": "lib/python3.7/site-packages/thinc/tests/unit/__pycache__/test_pytorch_wrapper.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "6736bb1d4591d14746364f56ccbe4ae134607a4e66b42ff5dd74bffa12577212",
+        "sha256_in_prefix": "6736bb1d4591d14746364f56ccbe4ae134607a4e66b42ff5dd74bffa12577212",
+        "size_in_bytes": 1810
+      },
+      {
+        "_path": "lib/python3.7/site-packages/thinc/tests/unit/__pycache__/test_pytorch_wrapper.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "77d4f699cf1a78b67e70d0808f9195463d924019661cb1597c8c5fbd390d18e8",
+        "sha256_in_prefix": "77d4f699cf1a78b67e70d0808f9195463d924019661cb1597c8c5fbd390d18e8",
+        "size_in_bytes": 1799
+      },
+      {
+        "_path": "lib/python3.7/site-packages/thinc/tests/unit/__pycache__/test_rates.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "c97a8b00025f621817ac9396fe5076016d305af6daefc9a8d551d065193633bb",
+        "sha256_in_prefix": "c97a8b00025f621817ac9396fe5076016d305af6daefc9a8d551d065193633bb",
+        "size_in_bytes": 1516
+      },
+      {
+        "_path": "lib/python3.7/site-packages/thinc/tests/unit/__pycache__/test_rates.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "991984cb1bc92856719c7a0c25f8596123f41212f8df3837154cf6099221ba7f",
+        "sha256_in_prefix": "991984cb1bc92856719c7a0c25f8596123f41212f8df3837154cf6099221ba7f",
+        "size_in_bytes": 1467
+      },
+      {
+        "_path": "lib/python3.7/site-packages/thinc/tests/unit/__pycache__/test_rnn.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "e75e9b2cdc1b4ac6f5fa6a173e207eec17b05727dab9cdd55a2e206397970b76",
+        "sha256_in_prefix": "e75e9b2cdc1b4ac6f5fa6a173e207eec17b05727dab9cdd55a2e206397970b76",
+        "size_in_bytes": 3383
+      },
+      {
+        "_path": "lib/python3.7/site-packages/thinc/tests/unit/__pycache__/test_rnn.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "a41609ee13b52153d66435e361a72ac7c0de72fc5bb91401ecf621f327c0f2d5",
+        "sha256_in_prefix": "a41609ee13b52153d66435e361a72ac7c0de72fc5bb91401ecf621f327c0f2d5",
+        "size_in_bytes": 3348
+      },
+      {
+        "_path": "lib/python3.7/site-packages/thinc/tests/unit/test_about.py",
+        "path_type": "hardlink",
+        "sha256": "52b9589a77bccbdf63010543ae594b607e03331bf352c3fbf22f625441f7b33e",
+        "sha256_in_prefix": "52b9589a77bccbdf63010543ae594b607e03331bf352c3fbf22f625441f7b33e",
+        "size_in_bytes": 366
+      },
+      {
+        "_path": "lib/python3.7/site-packages/thinc/tests/unit/test_affine.py",
+        "path_type": "hardlink",
+        "sha256": "a88c7b4d87001ba0c738a65a59216f2c413eab9edb1798cdcea55423bb795acf",
+        "sha256_in_prefix": "a88c7b4d87001ba0c738a65a59216f2c413eab9edb1798cdcea55423bb795acf",
+        "size_in_bytes": 5305
+      },
+      {
+        "_path": "lib/python3.7/site-packages/thinc/tests/unit/test_beam_search.py",
+        "path_type": "hardlink",
+        "sha256": "8b007a185a0a453cebcb7b06afbb1b66184f13c948daf810f72938def483535f",
+        "sha256_in_prefix": "8b007a185a0a453cebcb7b06afbb1b66184f13c948daf810f72938def483535f",
+        "size_in_bytes": 141
+      },
+      {
+        "_path": "lib/python3.7/site-packages/thinc/tests/unit/test_check_exceptions.py",
+        "path_type": "hardlink",
+        "sha256": "b5aa1166be7b2f534dc54d8afbac7b38783607d83d4c454479de222136bfd7af",
+        "sha256_in_prefix": "b5aa1166be7b2f534dc54d8afbac7b38783607d83d4c454479de222136bfd7af",
+        "size_in_bytes": 8211
+      },
+      {
+        "_path": "lib/python3.7/site-packages/thinc/tests/unit/test_difference.py",
+        "path_type": "hardlink",
+        "sha256": "469537c05fa75a5c2bb66d479ea9d44a65771c6c568145335aeba93978544f75",
+        "sha256_in_prefix": "469537c05fa75a5c2bb66d479ea9d44a65771c6c568145335aeba93978544f75",
+        "size_in_bytes": 1592
+      },
+      {
+        "_path": "lib/python3.7/site-packages/thinc/tests/unit/test_feature_extracter.py",
+        "path_type": "hardlink",
+        "sha256": "ca9556900b6b200e692a68e311a2c24709feeb755f22caab4bded8dafe30741c",
+        "sha256_in_prefix": "ca9556900b6b200e692a68e311a2c24709feeb755f22caab4bded8dafe30741c",
+        "size_in_bytes": 339
+      },
+      {
+        "_path": "lib/python3.7/site-packages/thinc/tests/unit/test_hash_embed.py",
+        "path_type": "hardlink",
+        "sha256": "ea434481e18aed55eec8592b1c0c76d3193937d1f522178005d05cea9df034a6",
+        "sha256_in_prefix": "ea434481e18aed55eec8592b1c0c76d3193937d1f522178005d05cea9df034a6",
+        "size_in_bytes": 574
+      },
+      {
+        "_path": "lib/python3.7/site-packages/thinc/tests/unit/test_imports.py",
+        "path_type": "hardlink",
+        "sha256": "65f07460845c66866cb189d958ad3c1e66eff9cb743ad0b316eb4ea446328983",
+        "sha256_in_prefix": "65f07460845c66866cb189d958ad3c1e66eff9cb743ad0b316eb4ea446328983",
+        "size_in_bytes": 303
+      },
+      {
+        "_path": "lib/python3.7/site-packages/thinc/tests/unit/test_linear.py",
+        "path_type": "hardlink",
+        "sha256": "71f574bcdd9a4a049aa6e06c466f57a7e13e2edfce734da43392ad080304d65e",
+        "sha256_in_prefix": "71f574bcdd9a4a049aa6e06c466f57a7e13e2edfce734da43392ad080304d65e",
+        "size_in_bytes": 489
+      },
+      {
+        "_path": "lib/python3.7/site-packages/thinc/tests/unit/test_loss.py",
+        "path_type": "hardlink",
+        "sha256": "d45debe21b046332d0a05f7e0322ee3ee0959920eb4382bfc62b80527decbb9b",
+        "sha256_in_prefix": "d45debe21b046332d0a05f7e0322ee3ee0959920eb4382bfc62b80527decbb9b",
+        "size_in_bytes": 406
+      },
+      {
+        "_path": "lib/python3.7/site-packages/thinc/tests/unit/test_mem.py",
+        "path_type": "hardlink",
+        "sha256": "4a157f54e90ff4146d6561e217e5eecb7e922139748b19e83a42af648cd1c53c",
+        "sha256_in_prefix": "4a157f54e90ff4146d6561e217e5eecb7e922139748b19e83a42af648cd1c53c",
+        "size_in_bytes": 3585
+      },
+      {
+        "_path": "lib/python3.7/site-packages/thinc/tests/unit/test_model.py",
+        "path_type": "hardlink",
+        "sha256": "b8607a87e36a1623fc6c0ffa48c60f2d0b50639789b595d37d7739a8f81a5551",
+        "sha256_in_prefix": "b8607a87e36a1623fc6c0ffa48c60f2d0b50639789b595d37d7739a8f81a5551",
+        "size_in_bytes": 7781
+      },
+      {
+        "_path": "lib/python3.7/site-packages/thinc/tests/unit/test_ops.py",
+        "path_type": "hardlink",
+        "sha256": "c75e8ea24d5f8bb3e7a57231a7c12587d9a6a04e3863551db2ac8de5719e9cd3",
+        "sha256_in_prefix": "c75e8ea24d5f8bb3e7a57231a7c12587d9a6a04e3863551db2ac8de5719e9cd3",
+        "size_in_bytes": 12294
+      },
+      {
+        "_path": "lib/python3.7/site-packages/thinc/tests/unit/test_pickle.py",
+        "path_type": "hardlink",
+        "sha256": "685b01c80b570c4f8091a0ce235822f7c9ee42918950c7b14ce92e6dd8b33dc6",
+        "sha256_in_prefix": "685b01c80b570c4f8091a0ce235822f7c9ee42918950c7b14ce92e6dd8b33dc6",
+        "size_in_bytes": 227
+      },
+      {
+        "_path": "lib/python3.7/site-packages/thinc/tests/unit/test_pooling.py",
+        "path_type": "hardlink",
+        "sha256": "928dcaccd8593f75993fc5e0a2f0044b4c1709ec2c92c05119aaec5bee23f5ad",
+        "sha256_in_prefix": "928dcaccd8593f75993fc5e0a2f0044b4c1709ec2c92c05119aaec5bee23f5ad",
+        "size_in_bytes": 1459
+      },
+      {
+        "_path": "lib/python3.7/site-packages/thinc/tests/unit/test_pytorch_wrapper.py",
+        "path_type": "hardlink",
+        "sha256": "1b7320d508b8325b276dfbb2e3a4b043ef104addcf59c821a42849eaf614a461",
+        "sha256_in_prefix": "1b7320d508b8325b276dfbb2e3a4b043ef104addcf59c821a42849eaf614a461",
+        "size_in_bytes": 1559
+      },
+      {
+        "_path": "lib/python3.7/site-packages/thinc/tests/unit/test_rates.py",
+        "path_type": "hardlink",
+        "sha256": "c5c1774e67e8b950ae67a4c012c695bc3dd2c531699bc707dc00cc1d67bb8c67",
+        "sha256_in_prefix": "c5c1774e67e8b950ae67a4c012c695bc3dd2c531699bc707dc00cc1d67bb8c67",
+        "size_in_bytes": 1218
+      },
+      {
+        "_path": "lib/python3.7/site-packages/thinc/tests/unit/test_rnn.py",
+        "path_type": "hardlink",
+        "sha256": "d50f14a3310c9951b1d64dfe896b5a3c925d95f99e8cd6876278f0fe64f57974",
+        "sha256_in_prefix": "d50f14a3310c9951b1d64dfe896b5a3c925d95f99e8cd6876278f0fe64f57974",
+        "size_in_bytes": 4671
+      },
+      {
+        "_path": "lib/python3.7/site-packages/thinc/tests/util.py",
+        "path_type": "hardlink",
+        "sha256": "3112e32bb2b245e292c3c84eef1491e3658728fab50634dfd5a04519fd2bc00d",
+        "sha256_in_prefix": "3112e32bb2b245e292c3c84eef1491e3658728fab50634dfd5a04519fd2bc00d",
+        "size_in_bytes": 391
+      },
+      {
+        "_path": "lib/python3.7/site-packages/thinc/typedefs.cpp",
+        "path_type": "hardlink",
+        "sha256": "41c4329df2b48d12237e1f61d093962ea1edc3ac23230041b89d2d987c9f68c1",
+        "sha256_in_prefix": "41c4329df2b48d12237e1f61d093962ea1edc3ac23230041b89d2d987c9f68c1",
+        "size_in_bytes": 100203
+      },
+      {
+        "_path": "lib/python3.7/site-packages/thinc/typedefs.cpython-37m-darwin.so",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/Users/runner/miniforge3/conda-bld/thinc_1590400417741/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pla",
+        "sha256": "f1ec56517b43eeb7fbef39d88b66dc4cd45b97a2494d79e37b38f8b8fbe73fe3",
+        "sha256_in_prefix": "b6bfcd98fad0cf768dbc49db1043b300a7d45632f8c0570595a2085effff5e8c",
+        "size_in_bytes": 16844
+      },
+      {
+        "_path": "lib/python3.7/site-packages/thinc/typedefs.pxd",
+        "path_type": "hardlink",
+        "sha256": "77bc40485f4d85f2c61f5548e192ee3ab263a9d6632cc43405f9ad2f770974fd",
+        "sha256_in_prefix": "77bc40485f4d85f2c61f5548e192ee3ab263a9d6632cc43405f9ad2f770974fd",
+        "size_in_bytes": 360
+      },
+      {
+        "_path": "lib/python3.7/site-packages/thinc/typedefs.pyx",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "lib/python3.7/site-packages/thinc/v2v.py",
+        "path_type": "hardlink",
+        "sha256": "b36f6be0564f28a19c125b335d87be46a97cdb010068e5e06416c4e885ce2168",
+        "sha256_in_prefix": "b36f6be0564f28a19c125b335d87be46a97cdb010068e5e06416c4e885ce2168",
+        "size_in_bytes": 973
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "32a4fe395daabd685ad8e5bcad7f7c22ec4acec63dd002a36fc8bfd513075428",
+  "size": 1571153,
+  "subdir": "osx-64",
+  "timestamp": 1590400699401,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/osx-64/thinc-7.4.1-py37ha1cc60f_0.tar.bz2",
+  "version": "7.4.1"
+}

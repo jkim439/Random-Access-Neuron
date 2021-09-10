@@ -1,0 +1,140 @@
+{
+  "build": "py_2",
+  "build_number": 2,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "beautifulsoup4",
+    "python",
+    "requests >=2.0.0,<3.0.0"
+  ],
+  "extracted_package_dir": "/Users/uiyunkim/opt/anaconda3/pkgs/wikipedia-1.4.0-py_2",
+  "features": "",
+  "files": [
+    "lib/python3.7/site-packages/wikipedia-1.4.0.dist-info/INSTALLER",
+    "lib/python3.7/site-packages/wikipedia-1.4.0.dist-info/LICENSE",
+    "lib/python3.7/site-packages/wikipedia-1.4.0.dist-info/METADATA",
+    "lib/python3.7/site-packages/wikipedia-1.4.0.dist-info/RECORD",
+    "lib/python3.7/site-packages/wikipedia-1.4.0.dist-info/WHEEL",
+    "lib/python3.7/site-packages/wikipedia-1.4.0.dist-info/top_level.txt",
+    "lib/python3.7/site-packages/wikipedia/__init__.py",
+    "lib/python3.7/site-packages/wikipedia/exceptions.py",
+    "lib/python3.7/site-packages/wikipedia/util.py",
+    "lib/python3.7/site-packages/wikipedia/wikipedia.py",
+    "lib/python3.7/site-packages/wikipedia/__pycache__/__init__.cpython-37.pyc",
+    "lib/python3.7/site-packages/wikipedia/__pycache__/exceptions.cpython-37.pyc",
+    "lib/python3.7/site-packages/wikipedia/__pycache__/util.cpython-37.pyc",
+    "lib/python3.7/site-packages/wikipedia/__pycache__/wikipedia.cpython-37.pyc"
+  ],
+  "fn": "wikipedia-1.4.0-py_2.tar.bz2",
+  "license": "MIT",
+  "license_family": "MIT",
+  "link": {
+    "source": "/Users/uiyunkim/opt/anaconda3/pkgs/wikipedia-1.4.0-py_2",
+    "type": 1
+  },
+  "md5": "ffd9203c9d56dc6046599772408a414f",
+  "name": "wikipedia",
+  "noarch": "python",
+  "package_tarball_full_path": "/Users/uiyunkim/opt/anaconda3/pkgs/wikipedia-1.4.0-py_2.tar.bz2",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "site-packages/wikipedia-1.4.0.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "site-packages/wikipedia-1.4.0.dist-info/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "73add7bf9b1650e85c30f4da17c7ebd970b6320f657f1229b97f7881bea3b35b",
+        "sha256_in_prefix": "73add7bf9b1650e85c30f4da17c7ebd970b6320f657f1229b97f7881bea3b35b",
+        "size_in_bytes": 1057
+      },
+      {
+        "_path": "site-packages/wikipedia-1.4.0.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "e36827a73a6025921af088509f953d9faf3de3387131c2d1d1de08ce7f9e6b44",
+        "sha256_in_prefix": "e36827a73a6025921af088509f953d9faf3de3387131c2d1d1de08ce7f9e6b44",
+        "size_in_bytes": 4539
+      },
+      {
+        "_path": "site-packages/wikipedia-1.4.0.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "45b0df23db7f4299c886be7085e4e336887676c590914e59d275dc6b5af7aded",
+        "sha256_in_prefix": "45b0df23db7f4299c886be7085e4e336887676c590914e59d275dc6b5af7aded",
+        "size_in_bytes": 907
+      },
+      {
+        "_path": "site-packages/wikipedia-1.4.0.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "ae121453793f815da20b2a4e34babecb0f2102f1ae5fe0680e02ffa2f0621d6d",
+        "sha256_in_prefix": "ae121453793f815da20b2a4e34babecb0f2102f1ae5fe0680e02ffa2f0621d6d",
+        "size_in_bytes": 93
+      },
+      {
+        "_path": "site-packages/wikipedia-1.4.0.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "f9b65d6671485c70e32d4f73b2cb2828f85e87a0ea4f8e91e2b83d4c44659d61",
+        "sha256_in_prefix": "f9b65d6671485c70e32d4f73b2cb2828f85e87a0ea4f8e91e2b83d4c44659d61",
+        "size_in_bytes": 10
+      },
+      {
+        "_path": "site-packages/wikipedia/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "7a06a0c935ce381d3d7be2cc37292e338c7d35e86dc2248f079eba9e6ac4d3d0",
+        "sha256_in_prefix": "7a06a0c935ce381d3d7be2cc37292e338c7d35e86dc2248f079eba9e6ac4d3d0",
+        "size_in_bytes": 76
+      },
+      {
+        "_path": "site-packages/wikipedia/exceptions.py",
+        "path_type": "hardlink",
+        "sha256": "1b490b6857b3e3ab543e944bb5d486df3f468b77a75761fe859ad2e1829ced9a",
+        "sha256_in_prefix": "1b490b6857b3e3ab543e944bb5d486df3f468b77a75761fe859ad2e1829ced9a",
+        "size_in_bytes": 2280
+      },
+      {
+        "_path": "site-packages/wikipedia/util.py",
+        "path_type": "hardlink",
+        "sha256": "7225a7426c7bdb28b7fa518382d738057ac0e32ceb2feae3e4622f6b21da9e2b",
+        "sha256_in_prefix": "7225a7426c7bdb28b7fa518382d738057ac0e32ceb2feae3e4622f6b21da9e2b",
+        "size_in_bytes": 985
+      },
+      {
+        "_path": "site-packages/wikipedia/wikipedia.py",
+        "path_type": "hardlink",
+        "sha256": "12f52828e1d444490bc7c3711301d654af1b773dff7c4a0bacb180ac1ae6ad3f",
+        "sha256_in_prefix": "12f52828e1d444490bc7c3711301d654af1b773dff7c4a0bacb180ac1ae6ad3f",
+        "size_in_bytes": 20534
+      },
+      {
+        "_path": "lib/python3.7/site-packages/wikipedia/__pycache__/__init__.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.7/site-packages/wikipedia/__pycache__/exceptions.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.7/site-packages/wikipedia/__pycache__/util.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.7/site-packages/wikipedia/__pycache__/wikipedia.cpython-37.pyc",
+        "path_type": "pyc_file"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "wikipedia",
+  "sha256": "985cd44533b6138d59582a579dc58f8318702e33f219b6885b1ac32b8cf80dc7",
+  "size": 13709,
+  "subdir": "noarch",
+  "timestamp": 1560846617789,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/noarch/wikipedia-1.4.0-py_2.tar.bz2",
+  "version": "1.4.0"
+}

@@ -1,0 +1,250 @@
+{
+  "build": "py37h9bfed18_1",
+  "build_number": 1,
+  "channel": "https://conda.anaconda.org/conda-forge/osx-64",
+  "constrains": [],
+  "depends": [
+    "numpy >=1.16",
+    "python >=3.7,<3.8.0a0",
+    "python_abi 3.7.* *_cp37m"
+  ],
+  "extracted_package_dir": "/Users/uiyunkim/opt/anaconda3/pkgs/cython-blis-0.4.1-py37h9bfed18_1",
+  "features": "",
+  "files": [
+    "lib/python3.7/site-packages/blis-0.4.1.dist-info/INSTALLER",
+    "lib/python3.7/site-packages/blis-0.4.1.dist-info/LICENSE",
+    "lib/python3.7/site-packages/blis-0.4.1.dist-info/METADATA",
+    "lib/python3.7/site-packages/blis-0.4.1.dist-info/RECORD",
+    "lib/python3.7/site-packages/blis-0.4.1.dist-info/WHEEL",
+    "lib/python3.7/site-packages/blis-0.4.1.dist-info/top_level.txt",
+    "lib/python3.7/site-packages/blis/__init__.pxd",
+    "lib/python3.7/site-packages/blis/__init__.py",
+    "lib/python3.7/site-packages/blis/__pycache__/__init__.cpython-37.pyc",
+    "lib/python3.7/site-packages/blis/__pycache__/about.cpython-37.pyc",
+    "lib/python3.7/site-packages/blis/__pycache__/benchmark.cpython-37.pyc",
+    "lib/python3.7/site-packages/blis/about.py",
+    "lib/python3.7/site-packages/blis/benchmark.py",
+    "lib/python3.7/site-packages/blis/cy.cpython-37m-darwin.so",
+    "lib/python3.7/site-packages/blis/cy.pxd",
+    "lib/python3.7/site-packages/blis/cy.pyx",
+    "lib/python3.7/site-packages/blis/py.cpython-37m-darwin.so",
+    "lib/python3.7/site-packages/blis/py.pyx",
+    "lib/python3.7/site-packages/blis/tests/__init__.py",
+    "lib/python3.7/site-packages/blis/tests/__pycache__/__init__.cpython-37.pyc",
+    "lib/python3.7/site-packages/blis/tests/__pycache__/common.cpython-37.pyc",
+    "lib/python3.7/site-packages/blis/tests/__pycache__/test_dotv.cpython-37.pyc",
+    "lib/python3.7/site-packages/blis/tests/__pycache__/test_gemm.cpython-37.pyc",
+    "lib/python3.7/site-packages/blis/tests/common.py",
+    "lib/python3.7/site-packages/blis/tests/test_dotv.py",
+    "lib/python3.7/site-packages/blis/tests/test_gemm.py"
+  ],
+  "fn": "cython-blis-0.4.1-py37h9bfed18_1.tar.bz2",
+  "license": "BSD-3-Clause",
+  "license_family": "BSD",
+  "link": {
+    "source": "/Users/uiyunkim/opt/anaconda3/pkgs/cython-blis-0.4.1-py37h9bfed18_1",
+    "type": 1
+  },
+  "md5": "d15264230a9609f7d1ff0b0a93656039",
+  "name": "cython-blis",
+  "package_tarball_full_path": "/Users/uiyunkim/opt/anaconda3/pkgs/cython-blis-0.4.1-py37h9bfed18_1.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/python3.7/site-packages/blis-0.4.1.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "lib/python3.7/site-packages/blis-0.4.1.dist-info/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "730031e418c53828d32b3746e2ac618ada7d8e7a4d568909c0f989b53fa84378",
+        "sha256_in_prefix": "730031e418c53828d32b3746e2ac618ada7d8e7a4d568909c0f989b53fa84378",
+        "size_in_bytes": 2033
+      },
+      {
+        "_path": "lib/python3.7/site-packages/blis-0.4.1.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "54a59040c2294cb480aa9e9092b871a9491b138f85666c9b560c0debe7be2548",
+        "sha256_in_prefix": "54a59040c2294cb480aa9e9092b871a9491b138f85666c9b560c0debe7be2548",
+        "size_in_bytes": 11070
+      },
+      {
+        "_path": "lib/python3.7/site-packages/blis-0.4.1.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "f8d20ae55195623073332761648712f8126051f66d7c0951e10375299f7a7cef",
+        "sha256_in_prefix": "f8d20ae55195623073332761648712f8126051f66d7c0951e10375299f7a7cef",
+        "size_in_bytes": 1786
+      },
+      {
+        "_path": "lib/python3.7/site-packages/blis-0.4.1.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "78f4a62836291cb45461ce90b8789830ef88a0df17990309998d801f1cd5e017",
+        "sha256_in_prefix": "78f4a62836291cb45461ce90b8789830ef88a0df17990309998d801f1cd5e017",
+        "size_in_bytes": 110
+      },
+      {
+        "_path": "lib/python3.7/site-packages/blis-0.4.1.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "caa6480433eaabd45e7c7bb43d63d698e41f8612ac072d76d1ea0b4cc9665e40",
+        "sha256_in_prefix": "caa6480433eaabd45e7c7bb43d63d698e41f8612ac072d76d1ea0b4cc9665e40",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "lib/python3.7/site-packages/blis/__init__.pxd",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "lib/python3.7/site-packages/blis/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "34e67b6a5e6454be5daddc6112103e0ed1eef3ac5cc93f48d54b7329536fd621",
+        "sha256_in_prefix": "34e67b6a5e6454be5daddc6112103e0ed1eef3ac5cc93f48d54b7329536fd621",
+        "size_in_bytes": 79
+      },
+      {
+        "_path": "lib/python3.7/site-packages/blis/__pycache__/__init__.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "0043a01a33bcb7e15a29acf08da901f064257d92c2895594ed441c0dc86e052f",
+        "sha256_in_prefix": "0043a01a33bcb7e15a29acf08da901f064257d92c2895594ed441c0dc86e052f",
+        "size_in_bytes": 170
+      },
+      {
+        "_path": "lib/python3.7/site-packages/blis/__pycache__/about.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "357b5742712e29b5572cfd122bfa2925db85f0c7a90f690662fefaaaa882dc8b",
+        "sha256_in_prefix": "357b5742712e29b5572cfd122bfa2925db85f0c7a90f690662fefaaaa882dc8b",
+        "size_in_bytes": 457
+      },
+      {
+        "_path": "lib/python3.7/site-packages/blis/__pycache__/benchmark.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "90c35fbd9047f7a0ce23915595b729784deac7e9a986cb60cb3519444df926b4",
+        "sha256_in_prefix": "90c35fbd9047f7a0ce23915595b729784deac7e9a986cb60cb3519444df926b4",
+        "size_in_bytes": 3010
+      },
+      {
+        "_path": "lib/python3.7/site-packages/blis/about.py",
+        "path_type": "hardlink",
+        "sha256": "b77dd2abc9bbcaeff1c22c654a2b6ec00fe5d929de5a6f29d0dc700522b8ab60",
+        "sha256_in_prefix": "b77dd2abc9bbcaeff1c22c654a2b6ec00fe5d929de5a6f29d0dc700522b8ab60",
+        "size_in_bytes": 541
+      },
+      {
+        "_path": "lib/python3.7/site-packages/blis/benchmark.py",
+        "path_type": "hardlink",
+        "sha256": "d1dceb3a8b4486b28f069845422fbb2adccd611db1ba6030dc386925e100b95c",
+        "sha256_in_prefix": "d1dceb3a8b4486b28f069845422fbb2adccd611db1ba6030dc386925e100b95c",
+        "size_in_bytes": 2659
+      },
+      {
+        "_path": "lib/python3.7/site-packages/blis/cy.cpython-37m-darwin.so",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/usr/local/miniconda/conda-bld/cython-blis_1587051342529/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_p",
+        "sha256": "182ce02a4c9d788ee4d657e0e6d84bdc3943bfa70dbfe4c21adbe6ef082f190e",
+        "sha256_in_prefix": "c078585059735cf16ba27053a459ca9f3a4ee9302228dd5793ce01f9e267854d",
+        "size_in_bytes": 7036932
+      },
+      {
+        "_path": "lib/python3.7/site-packages/blis/cy.pxd",
+        "path_type": "hardlink",
+        "sha256": "c2af0eefcbe15f046b678fafab28e5e9e4892f46a40e121b12d1d960b4309336",
+        "sha256_in_prefix": "c2af0eefcbe15f046b678fafab28e5e9e4892f46a40e121b12d1d960b4309336",
+        "size_in_bytes": 2993
+      },
+      {
+        "_path": "lib/python3.7/site-packages/blis/cy.pyx",
+        "path_type": "hardlink",
+        "sha256": "63b6c64e64ad090715ff66f21d1c3c4ab54b711c964ea28749dddc3d29d5a9a2",
+        "sha256_in_prefix": "63b6c64e64ad090715ff66f21d1c3c4ab54b711c964ea28749dddc3d29d5a9a2",
+        "size_in_bytes": 15804
+      },
+      {
+        "_path": "lib/python3.7/site-packages/blis/py.cpython-37m-darwin.so",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/usr/local/miniconda/conda-bld/cython-blis_1587051342529/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_p",
+        "sha256": "99b6985752156b43cee483d525785ab72482943fcc7d91b02d77e3c6113a3161",
+        "sha256_in_prefix": "6275e5f38c41179cb80f12b756d8417d699ae241da1da0c3f36abea78e7a5dee",
+        "size_in_bytes": 7168524
+      },
+      {
+        "_path": "lib/python3.7/site-packages/blis/py.pyx",
+        "path_type": "hardlink",
+        "sha256": "c5e85d7d4bad43c831ff589cb943d091a7d62fd943c720b63ad42360ca94f2ae",
+        "sha256_in_prefix": "c5e85d7d4bad43c831ff589cb943d091a7d62fd943c720b63ad42360ca94f2ae",
+        "size_in_bytes": 6748
+      },
+      {
+        "_path": "lib/python3.7/site-packages/blis/tests/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "lib/python3.7/site-packages/blis/tests/__pycache__/__init__.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "edeedc37ad7f765cf8006c9512dae0cf4ef762d44b8cf4065daa247cf9430488",
+        "sha256_in_prefix": "edeedc37ad7f765cf8006c9512dae0cf4ef762d44b8cf4065daa247cf9430488",
+        "size_in_bytes": 137
+      },
+      {
+        "_path": "lib/python3.7/site-packages/blis/tests/__pycache__/common.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "f47602b192577532688e8ba067ce82463431431fcd6cca8fa6f1c5f325340c16",
+        "sha256_in_prefix": "f47602b192577532688e8ba067ce82463431431fcd6cca8fa6f1c5f325340c16",
+        "size_in_bytes": 3339
+      },
+      {
+        "_path": "lib/python3.7/site-packages/blis/tests/__pycache__/test_dotv.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "056183753f4441839df4367bf6eece7be993a7a9611d64034b5fc0509125d466",
+        "sha256_in_prefix": "056183753f4441839df4367bf6eece7be993a7a9611d64034b5fc0509125d466",
+        "size_in_bytes": 1239
+      },
+      {
+        "_path": "lib/python3.7/site-packages/blis/tests/__pycache__/test_gemm.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "6ab725dc7c329aaad852f3de1cfed4e10cdc932aec73784d942b29b94fa8e70f",
+        "sha256_in_prefix": "6ab725dc7c329aaad852f3de1cfed4e10cdc932aec73784d942b29b94fa8e70f",
+        "size_in_bytes": 2243
+      },
+      {
+        "_path": "lib/python3.7/site-packages/blis/tests/common.py",
+        "path_type": "hardlink",
+        "sha256": "74a761c934ddc0f9462f2ee14ca925474c7eb2092386758d5c931ec01fbdced2",
+        "sha256_in_prefix": "74a761c934ddc0f9462f2ee14ca925474c7eb2092386758d5c931ec01fbdced2",
+        "size_in_bytes": 2519
+      },
+      {
+        "_path": "lib/python3.7/site-packages/blis/tests/test_dotv.py",
+        "path_type": "hardlink",
+        "sha256": "732f481d1b026f019344adc18f79bd8e582ca4fe1b9eb236ffefb4bdd599c31b",
+        "sha256_in_prefix": "732f481d1b026f019344adc18f79bd8e582ca4fe1b9eb236ffefb4bdd599c31b",
+        "size_in_bytes": 1206
+      },
+      {
+        "_path": "lib/python3.7/site-packages/blis/tests/test_gemm.py",
+        "path_type": "hardlink",
+        "sha256": "abc76fa432957439749f27fa44796416af367e345e7b3bb705158232cb3e3991",
+        "sha256_in_prefix": "abc76fa432957439749f27fa44796416af367e345e7b3bb705158232cb3e3991",
+        "size_in_bytes": 2492
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "8be88952fbce18d97dfd218b84a528b4ed932f5d87eb579c433997b77329d8ba",
+  "size": 3294858,
+  "subdir": "osx-64",
+  "timestamp": 1587051934442,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/osx-64/cython-blis-0.4.1-py37h9bfed18_1.tar.bz2",
+  "version": "0.4.1"
+}

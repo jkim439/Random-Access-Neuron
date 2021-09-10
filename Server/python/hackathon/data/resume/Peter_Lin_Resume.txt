@@ -1,0 +1,91 @@
+ 	
+
+	
+
+	
+peter	lin	
+peterlin00@gmail.com		
+123	smith	lane,	fairfield,	oh	12345	
+111-111-1111		
+	
+
+summary	of	qualifications	
+experienced	and	results-driven	engineer	with	proven	problem	solving	ability	in	diverse	industries.	demonstrated	
+success	in	leading	cross-functional	projects	by	collaboratively	working	in	teams.	expert	in	identification	and	
+resolution	of	issues.	adept	at	effectively	communicating	and	presenting	complex	ideas	in	simple	terms.	
+	
+experience	
+xyz	tire	&	rubber	co.,	columbus,	oh	
+senior	engineer,	jan.	20xx	–	present	
+
+•  develop	and	innovate	high-strength	lightweight	materials	to	improve	tire	performance.	
+•  lead	product	development	projects	from	concept,	testing,	and	design	review	to	industrialization.	
+•  conduct	physical	testing	of	tire	reinforcement	materials.	
+•  analyze	potential	risks	and	failures	to	create	and	follow	corrective/preventive	actions.	
+•  research	and	perform	competitor	and	industry	trend	analysis.	
+
+accomplishments:	
+
+introduced	new	belt	material	for	mrt	tires	resulting	in	$6.4m	annual	material	savings.	
+
+• 
+•  reprogrammed	control	systems	to	improve	accuracy	in	carbon	black	delivery	system	by	19%.	
+•  led	project	on	redesign	of	steel	belt	extruder	die	leading	to	$700k/year	productivity	savings.	
+
+•  designed	hvac,	plumbing	and	fire	protection	systems	for	aseptic,	process	and	general	use	facilities	in	
+
+•  performed	code	reviews	of	company,	state,	international,	and	insurer	codes	to	determine	design	
+
+•  created	cost	estimates,	review	packages,	and	basis	of	design	packages	for	client	approval	and	use	in	
+
+•  visited	existing	facilities	to	document	layout,	equipment,	and	designs,	and	incorporated	the	necessary	
+
+	
+bc	&	dc,	south	brunswick,	nj	
+mechanical	engineer,	june	20xx	–	dec.	20xx	
+
+pharmaceutical	and	biotech	buildings.	
+
+criteria	and	identify	design	restrictions.	
+
+facility	construction.	
+
+information	into	future	design.	
+
+	
+engineering	research	center,	rutgers	university	
+research	assistant,	sept.	20xx	–	may	20xx	
+
+•  oversaw	on-site	contractor	work	during	construction	to	ensure	adherence	to	contract	drawings.	
+
+• 
+
+improved	the	touch	feedback	of	a	rehabilitation	system	by	adding	wrist-tapping	mechanisms	to	
+localize	guidance.	
+
+•  published	a	technical	paper	titled	“assisted	golf	putting	through	a	planar	four-cable	system.”	
+
+matlab		
+pro/engineer	wildfire		
+maple		
+
+sap	gui		
+solidworks	
+	
+
+	
+
+	
+technical	skills	
+c	programming		
+labview		
+linux/unix		
+	
+education	
+m.s.	in	mechanical	engineering,	may	20xx	
+rutgers	university,	new	brunswick,	nj	
+	
+b.s.	in	mechanical	engineering,	may	20xx	
+china	institute	of	technology,	beijing,	china	
+
+

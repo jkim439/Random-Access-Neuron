@@ -1,0 +1,19 @@
+#
+# Author: Lasse Collin
+#
+# This file has been put into the public domain.
+# You can do whatever you want with this file.
+#
+
+prefix=/Users/uiyunkim/.conda/envs/hackathon
+exec_prefix=/Users/uiyunkim/.conda/envs/hackathon
+libdir=/Users/uiyunkim/.conda/envs/hackathon/lib
+includedir=/Users/uiyunkim/.conda/envs/hackathon/include
+
+Name: liblzma
+Description: General purpose data compression library
+URL: https://tukaani.org/xz/
+Version: 5.2.5
+Cflags: -I${includedir}
+Libs: -L${libdir} -llzma
+Libs.private: -Qunused-arguments -pthread -lpthread

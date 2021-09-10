@@ -1,0 +1,139 @@
+==> 2020-08-28 14:26:37 <==
+# cmd: /Users/uiyunkim/opt/anaconda3/bin/conda create -p /Users/uiyunkim/.conda/envs/hackathon -y python=3.7
+# conda version: 4.8.3
++defaults/noarch::wheel-0.35.1-py_0
++defaults/osx-64::ca-certificates-2020.7.22-0
++defaults/osx-64::certifi-2020.6.20-py37_0
++defaults/osx-64::libcxx-10.0.0-1
++defaults/osx-64::libedit-3.1.20191231-h1de35cc_1
++defaults/osx-64::libffi-3.3-hb1e8313_2
++defaults/osx-64::ncurses-6.2-h0a44026_1
++defaults/osx-64::openssl-1.1.1g-h1de35cc_0
++defaults/osx-64::pip-20.2.2-py37_0
++defaults/osx-64::python-3.7.7-hf48f09d_4
++defaults/osx-64::readline-8.0-h1de35cc_0
++defaults/osx-64::setuptools-49.6.0-py37_0
++defaults/osx-64::sqlite-3.33.0-hffcf06c_0
++defaults/osx-64::tk-8.6.10-hb0a8c7a_0
++defaults/osx-64::xz-5.2.5-h1de35cc_0
++defaults/osx-64::zlib-1.2.11-h1de35cc_3
+# update specs: ['python=3.7']
+==> 2020-08-28 14:27:42 <==
+# cmd: /Users/uiyunkim/opt/anaconda3/bin/conda install gensim
+# conda version: 4.8.3
++defaults/noarch::idna-2.10-py_0
++defaults/noarch::jmespath-0.10.0-py_0
++defaults/noarch::pycparser-2.20-py_2
++defaults/noarch::pyopenssl-19.1.0-py_1
++defaults/noarch::python-dateutil-2.8.1-py_0
++defaults/noarch::requests-2.24.0-py_0
++defaults/noarch::six-1.15.0-py_0
++defaults/osx-64::blas-1.0-mkl
++defaults/osx-64::boto-2.49.0-py37_0
++defaults/osx-64::boto3-1.9.66-py37_0
++defaults/osx-64::botocore-1.12.67-py37_0
++defaults/osx-64::cffi-1.14.2-py37hed5b41f_0
++defaults/osx-64::chardet-3.0.4-py37_1003
++defaults/osx-64::cryptography-3.0-py37hddc9c9b_0
++defaults/osx-64::docutils-0.16-py37_1
++defaults/osx-64::gensim-3.8.0-py37h6440ff4_0
++defaults/osx-64::intel-openmp-2020.2-258
++defaults/osx-64::libgfortran-3.0.1-h93005f0_2
++defaults/osx-64::mkl-2019.4-233
++defaults/osx-64::mkl-service-2.3.0-py37hfbe908c_0
++defaults/osx-64::mkl_fft-1.1.0-py37hc64f4ea_0
++defaults/osx-64::mkl_random-1.1.1-py37h959d312_0
++defaults/osx-64::numpy-1.19.1-py37h3b9f5b6_0
++defaults/osx-64::numpy-base-1.19.1-py37hcfb5961_0
++defaults/osx-64::pysocks-1.7.1-py37_0
++defaults/osx-64::s3transfer-0.1.13-py37_0
++defaults/osx-64::scipy-1.5.2-py37h912ce22_0
++defaults/osx-64::smart_open-1.8.0-py37_0
++defaults/osx-64::urllib3-1.24.3-py37_0
+# update specs: ['gensim']
+==> 2020-08-28 14:27:51 <==
+# cmd: /Users/uiyunkim/opt/anaconda3/bin/conda install nltk
+# conda version: 4.8.3
++defaults/noarch::click-7.1.2-py_0
++defaults/noarch::joblib-0.16.0-py_0
++defaults/noarch::nltk-3.5-py_0
++defaults/noarch::tqdm-4.48.2-py_0
++defaults/osx-64::regex-2020.7.14-py37haf1e3a3_0
+# update specs: ['nltk']
+==> 2020-08-28 14:32:22 <==
+# cmd: /Users/uiyunkim/opt/anaconda3/bin/conda install smart_open==2.0.0
+# conda version: 4.8.3
+-defaults/osx-64::smart_open-1.8.0-py37_0
++defaults/noarch::cachetools-4.1.1-py_0
++defaults/noarch::google-auth-1.20.1-py_0
++defaults/noarch::google-cloud-core-1.3.0-py_0
++defaults/noarch::google-cloud-storage-1.28.1-py_0
++defaults/noarch::google-resumable-media-0.5.1-py_0
++defaults/noarch::pyasn1-0.4.8-py_0
++defaults/noarch::pyasn1-modules-0.2.7-py_0
++defaults/noarch::pytz-2020.1-py_0
++defaults/noarch::rsa-4.6-py_0
++defaults/noarch::smart_open-2.0.0-py_0
++defaults/osx-64::google-api-core-1.17.0-py37_0
++defaults/osx-64::googleapis-common-protos-1.51.0-py37_2
++defaults/osx-64::libprotobuf-3.12.4-hab81aa3_0
++defaults/osx-64::protobuf-3.12.4-py37hb1e8313_0
+# update specs: ['smart_open==2.0.0']
+==> 2020-08-28 14:33:09 <==
+# cmd: /Users/uiyunkim/opt/anaconda3/bin/conda install -c conda-forge docx2txt
+# conda version: 4.8.3
+-defaults/osx-64::ca-certificates-2020.7.22-0
+-defaults/osx-64::certifi-2020.6.20-py37_0
+-defaults/osx-64::openssl-1.1.1g-h1de35cc_0
++conda-forge/noarch::docx2txt-0.8-py_0
++conda-forge/osx-64::ca-certificates-2020.6.20-hecda079_0
++conda-forge/osx-64::certifi-2020.6.20-py37hc8dfbb8_0
++conda-forge/osx-64::openssl-1.1.1g-haf1e3a3_1
++conda-forge/osx-64::python_abi-3.7-1_cp37m
+# update specs: ['docx2txt']
+==> 2020-08-28 14:34:28 <==
+# cmd: /Users/uiyunkim/opt/anaconda3/bin/conda install -c conda-forge pdfminer.six
+# conda version: 4.8.3
++conda-forge/noarch::pdfminer.six-20200726-py_1
++conda-forge/noarch::sortedcontainers-2.2.2-pyh9f0ad1d_0
+# update specs: ['pdfminer.six']
+==> 2020-08-28 14:35:13 <==
+# cmd: /Users/uiyunkim/opt/anaconda3/bin/conda install -c conda-forge spacy
+# conda version: 4.8.3
++conda-forge/noarch::attrs-20.1.0-pyh9f0ad1d_0
++conda-forge/noarch::catalogue-1.0.0-py_0
++conda-forge/noarch::importlib_metadata-1.7.0-0
++conda-forge/noarch::wasabi-0.7.1-pyh9f0ad1d_0
++conda-forge/noarch::zipp-3.1.0-py_0
++conda-forge/osx-64::cymem-2.0.3-py37h570ac47_2
++conda-forge/osx-64::cython-blis-0.4.1-py37h9bfed18_1
++conda-forge/osx-64::importlib-metadata-1.7.0-py37hc8dfbb8_0
++conda-forge/osx-64::jsonschema-3.2.0-py37hc8dfbb8_1
++conda-forge/osx-64::murmurhash-1.0.0-py37h570ac47_0
++conda-forge/osx-64::preshed-3.0.2-py37h570ac47_3
++conda-forge/osx-64::pyrsistent-0.16.0-py37h9bfed18_0
++conda-forge/osx-64::spacy-2.3.2-py37hb449ec0_0
++conda-forge/osx-64::srsly-1.0.2-py37h570ac47_0
++conda-forge/osx-64::thinc-7.4.1-py37ha1cc60f_0
++defaults/osx-64::plac-0.9.6-py37_1
+# update specs: ['spacy']
+==> 2020-08-28 14:36:04 <==
+# cmd: /Users/uiyunkim/opt/anaconda3/bin/conda install -c conda-forge pandas
+# conda version: 4.8.3
++conda-forge/osx-64::pandas-1.0.5-py37h94625e5_0
+# update specs: ['pandas']
+==> 2020-08-28 15:27:30 <==
+# cmd: /Users/uiyunkim/opt/anaconda3/bin/conda install -c conda-forge wikipedia
+# conda version: 4.8.3
+-defaults/osx-64::urllib3-1.24.3-py37_0
++conda-forge/noarch::beautifulsoup4-4.9.1-py_1
++conda-forge/noarch::soupsieve-2.0.1-py_1
++conda-forge/noarch::wikipedia-1.4.0-py_2
++conda-forge/osx-64::urllib3-1.24.3-py37_0
+# update specs: ['wikipedia']
+# neutered specs: ['smart_open']
+==> 2020-08-28 15:40:03 <==
+# cmd: /Users/uiyunkim/opt/anaconda3/bin/conda install -c conda-forge textblob
+# conda version: 4.8.3
++conda-forge/noarch::textblob-0.15.3-py_0
+# update specs: ['textblob']

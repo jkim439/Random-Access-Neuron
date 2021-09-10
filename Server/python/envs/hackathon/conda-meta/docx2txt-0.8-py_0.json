@@ -1,0 +1,122 @@
+{
+  "build": "py_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "python"
+  ],
+  "extracted_package_dir": "/Users/uiyunkim/opt/anaconda3/pkgs/docx2txt-0.8-py_0",
+  "features": "",
+  "files": [
+    "bin/docx2txt",
+    "lib/python3.7/site-packages/docx2txt-0.8.dist-info/INSTALLER",
+    "lib/python3.7/site-packages/docx2txt-0.8.dist-info/LICENSE.txt",
+    "lib/python3.7/site-packages/docx2txt-0.8.dist-info/METADATA",
+    "lib/python3.7/site-packages/docx2txt-0.8.dist-info/RECORD",
+    "lib/python3.7/site-packages/docx2txt-0.8.dist-info/WHEEL",
+    "lib/python3.7/site-packages/docx2txt-0.8.dist-info/top_level.txt",
+    "lib/python3.7/site-packages/docx2txt/__init__.py",
+    "lib/python3.7/site-packages/docx2txt/docx2txt.py",
+    "lib/python3.7/site-packages/docx2txt/__pycache__/__init__.cpython-37.pyc",
+    "lib/python3.7/site-packages/docx2txt/__pycache__/docx2txt.cpython-37.pyc"
+  ],
+  "fn": "docx2txt-0.8-py_0.tar.bz2",
+  "license": "MIT",
+  "license_family": "MIT",
+  "link": {
+    "source": "/Users/uiyunkim/opt/anaconda3/pkgs/docx2txt-0.8-py_0",
+    "type": 1
+  },
+  "md5": "16a20974c156f752d4a2de2065e7d036",
+  "name": "docx2txt",
+  "noarch": "python",
+  "package_tarball_full_path": "/Users/uiyunkim/opt/anaconda3/pkgs/docx2txt-0.8-py_0.tar.bz2",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "python-scripts/docx2txt",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+        "sha256": "ff9ca8099d2a80813ffb6fb572e9d94d671a9c1a81a6d21a7c170d703dfb5cde",
+        "sha256_in_prefix": "bf9aa6d5eed67f8cf6a8097fb4a0bfca0da70467f1d87a9ffa78f7bbcd9ee732",
+        "size_in_bytes": 288
+      },
+      {
+        "_path": "site-packages/docx2txt-0.8.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "site-packages/docx2txt-0.8.dist-info/LICENSE.txt",
+        "path_type": "hardlink",
+        "sha256": "c89b2a2423d1ecebcdc19d1a9b0c594b1b8f51a11732889110e02d9280d0f81b",
+        "sha256_in_prefix": "c89b2a2423d1ecebcdc19d1a9b0c594b1b8f51a11732889110e02d9280d0f81b",
+        "size_in_bytes": 1078
+      },
+      {
+        "_path": "site-packages/docx2txt-0.8.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "40cca94b26b27447f623bcb8e65d7f1cf581c62084a330b588f543247ff0cf8d",
+        "sha256_in_prefix": "40cca94b26b27447f623bcb8e65d7f1cf581c62084a330b588f543247ff0cf8d",
+        "size_in_bytes": 413
+      },
+      {
+        "_path": "site-packages/docx2txt-0.8.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "7966391560ac53999be665646e83670fb7a9d8b7e0d7040f788f6bb8491da587",
+        "sha256_in_prefix": "7966391560ac53999be665646e83670fb7a9d8b7e0d7040f788f6bb8491da587",
+        "size_in_bytes": 757
+      },
+      {
+        "_path": "site-packages/docx2txt-0.8.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "ae121453793f815da20b2a4e34babecb0f2102f1ae5fe0680e02ffa2f0621d6d",
+        "sha256_in_prefix": "ae121453793f815da20b2a4e34babecb0f2102f1ae5fe0680e02ffa2f0621d6d",
+        "size_in_bytes": 93
+      },
+      {
+        "_path": "site-packages/docx2txt-0.8.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "e58d0b63143b3d965eb3f9cb462a0751d51b05c6a23892f3c81577bae9ec438f",
+        "sha256_in_prefix": "e58d0b63143b3d965eb3f9cb462a0751d51b05c6a23892f3c81577bae9ec438f",
+        "size_in_bytes": 9
+      },
+      {
+        "_path": "site-packages/docx2txt/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "fcaa3ac69dba818f8742f6b05313437f9c14cb026b09df29591594d564c4567a",
+        "sha256_in_prefix": "fcaa3ac69dba818f8742f6b05313437f9c14cb026b09df29591594d564c4567a",
+        "size_in_bytes": 82
+      },
+      {
+        "_path": "site-packages/docx2txt/docx2txt.py",
+        "path_type": "hardlink",
+        "sha256": "378827837e3e6b8bef09bc2ca55e112b4e51f9e80a757575a899c9d037c80030",
+        "sha256_in_prefix": "378827837e3e6b8bef09bc2ca55e112b4e51f9e80a757575a899c9d037c80030",
+        "size_in_bytes": 3429
+      },
+      {
+        "_path": "lib/python3.7/site-packages/docx2txt/__pycache__/__init__.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.7/site-packages/docx2txt/__pycache__/docx2txt.cpython-37.pyc",
+        "path_type": "pyc_file"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "docx2txt",
+  "sha256": "f2224e83042cad0369b0d9d859241f8f693e878bfa926b067143098761a82bad",
+  "size": 6843,
+  "subdir": "noarch",
+  "timestamp": 1564954786177,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/noarch/docx2txt-0.8-py_0.tar.bz2",
+  "version": "0.8"
+}

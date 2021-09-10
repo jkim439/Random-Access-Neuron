@@ -1,0 +1,309 @@
+{
+  "build": "py37h570ac47_3",
+  "build_number": 3,
+  "channel": "https://conda.anaconda.org/conda-forge/osx-64",
+  "constrains": [],
+  "depends": [
+    "cymem >=2.0",
+    "libcxx >=9.0.1",
+    "python >=3.7,<3.8.0a0",
+    "python_abi 3.7.* *_cp37m"
+  ],
+  "extracted_package_dir": "/Users/uiyunkim/opt/anaconda3/pkgs/preshed-3.0.2-py37h570ac47_3",
+  "features": "",
+  "files": [
+    "lib/python3.7/site-packages/preshed-3.0.2.dist-info/INSTALLER",
+    "lib/python3.7/site-packages/preshed-3.0.2.dist-info/LICENSE",
+    "lib/python3.7/site-packages/preshed-3.0.2.dist-info/METADATA",
+    "lib/python3.7/site-packages/preshed-3.0.2.dist-info/RECORD",
+    "lib/python3.7/site-packages/preshed-3.0.2.dist-info/WHEEL",
+    "lib/python3.7/site-packages/preshed-3.0.2.dist-info/direct_url.json",
+    "lib/python3.7/site-packages/preshed-3.0.2.dist-info/top_level.txt",
+    "lib/python3.7/site-packages/preshed/__init__.pxd",
+    "lib/python3.7/site-packages/preshed/__init__.py",
+    "lib/python3.7/site-packages/preshed/__pycache__/__init__.cpython-37.pyc",
+    "lib/python3.7/site-packages/preshed/__pycache__/about.cpython-37.pyc",
+    "lib/python3.7/site-packages/preshed/about.py",
+    "lib/python3.7/site-packages/preshed/bloom.cpython-37m-darwin.so",
+    "lib/python3.7/site-packages/preshed/bloom.pxd",
+    "lib/python3.7/site-packages/preshed/bloom.pyx",
+    "lib/python3.7/site-packages/preshed/counter.cpython-37m-darwin.so",
+    "lib/python3.7/site-packages/preshed/counter.pxd",
+    "lib/python3.7/site-packages/preshed/counter.pyx",
+    "lib/python3.7/site-packages/preshed/maps.cpython-37m-darwin.so",
+    "lib/python3.7/site-packages/preshed/maps.pxd",
+    "lib/python3.7/site-packages/preshed/maps.pyx",
+    "lib/python3.7/site-packages/preshed/tests/__init__.py",
+    "lib/python3.7/site-packages/preshed/tests/__pycache__/__init__.cpython-37.pyc",
+    "lib/python3.7/site-packages/preshed/tests/__pycache__/test_bloom.cpython-37.pyc",
+    "lib/python3.7/site-packages/preshed/tests/__pycache__/test_counter.cpython-37.pyc",
+    "lib/python3.7/site-packages/preshed/tests/__pycache__/test_hashing.cpython-37.pyc",
+    "lib/python3.7/site-packages/preshed/tests/__pycache__/test_pop.cpython-37.pyc",
+    "lib/python3.7/site-packages/preshed/tests/__pycache__/test_regressions.cpython-37.pyc",
+    "lib/python3.7/site-packages/preshed/tests/test_bloom.py",
+    "lib/python3.7/site-packages/preshed/tests/test_counter.py",
+    "lib/python3.7/site-packages/preshed/tests/test_hashing.py",
+    "lib/python3.7/site-packages/preshed/tests/test_pop.py",
+    "lib/python3.7/site-packages/preshed/tests/test_regressions.py"
+  ],
+  "fn": "preshed-3.0.2-py37h570ac47_3.tar.bz2",
+  "license": "MIT",
+  "license_family": "MIT",
+  "link": {
+    "source": "/Users/uiyunkim/opt/anaconda3/pkgs/preshed-3.0.2-py37h570ac47_3",
+    "type": 1
+  },
+  "md5": "644913b5fc7572f32c4c7595abd639b3",
+  "name": "preshed",
+  "package_tarball_full_path": "/Users/uiyunkim/opt/anaconda3/pkgs/preshed-3.0.2-py37h570ac47_3.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/python3.7/site-packages/preshed-3.0.2.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "lib/python3.7/site-packages/preshed-3.0.2.dist-info/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "8dcabc9e85836e00771fb43ba17671855de7533772d8449dad0720a6efefe2df",
+        "sha256_in_prefix": "8dcabc9e85836e00771fb43ba17671855de7533772d8449dad0720a6efefe2df",
+        "size_in_bytes": 1106
+      },
+      {
+        "_path": "lib/python3.7/site-packages/preshed-3.0.2.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "0985b45dd14551c1e4a8ad4bebacc35c7665b16d1b87aac76c8af6b2299afe16",
+        "sha256_in_prefix": "0985b45dd14551c1e4a8ad4bebacc35c7665b16d1b87aac76c8af6b2299afe16",
+        "size_in_bytes": 2006
+      },
+      {
+        "_path": "lib/python3.7/site-packages/preshed-3.0.2.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "2d9635b14dca41e7999ef8e9194cdd46252ac15b8d951e2dde534bd9e6979099",
+        "sha256_in_prefix": "2d9635b14dca41e7999ef8e9194cdd46252ac15b8d951e2dde534bd9e6979099",
+        "size_in_bytes": 2467
+      },
+      {
+        "_path": "lib/python3.7/site-packages/preshed-3.0.2.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "78f4a62836291cb45461ce90b8789830ef88a0df17990309998d801f1cd5e017",
+        "sha256_in_prefix": "78f4a62836291cb45461ce90b8789830ef88a0df17990309998d801f1cd5e017",
+        "size_in_bytes": 110
+      },
+      {
+        "_path": "lib/python3.7/site-packages/preshed-3.0.2.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "53ba0924d7d3a98240930e0b71314ccabb49afdf47ac39b6efb196f346dfd5c7",
+        "sha256_in_prefix": "53ba0924d7d3a98240930e0b71314ccabb49afdf47ac39b6efb196f346dfd5c7",
+        "size_in_bytes": 95
+      },
+      {
+        "_path": "lib/python3.7/site-packages/preshed-3.0.2.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "d629c1022a579855b79b3fb345dc16e6f0309cf68186fce0300a8eb8408a6c4a",
+        "sha256_in_prefix": "d629c1022a579855b79b3fb345dc16e6f0309cf68186fce0300a8eb8408a6c4a",
+        "size_in_bytes": 8
+      },
+      {
+        "_path": "lib/python3.7/site-packages/preshed/__init__.pxd",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "lib/python3.7/site-packages/preshed/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "4993e273282ba34735ae1dd063e88ddb5668ae662b4817a29b54760d279a387e",
+        "sha256_in_prefix": "4993e273282ba34735ae1dd063e88ddb5668ae662b4817a29b54760d279a387e",
+        "size_in_bytes": 21
+      },
+      {
+        "_path": "lib/python3.7/site-packages/preshed/__pycache__/__init__.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "6ed3be3efaaa961cc339dc370a9a1090175732e20a02f3c1c946d08adb5977cb",
+        "sha256_in_prefix": "6ed3be3efaaa961cc339dc370a9a1090175732e20a02f3c1c946d08adb5977cb",
+        "size_in_bytes": 156
+      },
+      {
+        "_path": "lib/python3.7/site-packages/preshed/__pycache__/about.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "392bf6c7ccf4bbb9b8a41de4cc30dd4a0d3c2247d75cfce3aac285eeb0432b50",
+        "sha256_in_prefix": "392bf6c7ccf4bbb9b8a41de4cc30dd4a0d3c2247d75cfce3aac285eeb0432b50",
+        "size_in_bytes": 421
+      },
+      {
+        "_path": "lib/python3.7/site-packages/preshed/about.py",
+        "path_type": "hardlink",
+        "sha256": "af35d76b1c7d1f52b1831f52e86d51cbd311607214958a9e00a8c56578617785",
+        "sha256_in_prefix": "af35d76b1c7d1f52b1831f52e86d51cbd311607214958a9e00a8c56578617785",
+        "size_in_bytes": 266
+      },
+      {
+        "_path": "lib/python3.7/site-packages/preshed/bloom.cpython-37m-darwin.so",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/Users/runner/miniforge3/conda-bld/preshed_1591802150273/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_p",
+        "sha256": "ead11b7f322db4b85472a49c3a1214863c27f04a98db8a8c4f93656dba29bad7",
+        "sha256_in_prefix": "e1dc807778e86dba95280306a01ff7219115af4ed0c391fdf565c013e1e1c653",
+        "size_in_bytes": 74108
+      },
+      {
+        "_path": "lib/python3.7/site-packages/preshed/bloom.pxd",
+        "path_type": "hardlink",
+        "sha256": "e7aaf5cd7a14f1d2a7c7749db59a93c5a60acf2f183e18f5d8d429885ebeb589",
+        "sha256_in_prefix": "e7aaf5cd7a14f1d2a7c7749db59a93c5a60acf2f183e18f5d8d429885ebeb589",
+        "size_in_bytes": 657
+      },
+      {
+        "_path": "lib/python3.7/site-packages/preshed/bloom.pyx",
+        "path_type": "hardlink",
+        "sha256": "1b6b73b645ea11dd3d31ca996f664ae32851499a01380fa10645bc5ed71843a6",
+        "sha256_in_prefix": "1b6b73b645ea11dd3d31ca996f664ae32851499a01380fa10645bc5ed71843a6",
+        "size_in_bytes": 4529
+      },
+      {
+        "_path": "lib/python3.7/site-packages/preshed/counter.cpython-37m-darwin.so",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/Users/runner/miniforge3/conda-bld/preshed_1591802150273/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_p",
+        "sha256": "e79c28b3aa9c04ce884a019c45bdf7ba6415826ae1b0a5e93d501589d72a2b7e",
+        "sha256_in_prefix": "2ceafbd274c83aab5235ffadebfa44489607533301a55fe49991e9c595c4ba22",
+        "size_in_bytes": 87436
+      },
+      {
+        "_path": "lib/python3.7/site-packages/preshed/counter.pxd",
+        "path_type": "hardlink",
+        "sha256": "b58ab72995e01f2365b5219abc5f39417945781e3df1bb6e346b11b64067a0c1",
+        "sha256_in_prefix": "b58ab72995e01f2365b5219abc5f39417945781e3df1bb6e346b11b64067a0c1",
+        "size_in_bytes": 396
+      },
+      {
+        "_path": "lib/python3.7/site-packages/preshed/counter.pyx",
+        "path_type": "hardlink",
+        "sha256": "84b2b93aa65afe1581dd2c5690e448e9bb8d4b061aef1e00b6174b87e787dfed",
+        "sha256_in_prefix": "84b2b93aa65afe1581dd2c5690e448e9bb8d4b061aef1e00b6174b87e787dfed",
+        "size_in_bytes": 6116
+      },
+      {
+        "_path": "lib/python3.7/site-packages/preshed/maps.cpython-37m-darwin.so",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/Users/runner/miniforge3/conda-bld/preshed_1591802150273/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_p",
+        "sha256": "1e719211602cdbb4eb6a918b14668a4bd076dd0401cdb4ff4dc34e3e5f3b85d3",
+        "sha256_in_prefix": "1b7f8f3fa6928570d3758ea11bbcf84bb05132f5b346b5fd9e8e93c942cd7775",
+        "size_in_bytes": 79140
+      },
+      {
+        "_path": "lib/python3.7/site-packages/preshed/maps.pxd",
+        "path_type": "hardlink",
+        "sha256": "b57851e095c32a6bfc316a9268d1da5bf992fad130b97cfd57babaf9112edc03",
+        "sha256_in_prefix": "b57851e095c32a6bfc316a9268d1da5bf992fad130b97cfd57babaf9112edc03",
+        "size_in_bytes": 1334
+      },
+      {
+        "_path": "lib/python3.7/site-packages/preshed/maps.pyx",
+        "path_type": "hardlink",
+        "sha256": "672324bcd0e53a18f0057ee5f0fa2023b90e1236aeea1da1b8f91a4483f1ffce",
+        "sha256_in_prefix": "672324bcd0e53a18f0057ee5f0fa2023b90e1236aeea1da1b8f91a4483f1ffce",
+        "size_in_bytes": 8723
+      },
+      {
+        "_path": "lib/python3.7/site-packages/preshed/tests/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "lib/python3.7/site-packages/preshed/tests/__pycache__/__init__.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "9361f016212e88b9273c90a71d2f872c3de45627a195db7ab5401387023fbe94",
+        "sha256_in_prefix": "9361f016212e88b9273c90a71d2f872c3de45627a195db7ab5401387023fbe94",
+        "size_in_bytes": 140
+      },
+      {
+        "_path": "lib/python3.7/site-packages/preshed/tests/__pycache__/test_bloom.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "92ee12150cf1f52d40654287c239d9eb8df741ef8c5451c5d5eaf753538f53d9",
+        "sha256_in_prefix": "92ee12150cf1f52d40654287c239d9eb8df741ef8c5451c5d5eaf753538f53d9",
+        "size_in_bytes": 1741
+      },
+      {
+        "_path": "lib/python3.7/site-packages/preshed/tests/__pycache__/test_counter.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "138c48e3bf476ef261ede9f861601b25b3420f3480fa65ae69071e0297612a2c",
+        "sha256_in_prefix": "138c48e3bf476ef261ede9f861601b25b3420f3480fa65ae69071e0297612a2c",
+        "size_in_bytes": 2235
+      },
+      {
+        "_path": "lib/python3.7/site-packages/preshed/tests/__pycache__/test_hashing.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "20238fae2e9752f65172115ce762fec9408bcb0cd4fb3b709f9c0ce0f0e20412",
+        "sha256_in_prefix": "20238fae2e9752f65172115ce762fec9408bcb0cd4fb3b709f9c0ce0f0e20412",
+        "size_in_bytes": 1965
+      },
+      {
+        "_path": "lib/python3.7/site-packages/preshed/tests/__pycache__/test_pop.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "72791c45c4c290869c9b130abc96704a725c8738025ad95828f2a11c4f104a89",
+        "sha256_in_prefix": "72791c45c4c290869c9b130abc96704a725c8738025ad95828f2a11c4f104a89",
+        "size_in_bytes": 416
+      },
+      {
+        "_path": "lib/python3.7/site-packages/preshed/tests/__pycache__/test_regressions.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "ac77899787ff0456a66bed8ef4f88ad5ef5252bd8b3bd4cf2094c9c5c9393a1d",
+        "sha256_in_prefix": "ac77899787ff0456a66bed8ef4f88ad5ef5252bd8b3bd4cf2094c9c5c9393a1d",
+        "size_in_bytes": 193
+      },
+      {
+        "_path": "lib/python3.7/site-packages/preshed/tests/test_bloom.py",
+        "path_type": "hardlink",
+        "sha256": "88de1ea31c7b6798e0b77b74122365b2916c45e0c61130bb42b139bb15655ae5",
+        "sha256_in_prefix": "88de1ea31c7b6798e0b77b74122365b2916c45e0c61130bb42b139bb15655ae5",
+        "size_in_bytes": 1256
+      },
+      {
+        "_path": "lib/python3.7/site-packages/preshed/tests/test_counter.py",
+        "path_type": "hardlink",
+        "sha256": "dccf32be875be08470a1d4e28dd545315179b080c0e37695de7d36a4ece4ad46",
+        "sha256_in_prefix": "dccf32be875be08470a1d4e28dd545315179b080c0e37695de7d36a4ece4ad46",
+        "size_in_bytes": 2000
+      },
+      {
+        "_path": "lib/python3.7/site-packages/preshed/tests/test_hashing.py",
+        "path_type": "hardlink",
+        "sha256": "e4f1cd33d7f5a320499475404e1f6684f676bb9793163f437d37d11330f47b33",
+        "sha256_in_prefix": "e4f1cd33d7f5a320499475404e1f6684f676bb9793163f437d37d11330f47b33",
+        "size_in_bytes": 1404
+      },
+      {
+        "_path": "lib/python3.7/site-packages/preshed/tests/test_pop.py",
+        "path_type": "hardlink",
+        "sha256": "92e7be296b8ffb0f973c4ecf89daffb176199a3d6ca14b680f57217ff2162c17",
+        "sha256_in_prefix": "92e7be296b8ffb0f973c4ecf89daffb176199a3d6ca14b680f57217ff2162c17",
+        "size_in_bytes": 207
+      },
+      {
+        "_path": "lib/python3.7/site-packages/preshed/tests/test_regressions.py",
+        "path_type": "hardlink",
+        "sha256": "fd749e18a765f5ff54ce56f90e9f861c417252c98c527ac790cd6208cb91e0d0",
+        "sha256_in_prefix": "fd749e18a765f5ff54ce56f90e9f861c417252c98c527ac790cd6208cb91e0d0",
+        "size_in_bytes": 36
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "b6195ec1354e91439a4c3509b0089b55a0022a77cb457397e7cd7fed7f6d71ef",
+  "size": 91600,
+  "subdir": "osx-64",
+  "timestamp": 1591802312069,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/osx-64/preshed-3.0.2-py37h570ac47_3.tar.bz2",
+  "version": "3.0.2"
+}
